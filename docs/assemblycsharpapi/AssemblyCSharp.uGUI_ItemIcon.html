@@ -1,0 +1,3639 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class uGUI_ItemIcon
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class uGUI_ItemIcon
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.uGUI_ItemIcon">
+  
+  
+  <h1 id="AssemblyCSharp_uGUI_ItemIcon" data-uid="AssemblyCSharp.uGUI_ItemIcon" class="text-break">Class uGUI_ItemIcon
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">UnityEngine.EventSystems.UIBehaviour</span></div>
+    <div class="level6"><span class="xref">UnityEngine.UI.Graphic</span></div>
+    <div class="level7"><span class="xref">uGUI_ItemIcon</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">UnityEngine.UI.ICanvasElement</span></div>
+    <div><a class="xref" href="AssemblyCSharp.ITooltip.html">ITooltip</a></div>
+    <div><a class="xref" href="AssemblyCSharp.uGUI_ILockable.html">uGUI_ILockable</a></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerEnterHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerExitHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerClickHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IBeginDragHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IDragHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IEndDragHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IDropHandler</span></div>
+    <div><a class="xref" href="AssemblyCSharp.IDragHoverHandler.html">IDragHoverHandler</a></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerDownHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerUpHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IEventSystemHandler</span></div>
+    <div><a class="xref" href="AssemblyCSharp.INotificationTarget.html">INotificationTarget</a></div>
+    <div><a class="xref" href="AssemblyCSharp.ISelectable.html">ISelectable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.s_DefaultUI</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.s_WhiteTexture</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.m_Material</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.m_SkipLayoutUpdate</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.m_SkipMaterialUpdate</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.m_OnDirtyLayoutCallback</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.m_OnDirtyVertsCallback</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.m_OnDirtyMaterialCallback</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.s_Mesh</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.m_CachedMesh</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.m_CachedUvs</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.SetAllDirty()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.SetLayoutDirty()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.SetVerticesDirty()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.SetMaterialDirty()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.OnRectTransformDimensionsChange()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.OnBeforeTransformParentChanged()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.OnTransformParentChanged()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.OnDestroy()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.OnCanvasHierarchyChanged()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.OnCullingChanged()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.Rebuild(UnityEngine.UI.CanvasUpdate)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.LayoutComplete()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.GraphicUpdateComplete()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.UpdateMaterial()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.UpdateGeometry()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.Mesh)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.OnDidApplyAnimationProperties()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.SetNativeSize()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.Raycast(UnityEngine.Vector2, UnityEngine.Camera)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.PixelAdjustPoint(UnityEngine.Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.GetPixelAdjustedRect()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color, System.Single, System.Boolean, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.CrossFadeColor(UnityEngine.Color, System.Single, System.Boolean, System.Boolean, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.CrossFadeAlpha(System.Single, System.Single, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.RegisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.UnregisterDirtyLayoutCallback(UnityEngine.Events.UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.RegisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.UnregisterDirtyVerticesCallback(UnityEngine.Events.UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.RegisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.UnregisterDirtyMaterialCallback(UnityEngine.Events.UnityAction)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.UnityEngine.UI.ICanvasElement.get_transform()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.defaultGraphicMaterial</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.color</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.raycastTarget</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.useLegacyMeshGeneration</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.depth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.rectTransform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.canvas</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.canvasRenderer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.defaultMaterial</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.material</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.materialForRendering</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.mainTexture</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Graphic.workerMesh</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.EventSystems.UIBehaviour.Start()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.EventSystems.UIBehaviour.IsActive()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.EventSystems.UIBehaviour.OnCanvasGroupChanged()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.EventSystems.UIBehaviour.IsDestroyed()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.html">AssemblyCSharp</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_uGUI_ItemIcon_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class uGUI_ItemIcon : Graphic, ICanvasElement, ITooltip, uGUI_ILockable, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IDropHandler, IDragHoverHandler, IPointerDownHandler, IPointerUpHandler, IEventSystemHandler, INotificationTarget, ISelectable</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_background" data-uid="AssemblyCSharp.uGUI_ItemIcon.background">background</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected uGUI_Icon background</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_Icon.html">uGUI_Icon</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_backgroundChroma" data-uid="AssemblyCSharp.uGUI_ItemIcon.backgroundChroma">backgroundChroma</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float backgroundChroma</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_backgroundColorHovered" data-uid="AssemblyCSharp.uGUI_ItemIcon.backgroundColorHovered">backgroundColorHovered</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Color backgroundColorHovered</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_backgroundColorNormal" data-uid="AssemblyCSharp.uGUI_ItemIcon.backgroundColorNormal">backgroundColorNormal</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Color backgroundColorNormal</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_backgroundColorPressed" data-uid="AssemblyCSharp.uGUI_ItemIcon.backgroundColorPressed">backgroundColorPressed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Color backgroundColorPressed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_backgroundSize" data-uid="AssemblyCSharp.uGUI_ItemIcon.backgroundSize">backgroundSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector2 backgroundSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_fadeTime" data-uid="AssemblyCSharp.uGUI_ItemIcon.fadeTime">fadeTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected const float fadeTime = 0.1F</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_foreground" data-uid="AssemblyCSharp.uGUI_ItemIcon.foreground">foreground</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected uGUI_Icon foreground</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_Icon.html">uGUI_Icon</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_foregroundChroma" data-uid="AssemblyCSharp.uGUI_ItemIcon.foregroundChroma">foregroundChroma</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float foregroundChroma</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_foregroundColorHovered" data-uid="AssemblyCSharp.uGUI_ItemIcon.foregroundColorHovered">foregroundColorHovered</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Color foregroundColorHovered</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_foregroundColorNormal" data-uid="AssemblyCSharp.uGUI_ItemIcon.foregroundColorNormal">foregroundColorNormal</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Color foregroundColorNormal</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_foregroundColorPressed" data-uid="AssemblyCSharp.uGUI_ItemIcon.foregroundColorPressed">foregroundColorPressed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Color foregroundColorPressed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_foregroundSize" data-uid="AssemblyCSharp.uGUI_ItemIcon.foregroundSize">foregroundSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector2 foregroundSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_godRaysIntensity" data-uid="AssemblyCSharp.uGUI_ItemIcon.godRaysIntensity">godRaysIntensity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float godRaysIntensity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_hovered" data-uid="AssemblyCSharp.uGUI_ItemIcon.hovered">hovered</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool hovered</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_invSquareRoot" data-uid="AssemblyCSharp.uGUI_ItemIcon.invSquareRoot">invSquareRoot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const float invSquareRoot = 0.7071068F</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_keywordFillHorizontal" data-uid="AssemblyCSharp.uGUI_ItemIcon.keywordFillHorizontal">keywordFillHorizontal</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string keywordFillHorizontal = &quot;FILL_HORIZONTAL&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_keywordFillRadial" data-uid="AssemblyCSharp.uGUI_ItemIcon.keywordFillRadial">keywordFillRadial</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string keywordFillRadial = &quot;FILL_RADIAL&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_keywordFillVertical" data-uid="AssemblyCSharp.uGUI_ItemIcon.keywordFillVertical">keywordFillVertical</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string keywordFillVertical = &quot;FILL_VERTICAL&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_keywordGrayscale" data-uid="AssemblyCSharp.uGUI_ItemIcon.keywordGrayscale">keywordGrayscale</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string keywordGrayscale = &quot;GRAYSCALE&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_keywordNotification" data-uid="AssemblyCSharp.uGUI_ItemIcon.keywordNotification">keywordNotification</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string keywordNotification = &quot;NOTIFICATION&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_keywordSlice9Grid" data-uid="AssemblyCSharp.uGUI_ItemIcon.keywordSlice9Grid">keywordSlice9Grid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string keywordSlice9Grid = &quot;SLICE_9_GRID&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_label" data-uid="AssemblyCSharp.uGUI_ItemIcon.label">label</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Text label</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.Text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_manager" data-uid="AssemblyCSharp.uGUI_ItemIcon.manager">manager</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uGUI_IIconManager manager</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_IIconManager.html">uGUI_IIconManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_notification" data-uid="AssemblyCSharp.uGUI_ItemIcon.notification">notification</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected uGUI_NotificationLabel notification</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_NotificationLabel.html">uGUI_NotificationLabel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_notificationNumber" data-uid="AssemblyCSharp.uGUI_ItemIcon.notificationNumber">notificationNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int notificationNumber</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_pressed" data-uid="AssemblyCSharp.uGUI_ItemIcon.pressed">pressed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool pressed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_punchAmplitude" data-uid="AssemblyCSharp.uGUI_ItemIcon.punchAmplitude">punchAmplitude</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float punchAmplitude</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_punchDelay" data-uid="AssemblyCSharp.uGUI_ItemIcon.punchDelay">punchDelay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float punchDelay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_punchDuration" data-uid="AssemblyCSharp.uGUI_ItemIcon.punchDuration">punchDuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float punchDuration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_punchFrequency" data-uid="AssemblyCSharp.uGUI_ItemIcon.punchFrequency">punchFrequency</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float punchFrequency</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_punchSeed" data-uid="AssemblyCSharp.uGUI_ItemIcon.punchSeed">punchSeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float punchSeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_punchTween" data-uid="AssemblyCSharp.uGUI_ItemIcon.punchTween">punchTween</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected CoroutineTween punchTween</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.CoroutineTween.html">CoroutineTween</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_radiusCoef" data-uid="AssemblyCSharp.uGUI_ItemIcon.radiusCoef">radiusCoef</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const float radiusCoef = -0.1464466F</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_iconMaterial_" data-uid="AssemblyCSharp.uGUI_ItemIcon.iconMaterial*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_iconMaterial" data-uid="AssemblyCSharp.uGUI_ItemIcon.iconMaterial">iconMaterial</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Material iconMaterial { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Material</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_Awake_" data-uid="AssemblyCSharp.uGUI_ItemIcon.Awake*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_Awake" data-uid="AssemblyCSharp.uGUI_ItemIcon.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.EventSystems.UIBehaviour.Awake()</span></div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_CreateBackground_" data-uid="AssemblyCSharp.uGUI_ItemIcon.CreateBackground*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_CreateBackground" data-uid="AssemblyCSharp.uGUI_ItemIcon.CreateBackground">CreateBackground()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CreateBackground()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_CreateForeground_" data-uid="AssemblyCSharp.uGUI_ItemIcon.CreateForeground*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_CreateForeground" data-uid="AssemblyCSharp.uGUI_ItemIcon.CreateForeground">CreateForeground()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CreateForeground()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_CreateIcon_" data-uid="AssemblyCSharp.uGUI_ItemIcon.CreateIcon*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_CreateIcon_System_String_UnityEngine_Transform_UnityEngine_Vector2_UnityEngine_Vector2_System_Int32_AssemblyCSharp_uGUI_Icon__" data-uid="AssemblyCSharp.uGUI_ItemIcon.CreateIcon(System.String,UnityEngine.Transform,UnityEngine.Vector2,UnityEngine.Vector2,System.Int32,AssemblyCSharp.uGUI_Icon@)">CreateIcon(String, Transform, Vector2, Vector2, Int32, out uGUI_Icon)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateIcon(string name, Transform parent, Vector2 anchor, Vector2 pivot, int layer, out uGUI_Icon image)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">anchor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">pivot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">layer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_Icon.html">uGUI_Icon</a></td>
+        <td><span class="parametername">image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_CreateLabel_" data-uid="AssemblyCSharp.uGUI_ItemIcon.CreateLabel*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_CreateLabel_System_String_UnityEngine_Transform_UnityEngine_Vector2_UnityEngine_Vector2_System_Int32_UnityEngine_Font_System_Int32_UnityEngine_UI_Text__" data-uid="AssemblyCSharp.uGUI_ItemIcon.CreateLabel(System.String,UnityEngine.Transform,UnityEngine.Vector2,UnityEngine.Vector2,System.Int32,UnityEngine.Font,System.Int32,UnityEngine.UI.Text@)">CreateLabel(String, Transform, Vector2, Vector2, Int32, Font, Int32, out Text)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateLabel(string name, Transform parent, Vector2 anchor, Vector2 pivot, int layer, Font font, int fontSize, out Text label)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">anchor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">pivot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">layer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Font</span></td>
+        <td><span class="parametername">font</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">fontSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.Text</span></td>
+        <td><span class="parametername">label</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_Init_" data-uid="AssemblyCSharp.uGUI_ItemIcon.Init*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_Init_AssemblyCSharp_uGUI_IIconManager_UnityEngine_Transform_UnityEngine_Vector2_UnityEngine_Vector2_" data-uid="AssemblyCSharp.uGUI_ItemIcon.Init(AssemblyCSharp.uGUI_IIconManager,UnityEngine.Transform,UnityEngine.Vector2,UnityEngine.Vector2)">Init(uGUI_IIconManager, Transform, Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Init(uGUI_IIconManager manager, Transform parent, Vector2 anchor, Vector2 pivot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_IIconManager.html">uGUI_IIconManager</a></td>
+        <td><span class="parametername">manager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">anchor</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">pivot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnBeginDrag_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnBeginDrag*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnBeginDrag_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)">OnBeginDrag(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBeginDrag(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnDisable_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDisable*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnDisable" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDisable">OnDisable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDisable()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.UI.Graphic.OnDisable()</span></div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnDrag_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDrag*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnDrag_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDrag(UnityEngine.EventSystems.PointerEventData)">OnDrag(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDrag(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnDragHoverEnter_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDragHoverEnter*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnDragHoverEnter_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDragHoverEnter(UnityEngine.EventSystems.PointerEventData)">OnDragHoverEnter(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDragHoverEnter(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnDragHoverExit_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDragHoverExit*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnDragHoverExit_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDragHoverExit(UnityEngine.EventSystems.PointerEventData)">OnDragHoverExit(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDragHoverExit(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnDragHoverStay_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDragHoverStay*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnDragHoverStay_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDragHoverStay(UnityEngine.EventSystems.PointerEventData)">OnDragHoverStay(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDragHoverStay(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnDrop_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDrop*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnDrop_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnDrop(UnityEngine.EventSystems.PointerEventData)">OnDrop(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDrop(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnEnable_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnEnable*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnEnable" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEnable()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.UI.Graphic.OnEnable()</span></div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnEndDrag_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnEndDrag*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnEndDrag_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnEndDrag(UnityEngine.EventSystems.PointerEventData)">OnEndDrag(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEndDrag(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnLock_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnLock*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnLock" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnLock">OnLock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnLock()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnPointerClick_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPointerClick*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnPointerClick_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPointerClick(UnityEngine.EventSystems.PointerEventData)">OnPointerClick(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerClick(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnPointerDown_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPointerDown*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnPointerDown_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPointerDown(UnityEngine.EventSystems.PointerEventData)">OnPointerDown(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerDown(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnPointerEnter_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPointerEnter*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnPointerEnter_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)">OnPointerEnter(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerEnter(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnPointerExit_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPointerExit*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnPointerExit_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPointerExit(UnityEngine.EventSystems.PointerEventData)">OnPointerExit(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerExit(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnPointerUp_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPointerUp*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnPointerUp_UnityEngine_EventSystems_PointerEventData_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPointerUp(UnityEngine.EventSystems.PointerEventData)">OnPointerUp(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerUp(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnPopulateMesh_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPopulateMesh*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnPopulateMesh_UnityEngine_UI_VertexHelper_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPopulateMesh(UnityEngine.UI.VertexHelper)">OnPopulateMesh(VertexHelper)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnPopulateMesh(VertexHelper vh)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.VertexHelper</span></td>
+        <td><span class="parametername">vh</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.UI.Graphic.OnPopulateMesh(UnityEngine.UI.VertexHelper)</span></div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnPunchStart_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPunchStart*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnPunchStart" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPunchStart">OnPunchStart()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnPunchStart()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnPunchStop_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPunchStop*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnPunchStop" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPunchStop">OnPunchStop()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnPunchStop()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnPunchUpdate_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPunchUpdate*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnPunchUpdate_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnPunchUpdate(System.Single)">OnPunchUpdate(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnPunchUpdate(float scalar)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">scalar</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_OnUnlock_" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnUnlock*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_OnUnlock" data-uid="AssemblyCSharp.uGUI_ItemIcon.OnUnlock">OnUnlock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnUnlock()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_PunchScale_" data-uid="AssemblyCSharp.uGUI_ItemIcon.PunchScale*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_PunchScale_System_Single_System_Single_System_Single_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.PunchScale(System.Single,System.Single,System.Single,System.Single)">PunchScale(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PunchScale(float frequency, float amplitude, float duration, float delay = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">frequency</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">amplitude</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetActive_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetActive*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetActive_System_Boolean_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetActive(System.Boolean)">SetActive(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetActive(bool active)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">active</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetActiveSize_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetActiveSize*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetActiveSize_System_Single_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetActiveSize(System.Single,System.Single)">SetActiveSize(Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetActiveSize(float width, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetActiveSize_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetActiveSize*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetActiveSize_UnityEngine_Vector2_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetActiveSize(UnityEngine.Vector2)">SetActiveSize(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetActiveSize(Vector2 size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetAlpha_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetAlpha*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetAlpha_System_Single_System_Single_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetAlpha(System.Single,System.Single,System.Single)">SetAlpha(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAlpha(float normal, float hovered, float pressed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">normal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">hovered</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pressed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetAsLastSibling_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetAsLastSibling*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetAsLastSibling" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetAsLastSibling">SetAsLastSibling()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAsLastSibling()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundAlpha_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundAlpha*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundAlpha_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundAlpha(System.Single)">SetBackgroundAlpha(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBackgroundAlpha(float alpha)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">alpha</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundAlpha_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundAlpha*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundAlpha_System_Single_System_Single_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundAlpha(System.Single,System.Single,System.Single)">SetBackgroundAlpha(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBackgroundAlpha(float normal, float hovered, float pressed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">normal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">hovered</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pressed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundBlending_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundBlending*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundBlending_AssemblyCSharp_Blending_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundBlending(AssemblyCSharp.Blending)">SetBackgroundBlending(Blending)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBackgroundBlending(Blending blending)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.Blending.html">Blending</a></td>
+        <td><span class="parametername">blending</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundChroma_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundChroma*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundChroma_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundChroma(System.Single)">SetBackgroundChroma(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBackgroundChroma(float chroma)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">chroma</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundColors_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundColors*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundColors_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundColors(UnityEngine.Color,UnityEngine.Color,UnityEngine.Color)">SetBackgroundColors(Color, Color, Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBackgroundColors(Color normal, Color hovered, Color pressed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">normal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">hovered</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">pressed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundRadius_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundRadius*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundRadius_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundRadius(System.Single)">SetBackgroundRadius(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBackgroundRadius(float radius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">radius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundSize_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundSize*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundSize_System_Single_System_Single_System_Boolean_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundSize(System.Single,System.Single,System.Boolean)">SetBackgroundSize(Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBackgroundSize(float width, float height, bool keepAspect = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepAspect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundSize_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundSize*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundSize_UnityEngine_Vector2_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundSize(UnityEngine.Vector2)">SetBackgroundSize(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBackgroundSize(Vector2 size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundSprite_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundSprite*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetBackgroundSprite_AssemblyCSharp_Atlas_Sprite_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetBackgroundSprite(AssemblyCSharp.Atlas.Sprite)">SetBackgroundSprite(Atlas.Sprite)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBackgroundSprite(Atlas.Sprite sprite)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.Atlas.Sprite.html">Atlas.Sprite</a></td>
+        <td><span class="parametername">sprite</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetChroma_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetChroma*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetChroma_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetChroma(System.Single)">SetChroma(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetChroma(float chroma)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">chroma</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetColors_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetColors*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetColors_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetColors(UnityEngine.Color,UnityEngine.Color,UnityEngine.Color)">SetColors(Color, Color, Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColors(Color normal, Color hovered, Color pressed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">normal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">hovered</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">pressed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundAlpha_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundAlpha*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundAlpha_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundAlpha(System.Single)">SetForegroundAlpha(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetForegroundAlpha(float alpha)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">alpha</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundAlpha_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundAlpha*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundAlpha_System_Single_System_Single_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundAlpha(System.Single,System.Single,System.Single)">SetForegroundAlpha(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetForegroundAlpha(float normal, float hovered, float pressed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">normal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">hovered</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pressed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundBlending_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundBlending*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundBlending_AssemblyCSharp_Blending_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundBlending(AssemblyCSharp.Blending)">SetForegroundBlending(Blending)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetForegroundBlending(Blending blending)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.Blending.html">Blending</a></td>
+        <td><span class="parametername">blending</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundChroma_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundChroma*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundChroma_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundChroma(System.Single)">SetForegroundChroma(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetForegroundChroma(float chroma)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">chroma</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundColors_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundColors*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundColors_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundColors(UnityEngine.Color,UnityEngine.Color,UnityEngine.Color)">SetForegroundColors(Color, Color, Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetForegroundColors(Color normal, Color hovered, Color pressed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">normal</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">hovered</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">pressed</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundSize_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundSize*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundSize_System_Single_System_Single_System_Boolean_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundSize(System.Single,System.Single,System.Boolean)">SetForegroundSize(Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetForegroundSize(float width, float height, bool keepAspect = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepAspect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundSize_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundSize*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundSize_UnityEngine_Vector2_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundSize(UnityEngine.Vector2)">SetForegroundSize(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetForegroundSize(Vector2 size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundSprite_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundSprite*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetForegroundSprite_AssemblyCSharp_Atlas_Sprite_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetForegroundSprite(AssemblyCSharp.Atlas.Sprite)">SetForegroundSprite(Atlas.Sprite)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetForegroundSprite(Atlas.Sprite sprite)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.Atlas.Sprite.html">Atlas.Sprite</a></td>
+        <td><span class="parametername">sprite</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetGodRaysIntensity_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetGodRaysIntensity*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetGodRaysIntensity_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetGodRaysIntensity(System.Single)">SetGodRaysIntensity(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetGodRaysIntensity(float intensity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">intensity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetGraphicSize_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetGraphicSize*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetGraphicSize_UnityEngine_Vector2_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetGraphicSize(UnityEngine.Vector2)">SetGraphicSize(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetGraphicSize(Vector2 size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetLabelFont_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetLabelFont*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetLabelFont_UnityEngine_Font_System_Int32_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetLabelFont(UnityEngine.Font,System.Int32)">SetLabelFont(Font, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLabelFont(Font font, int fontSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Font</span></td>
+        <td><span class="parametername">font</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">fontSize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetLabelText_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetLabelText*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetLabelText_System_String_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetLabelText(System.String)">SetLabelText(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLabelText(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationAlpha_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationAlpha*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationAlpha_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationAlpha(System.Single)">SetNotificationAlpha(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetNotificationAlpha(float alpha)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">alpha</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationAnchor_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationAnchor*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationAnchor_AssemblyCSharp_UIAnchor_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationAnchor(AssemblyCSharp.UIAnchor)">SetNotificationAnchor(UIAnchor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetNotificationAnchor(UIAnchor anchor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.UIAnchor.html">UIAnchor</a></td>
+        <td><span class="parametername">anchor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationBackgroundColor_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationBackgroundColor*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationBackgroundColor_UnityEngine_Color_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationBackgroundColor(UnityEngine.Color)">SetNotificationBackgroundColor(Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetNotificationBackgroundColor(Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationNumber_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationNumber*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationNumber_System_Int32_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationNumber(System.Int32)">SetNotificationNumber(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetNotificationNumber(int number)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">number</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationOffset_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationOffset*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationOffset_UnityEngine_Vector2_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationOffset(UnityEngine.Vector2)">SetNotificationOffset(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetNotificationOffset(Vector2 offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationProgress_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationProgress*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationProgress_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationProgress(System.Single)">SetNotificationProgress(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetNotificationProgress(float progress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationText_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationText*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetNotificationText_System_String_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetNotificationText(System.String)">SetNotificationText(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetNotificationText(string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetPosition_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetPosition*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetPosition_System_Single_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetPosition(System.Single,System.Single)">SetPosition(Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPosition(float x, float y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetPosition_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetPosition*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetPosition_UnityEngine_Vector2_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetPosition(UnityEngine.Vector2)">SetPosition(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPosition(Vector2 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetProgress_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetProgress*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetProgress_System_Single_AssemblyCSharp_FillMethod_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetProgress(System.Single,AssemblyCSharp.FillMethod)">SetProgress(Single, FillMethod)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetProgress(float progress, FillMethod fillMethod = FillMethod.Radial)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.FillMethod.html">FillMethod</a></td>
+        <td><span class="parametername">fillMethod</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetScale_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetScale*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetScale_System_Single_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetScale(System.Single,System.Single)">SetScale(Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetScale(float x, float y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetSize_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetSize*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetSize_System_Single_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetSize(System.Single,System.Single)">SetSize(Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSize(float width, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_SetSize_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetSize*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_SetSize_UnityEngine_Vector2_" data-uid="AssemblyCSharp.uGUI_ItemIcon.SetSize(UnityEngine.Vector2)">SetSize(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSize(Vector2 size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_INotificationTarget_IsDestroyed_" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#INotificationTarget#IsDestroyed*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_INotificationTarget_IsDestroyed" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#INotificationTarget#IsDestroyed">INotificationTarget.IsDestroyed()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool INotificationTarget.IsDestroyed()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_INotificationTarget_IsVisible_" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#INotificationTarget#IsVisible*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_INotificationTarget_IsVisible" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#INotificationTarget#IsVisible">INotificationTarget.IsVisible()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool INotificationTarget.IsVisible()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_INotificationTarget_Progress_" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#INotificationTarget#Progress*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_INotificationTarget_Progress_System_Single_" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#INotificationTarget#Progress(System.Single)">INotificationTarget.Progress(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void INotificationTarget.Progress(float progress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_ISelectable_GetRect_" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#ISelectable#GetRect*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_ISelectable_GetRect" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#ISelectable#GetRect">ISelectable.GetRect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RectTransform ISelectable.GetRect()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.RectTransform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_ISelectable_IsValid_" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#ISelectable#IsValid*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_ISelectable_IsValid" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#ISelectable#IsValid">ISelectable.IsValid()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ISelectable.IsValid()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_ISelectable_OnButtonDown_" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#ISelectable#OnButtonDown*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_ISelectable_OnButtonDown_AssemblyCSharp_GameInput_Button_" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#ISelectable#OnButtonDown(AssemblyCSharp.GameInput.Button)">ISelectable.OnButtonDown(GameInput.Button)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ISelectable.OnButtonDown(GameInput.Button button)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.GameInput.Button.html">GameInput.Button</a></td>
+        <td><span class="parametername">button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_ITooltip_GetTooltip_" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#ITooltip#GetTooltip*"></a>
+  <h4 id="AssemblyCSharp_uGUI_ItemIcon_AssemblyCSharp_ITooltip_GetTooltip_System_String__System_Collections_Generic_List_AssemblyCSharp_TooltipIcon__" data-uid="AssemblyCSharp.uGUI_ItemIcon.AssemblyCSharp#ITooltip#GetTooltip(System.String@,System.Collections.Generic.List{AssemblyCSharp.TooltipIcon})">ITooltip.GetTooltip(out String, List&lt;TooltipIcon&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ITooltip.GetTooltip(out string tooltipText, List&lt;TooltipIcon&gt; tooltipIcons)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tooltipText</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="AssemblyCSharp.TooltipIcon.html">TooltipIcon</a>&gt;</td>
+        <td><span class="parametername">tooltipIcons</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">UnityEngine.UI.ICanvasElement</span>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.ITooltip.html">ITooltip</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.uGUI_ILockable.html">uGUI_ILockable</a>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerEnterHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerExitHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerClickHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IBeginDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IEndDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IDropHandler</span>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IDragHoverHandler.html">IDragHoverHandler</a>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerDownHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerUpHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IEventSystemHandler</span>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.INotificationTarget.html">INotificationTarget</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.ISelectable.html">ISelectable</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

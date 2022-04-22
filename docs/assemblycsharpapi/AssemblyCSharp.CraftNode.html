@@ -1,0 +1,622 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CraftNode
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CraftNode
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.CraftNode">
+  
+  
+  <h1 id="AssemblyCSharp_CraftNode" data-uid="AssemblyCSharp.CraftNode" class="text-break">Class CraftNode
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="AssemblyCSharp.TreeNode.html">TreeNode</a></div>
+    <div class="level2"><span class="xref">CraftNode</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AssemblyCSharp.TreeNode.html">TreeNode</a>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AssemblyCSharp.CraftNode.html">CraftNode</a>&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_nodes">TreeNode.nodes</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_id">TreeNode.id</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_parent">TreeNode.parent</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_depth">TreeNode.depth</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_isRoot">TreeNode.isRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_root">TreeNode.root</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_topmost">TreeNode.topmost</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_childCount">TreeNode.childCount</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_siblingCount">TreeNode.siblingCount</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_Item_System_String_">TreeNode.Item[String]</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_Item_System_Int32_">TreeNode.Item[Int32]</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_AddNode_AssemblyCSharp_TreeNode___">TreeNode.AddNode(TreeNode[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_RemoveNode_AssemblyCSharp_TreeNode_">TreeNode.RemoveNode(TreeNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_SetParent_AssemblyCSharp_TreeNode_">TreeNode.SetParent(TreeNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_OnDestroy">TreeNode.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_System_Collections_IEnumerable_GetEnumerator">TreeNode.IEnumerable.GetEnumerator()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_FindNodeById_System_String_System_Collections_Generic_List_AssemblyCSharp_TreeNode__System_Boolean_">TreeNode.FindNodeById(String, List&lt;TreeNode&gt;, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_FindNodeById_System_String_System_Boolean_">TreeNode.FindNodeById(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_FindNodeByPath_System_String___">TreeNode.FindNodeByPath(String[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_Sort_System_Collections_Generic_IComparer_AssemblyCSharp_TreeNode__">TreeNode.Sort(IComparer&lt;TreeNode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_Clear">TreeNode.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_GetReversedPath_System_Boolean_">TreeNode.GetReversedPath(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_GetPathString_System_Char_System_Boolean_System_String_System_String_">TreeNode.GetPathString(Char, Boolean, String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_ToString">TreeNode.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_LogTree_AssemblyCSharp_TreeNode_">TreeNode.LogTree(TreeNode)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.html">AssemblyCSharp</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_CraftNode_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SuppressMessage(&quot;Subnautica.Rules&quot;, &quot;ValueTypeEnumeratorRule&quot;)]
+public class CraftNode : TreeNode, IEnumerable&lt;TreeNode&gt;, IEnumerable&lt;CraftNode&gt;, IEnumerable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_CraftNode__ctor_" data-uid="AssemblyCSharp.CraftNode.#ctor*"></a>
+  <h4 id="AssemblyCSharp_CraftNode__ctor_System_String_AssemblyCSharp_TreeAction_AssemblyCSharp_TechType_" data-uid="AssemblyCSharp.CraftNode.#ctor(System.String,AssemblyCSharp.TreeAction,AssemblyCSharp.TechType)">CraftNode(String, TreeAction, TechType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CraftNode(string id, TreeAction action = TreeAction.None, TechType techType = TechType.None)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TreeAction.html">TreeAction</a></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TechType.html">TechType</a></td>
+        <td><span class="parametername">techType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_CraftNode_bool0" data-uid="AssemblyCSharp.CraftNode.bool0">bool0</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool bool0</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CraftNode_int0" data-uid="AssemblyCSharp.CraftNode.int0">int0</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int int0</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CraftNode_monoBehaviour0" data-uid="AssemblyCSharp.CraftNode.monoBehaviour0">monoBehaviour0</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MonoBehaviour monoBehaviour0</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.MonoBehaviour</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CraftNode_string0" data-uid="AssemblyCSharp.CraftNode.string0">string0</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string string0</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CraftNode_string1" data-uid="AssemblyCSharp.CraftNode.string1">string1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string string1</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CraftNode_techType0" data-uid="AssemblyCSharp.CraftNode.techType0">techType0</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TechType techType0</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TechType.html">TechType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_CraftNode_action_" data-uid="AssemblyCSharp.CraftNode.action*"></a>
+  <h4 id="AssemblyCSharp_CraftNode_action" data-uid="AssemblyCSharp.CraftNode.action">action</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TreeAction action { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TreeAction.html">TreeAction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_CraftNode_AddNode_" data-uid="AssemblyCSharp.CraftNode.AddNode*"></a>
+  <h4 id="AssemblyCSharp_CraftNode_AddNode_AssemblyCSharp_CraftNode___" data-uid="AssemblyCSharp.CraftNode.AddNode(AssemblyCSharp.CraftNode[])">AddNode(CraftNode[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CraftNode AddNode(params CraftNode[] n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.CraftNode.html">CraftNode</a>[]</td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.CraftNode.html">CraftNode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CraftNode_Copy_" data-uid="AssemblyCSharp.CraftNode.Copy*"></a>
+  <h4 id="AssemblyCSharp_CraftNode_Copy" data-uid="AssemblyCSharp.CraftNode.Copy">Copy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override TreeNode Copy()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TreeNode.html">TreeNode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_Copy">TreeNode.Copy()</a></div>
+  
+  
+  <a id="AssemblyCSharp_CraftNode_Copy_" data-uid="AssemblyCSharp.CraftNode.Copy*"></a>
+  <h4 id="AssemblyCSharp_CraftNode_Copy_AssemblyCSharp_CraftNode_AssemblyCSharp_CraftNode_" data-uid="AssemblyCSharp.CraftNode.Copy(AssemblyCSharp.CraftNode,AssemblyCSharp.CraftNode)">Copy(CraftNode, CraftNode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Copy(CraftNode src, CraftNode dst)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.CraftNode.html">CraftNode</a></td>
+        <td><span class="parametername">src</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.CraftNode.html">CraftNode</a></td>
+        <td><span class="parametername">dst</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CraftNode_GetEnumerator_" data-uid="AssemblyCSharp.CraftNode.GetEnumerator*"></a>
+  <h4 id="AssemblyCSharp_CraftNode_GetEnumerator" data-uid="AssemblyCSharp.CraftNode.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;CraftNode&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<a class="xref" href="AssemblyCSharp.CraftNode.html">CraftNode</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CraftNode_Traverse_" data-uid="AssemblyCSharp.CraftNode.Traverse*"></a>
+  <h4 id="AssemblyCSharp_CraftNode_Traverse_System_Boolean_" data-uid="AssemblyCSharp.CraftNode.Traverse(System.Boolean)">Traverse(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SuppressMessage(&quot;Subnautica.Rules&quot;, &quot;AvoidHidingMethodsRule&quot;)]
+public IEnumerator&lt;CraftNode&gt; Traverse(bool includeSelf = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeSelf</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<a class="xref" href="AssemblyCSharp.CraftNode.html">CraftNode</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

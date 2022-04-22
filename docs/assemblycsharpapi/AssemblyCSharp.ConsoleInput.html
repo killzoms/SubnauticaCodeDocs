@@ -1,0 +1,1341 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ConsoleInput
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ConsoleInput
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.ConsoleInput">
+  
+  
+  <h1 id="AssemblyCSharp_ConsoleInput" data-uid="AssemblyCSharp.ConsoleInput" class="text-break">Class ConsoleInput
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">UnityEngine.EventSystems.UIBehaviour</span></div>
+    <div class="level6"><span class="xref">UnityEngine.UI.Selectable</span></div>
+    <div class="level7"><span class="xref">UnityEngine.UI.InputField</span></div>
+    <div class="level8"><a class="xref" href="AssemblyCSharp.InputFieldFixed.html">InputFieldFixed</a></div>
+    <div class="level9"><span class="xref">ConsoleInput</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">UnityEngine.EventSystems.IMoveHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerDownHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerUpHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerEnterHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerExitHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.ISelectHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IDeselectHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IUpdateSelectedHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IBeginDragHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IDragHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IEndDragHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IPointerClickHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.ISubmitHandler</span></div>
+    <div><span class="xref">UnityEngine.EventSystems.IEventSystemHandler</span></div>
+    <div><span class="xref">UnityEngine.UI.ICanvasElement</span></div>
+    <div><span class="xref">UnityEngine.UI.ILayoutElement</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.m_Keyboard</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.m_TextComponent</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.m_Placeholder</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.m_Text</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.m_CaretPosition</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.m_CaretSelectPosition</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.m_CursorVerts</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.m_Mesh</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.m_CaretVisible</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.m_DrawStart</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.m_DrawEnd</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.SetTextWithoutNotify(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.ClampPos(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.OnEnable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.OnDisable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.OnFocus()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.SelectAll()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.MoveTextEnd(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.MoveTextStart(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.LateUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.ScreenToLocal(UnityEngine.Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.GetCharacterIndexFromPosition(UnityEngine.Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.OnBeginDrag(UnityEngine.EventSystems.PointerEventData)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.OnDrag(UnityEngine.EventSystems.PointerEventData)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.OnEndDrag(UnityEngine.EventSystems.PointerEventData)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.OnPointerDown(UnityEngine.EventSystems.PointerEventData)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.KeyPressed(UnityEngine.Event)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.ProcessEvent(UnityEngine.Event)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.Append(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.Append(System.Char)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.UpdateLabel()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.ForceLabelUpdate()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.Rebuild(UnityEngine.UI.CanvasUpdate)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.LayoutComplete()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.GraphicUpdateComplete()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.ActivateInputField()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.OnSelect(UnityEngine.EventSystems.BaseEventData)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.OnPointerClick(UnityEngine.EventSystems.PointerEventData)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.DeactivateInputField()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.DoStateTransition(UnityEngine.UI.Selectable.SelectionState, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.CalculateLayoutInputHorizontal()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.CalculateLayoutInputVertical()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.UnityEngine.UI.ICanvasElement.get_transform()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.mesh</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.cachedInputTextGenerator</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.shouldHideMobileInput</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.text</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.isFocused</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.caretBlinkRate</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.caretWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.textComponent</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.placeholder</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.caretColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.customCaretColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.selectionColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.onValueChange</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.onValueChanged</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.characterLimit</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.touchScreenKeyboard</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.readOnly</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.multiLine</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.asteriskChar</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.wasCanceled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.caretPositionInternal</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.caretSelectPositionInternal</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.caretPosition</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.selectionAnchorPosition</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.selectionFocusPosition</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.minWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.preferredWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.flexibleWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.minHeight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.preferredHeight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.flexibleHeight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.InputField.layoutPriority</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.AllSelectablesNoAlloc(UnityEngine.UI.Selectable[])</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.OnCanvasGroupChanged()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.IsInteractable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.OnDidApplyAnimationProperties()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.OnTransformParentChanged()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.InstantClearState()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.FindSelectable(UnityEngine.Vector3)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.FindSelectableOnLeft()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.FindSelectableOnRight()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.FindSelectableOnUp()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.FindSelectableOnDown()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.OnMove(UnityEngine.EventSystems.AxisEventData)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.IsHighlighted()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.IsPressed()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.OnPointerUp(UnityEngine.EventSystems.PointerEventData)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.OnPointerEnter(UnityEngine.EventSystems.PointerEventData)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.OnPointerExit(UnityEngine.EventSystems.PointerEventData)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.Select()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.allSelectablesArray</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.allSelectableCount</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.allSelectables</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.colors</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.spriteState</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.animationTriggers</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.targetGraphic</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.interactable</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.image</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.animator</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UI.Selectable.currentSelectionState</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.EventSystems.UIBehaviour.OnDestroy()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.EventSystems.UIBehaviour.IsActive()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.EventSystems.UIBehaviour.OnRectTransformDimensionsChange()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.EventSystems.UIBehaviour.OnBeforeTransformParentChanged()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.EventSystems.UIBehaviour.OnCanvasHierarchyChanged()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.EventSystems.UIBehaviour.IsDestroyed()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.html">AssemblyCSharp</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_ConsoleInput_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ConsoleInput : InputFieldFixed, IMoveHandler, IPointerDownHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, IUpdateSelectedHandler, IBeginDragHandler, IDragHandler, IEndDragHandler, IPointerClickHandler, ISubmitHandler, IEventSystemHandler, ICanvasElement, ILayoutElement</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_ConsoleInput_ignoreKeyCodes" data-uid="AssemblyCSharp.ConsoleInput.ignoreKeyCodes">ignoreKeyCodes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyCode[] ignoreKeyCodes</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.KeyCode</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_characterValidation_" data-uid="AssemblyCSharp.ConsoleInput.characterValidation*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_characterValidation" data-uid="AssemblyCSharp.ConsoleInput.characterValidation">characterValidation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputField.CharacterValidation characterValidation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.InputField.CharacterValidation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_contentType_" data-uid="AssemblyCSharp.ConsoleInput.contentType*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_contentType" data-uid="AssemblyCSharp.ConsoleInput.contentType">contentType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputField.ContentType contentType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.InputField.ContentType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_inputType_" data-uid="AssemblyCSharp.ConsoleInput.inputType*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_inputType" data-uid="AssemblyCSharp.ConsoleInput.inputType">inputType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputField.InputType inputType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.InputField.InputType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_keyboardType_" data-uid="AssemblyCSharp.ConsoleInput.keyboardType*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_keyboardType" data-uid="AssemblyCSharp.ConsoleInput.keyboardType">keyboardType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TouchScreenKeyboardType keyboardType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.TouchScreenKeyboardType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_lineType_" data-uid="AssemblyCSharp.ConsoleInput.lineType*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_lineType" data-uid="AssemblyCSharp.ConsoleInput.lineType">lineType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputField.LineType lineType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.InputField.LineType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_navigation_" data-uid="AssemblyCSharp.ConsoleInput.navigation*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_navigation" data-uid="AssemblyCSharp.ConsoleInput.navigation">navigation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Navigation navigation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.Navigation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_onEndEdit_" data-uid="AssemblyCSharp.ConsoleInput.onEndEdit*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_onEndEdit" data-uid="AssemblyCSharp.ConsoleInput.onEndEdit">onEndEdit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputField.SubmitEvent onEndEdit { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.InputField.SubmitEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_onValidateInput_" data-uid="AssemblyCSharp.ConsoleInput.onValidateInput*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_onValidateInput" data-uid="AssemblyCSharp.ConsoleInput.onValidateInput">onValidateInput</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InputField.OnValidateInput onValidateInput { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.InputField.OnValidateInput</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_transition_" data-uid="AssemblyCSharp.ConsoleInput.transition*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_transition" data-uid="AssemblyCSharp.ConsoleInput.transition">transition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Selectable.Transition transition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UI.Selectable.Transition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_Activate_" data-uid="AssemblyCSharp.ConsoleInput.Activate*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_Activate" data-uid="AssemblyCSharp.ConsoleInput.Activate">Activate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Activate()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_Awake_" data-uid="AssemblyCSharp.ConsoleInput.Awake*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_Awake" data-uid="AssemblyCSharp.ConsoleInput.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Awake()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.UI.Selectable.Awake()</span></div>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_Deactivate_" data-uid="AssemblyCSharp.ConsoleInput.Deactivate*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_Deactivate" data-uid="AssemblyCSharp.ConsoleInput.Deactivate">Deactivate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Deactivate()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_OnDeselect_" data-uid="AssemblyCSharp.ConsoleInput.OnDeselect*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_OnDeselect_UnityEngine_EventSystems_BaseEventData_" data-uid="AssemblyCSharp.ConsoleInput.OnDeselect(UnityEngine.EventSystems.BaseEventData)">OnDeselect(BaseEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDeselect(BaseEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.BaseEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.UI.InputField.OnDeselect(UnityEngine.EventSystems.BaseEventData)</span></div>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_OnSubmit_" data-uid="AssemblyCSharp.ConsoleInput.OnSubmit*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_OnSubmit_UnityEngine_EventSystems_BaseEventData_" data-uid="AssemblyCSharp.ConsoleInput.OnSubmit(UnityEngine.EventSystems.BaseEventData)">OnSubmit(BaseEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnSubmit(BaseEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.BaseEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.UI.InputField.OnSubmit(UnityEngine.EventSystems.BaseEventData)</span></div>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_OnUpdateSelected_" data-uid="AssemblyCSharp.ConsoleInput.OnUpdateSelected*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_OnUpdateSelected_UnityEngine_EventSystems_BaseEventData_" data-uid="AssemblyCSharp.ConsoleInput.OnUpdateSelected(UnityEngine.EventSystems.BaseEventData)">OnUpdateSelected(BaseEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnUpdateSelected(BaseEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.EventSystems.BaseEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.UI.InputField.OnUpdateSelected(UnityEngine.EventSystems.BaseEventData)</span></div>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_SendOnSubmit_" data-uid="AssemblyCSharp.ConsoleInput.SendOnSubmit*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_SendOnSubmit" data-uid="AssemblyCSharp.ConsoleInput.SendOnSubmit">SendOnSubmit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SendOnSubmit()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_SetHistory_" data-uid="AssemblyCSharp.ConsoleInput.SetHistory*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_SetHistory_System_Collections_Generic_List_System_String__" data-uid="AssemblyCSharp.ConsoleInput.SetHistory(System.Collections.Generic.List{System.String})">SetHistory(List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetHistory(List&lt;string&gt; h)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">h</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_Start_" data-uid="AssemblyCSharp.ConsoleInput.Start*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_Start" data-uid="AssemblyCSharp.ConsoleInput.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEngine.EventSystems.UIBehaviour.Start()</span></div>
+  
+  
+  <a id="AssemblyCSharp_ConsoleInput_Validate_" data-uid="AssemblyCSharp.ConsoleInput.Validate*"></a>
+  <h4 id="AssemblyCSharp_ConsoleInput_Validate_System_String_System_Int32_System_Char_" data-uid="AssemblyCSharp.ConsoleInput.Validate(System.String,System.Int32,System.Char)">Validate(String, Int32, Char)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected char Validate(string text, int pos, char ch)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">ch</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_ConsoleInput_onSubmit" data-uid="AssemblyCSharp.ConsoleInput.onSubmit">onSubmit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event ConsoleInput.Submit onSubmit</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ConsoleInput.Submit.html">ConsoleInput.Submit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IMoveHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerDownHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerUpHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerEnterHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerExitHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.ISelectHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IDeselectHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IUpdateSelectedHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IBeginDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IEndDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IPointerClickHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.ISubmitHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.EventSystems.IEventSystemHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UI.ICanvasElement</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UI.ILayoutElement</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

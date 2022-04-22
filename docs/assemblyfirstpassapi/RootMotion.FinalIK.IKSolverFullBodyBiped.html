@@ -1,0 +1,1444 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class IKSolverFullBodyBiped
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class IKSolverFullBodyBiped
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped">
+  
+  
+  <h1 id="RootMotion_FinalIK_IKSolverFullBodyBiped" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped" class="text-break">Class IKSolverFullBodyBiped
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="RootMotion.FinalIK.IKSolver.html">IKSolver</a></div>
+    <div class="level2"><a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html">IKSolverFullBody</a></div>
+    <div class="level3"><span class="xref">IKSolverFullBodyBiped</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_iterations">IKSolverFullBody.iterations</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_chain">IKSolverFullBody.chain</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_effectors">IKSolverFullBody.effectors</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_spineMapping">IKSolverFullBody.spineMapping</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_boneMappings">IKSolverFullBody.boneMappings</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_limbMappings">IKSolverFullBody.limbMappings</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_OnPreRead">IKSolverFullBody.OnPreRead</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_OnPreSolve">IKSolverFullBody.OnPreSolve</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_OnPreIteration">IKSolverFullBody.OnPreIteration</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_OnPostIteration">IKSolverFullBody.OnPostIteration</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_OnPreBend">IKSolverFullBody.OnPreBend</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_OnPostSolve">IKSolverFullBody.OnPostSolve</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_OnStoreDefaultLocalState">IKSolverFullBody.OnStoreDefaultLocalState</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_OnFixTransforms">IKSolverFullBody.OnFixTransforms</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_GetEffector_UnityEngine_Transform_">IKSolverFullBody.GetEffector(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_GetChain_UnityEngine_Transform_">IKSolverFullBody.GetChain(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_GetChainIndex_UnityEngine_Transform_">IKSolverFullBody.GetChainIndex(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_GetNode_System_Int32_System_Int32_">IKSolverFullBody.GetNode(Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_GetChainAndNodeIndexes_UnityEngine_Transform_System_Int32__System_Int32__">IKSolverFullBody.GetChainAndNodeIndexes(Transform, Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_GetPoints">IKSolverFullBody.GetPoints()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_GetPoint_UnityEngine_Transform_">IKSolverFullBody.GetPoint(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_StoreDefaultLocalState">IKSolverFullBody.StoreDefaultLocalState()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_FixTransforms">IKSolverFullBody.FixTransforms()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_OnInitiate">IKSolverFullBody.OnInitiate()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_OnUpdate">IKSolverFullBody.OnUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_Solve">IKSolverFullBody.Solve()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_IKPosition">IKSolver.IKPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_IKPositionWeight">IKSolver.IKPositionWeight</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_OnPreInitiate">IKSolver.OnPreInitiate</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_OnPostInitiate">IKSolver.OnPostInitiate</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_OnPreUpdate">IKSolver.OnPreUpdate</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_OnPostUpdate">IKSolver.OnPostUpdate</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_firstInitiation">IKSolver.firstInitiation</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_root">IKSolver.root</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_initiated">IKSolver.initiated</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_IsValid">IKSolver.IsValid()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_Initiate_UnityEngine_Transform_">IKSolver.Initiate(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_Update">IKSolver.Update()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_GetIKPosition">IKSolver.GetIKPosition()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_SetIKPosition_UnityEngine_Vector3_">IKSolver.SetIKPosition(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_GetIKPositionWeight">IKSolver.GetIKPositionWeight()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_SetIKPositionWeight_System_Single_">IKSolver.SetIKPositionWeight(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_GetRoot">IKSolver.GetRoot()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_LogWarning_System_String_">IKSolver.LogWarning(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_ContainsDuplicateBone_RootMotion_FinalIK_IKSolver_Bone___">IKSolver.ContainsDuplicateBone(IKSolver.Bone[])</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_HierarchyIsValid_RootMotion_FinalIK_IKSolver_Bone___">IKSolver.HierarchyIsValid(IKSolver.Bone[])</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="RootMotion.FinalIK.html">RootMotion.FinalIK</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp-firstpass.dll</h6>
+  <h5 id="RootMotion_FinalIK_IKSolverFullBodyBiped_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class IKSolverFullBodyBiped : IKSolverFullBody</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_pullBodyHorizontal" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.pullBodyHorizontal">pullBodyHorizontal</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(-1F, 1F)]
+public float pullBodyHorizontal</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_pullBodyVertical" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.pullBodyVertical">pullBodyVertical</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(-1F, 1F)]
+public float pullBodyVertical</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_rootNode" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rootNode">rootNode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform rootNode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_spineStiffness" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.spineStiffness">spineStiffness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0F, 1F)]
+public float spineStiffness</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_bodyEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.bodyEffector*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_bodyEffector" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.bodyEffector">bodyEffector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKEffector bodyEffector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKEffector.html">IKEffector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_headMapping_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.headMapping*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_headMapping" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.headMapping">headMapping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKMappingBone headMapping { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKMappingBone.html">IKMappingBone</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftArmChain_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftArmChain*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftArmChain" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftArmChain">leftArmChain</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FBIKChain leftArmChain { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FBIKChain.html">FBIKChain</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftArmMapping_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftArmMapping*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftArmMapping" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftArmMapping">leftArmMapping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKMappingLimb leftArmMapping { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKMappingLimb.html">IKMappingLimb</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftFootEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftFootEffector*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftFootEffector" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftFootEffector">leftFootEffector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKEffector leftFootEffector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKEffector.html">IKEffector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftHandEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftHandEffector*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftHandEffector" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftHandEffector">leftHandEffector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKEffector leftHandEffector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKEffector.html">IKEffector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftLegChain_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftLegChain*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftLegChain" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftLegChain">leftLegChain</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FBIKChain leftLegChain { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FBIKChain.html">FBIKChain</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftLegMapping_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftLegMapping*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftLegMapping" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftLegMapping">leftLegMapping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKMappingLimb leftLegMapping { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKMappingLimb.html">IKMappingLimb</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftShoulderEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftShoulderEffector*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftShoulderEffector" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftShoulderEffector">leftShoulderEffector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKEffector leftShoulderEffector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKEffector.html">IKEffector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftThighEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftThighEffector*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_leftThighEffector" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.leftThighEffector">leftThighEffector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKEffector leftThighEffector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKEffector.html">IKEffector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightArmChain_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightArmChain*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightArmChain" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightArmChain">rightArmChain</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FBIKChain rightArmChain { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FBIKChain.html">FBIKChain</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightArmMapping_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightArmMapping*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightArmMapping" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightArmMapping">rightArmMapping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKMappingLimb rightArmMapping { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKMappingLimb.html">IKMappingLimb</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightFootEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightFootEffector*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightFootEffector" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightFootEffector">rightFootEffector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKEffector rightFootEffector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKEffector.html">IKEffector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightHandEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightHandEffector*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightHandEffector" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightHandEffector">rightHandEffector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKEffector rightHandEffector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKEffector.html">IKEffector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightLegChain_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightLegChain*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightLegChain" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightLegChain">rightLegChain</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FBIKChain rightLegChain { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FBIKChain.html">FBIKChain</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightLegMapping_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightLegMapping*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightLegMapping" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightLegMapping">rightLegMapping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKMappingLimb rightLegMapping { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKMappingLimb.html">IKMappingLimb</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightShoulderEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightShoulderEffector*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightShoulderEffector" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightShoulderEffector">rightShoulderEffector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKEffector rightShoulderEffector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKEffector.html">IKEffector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightThighEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightThighEffector*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_rightThighEffector" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.rightThighEffector">rightThighEffector</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKEffector rightThighEffector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKEffector.html">IKEffector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_ApplyBendConstraints_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.ApplyBendConstraints*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_ApplyBendConstraints" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.ApplyBendConstraints">ApplyBendConstraints()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void ApplyBendConstraints()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_ApplyBendConstraints">IKSolverFullBody.ApplyBendConstraints()</a></div>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_DetectRootNodeBone_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.DetectRootNodeBone*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_DetectRootNodeBone_RootMotion_BipedReferences_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.DetectRootNodeBone(RootMotion.BipedReferences)">DetectRootNodeBone(BipedReferences)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform DetectRootNodeBone(BipedReferences references)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.BipedReferences.html">BipedReferences</a></td>
+        <td><span class="parametername">references</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetBendConstraint_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetBendConstraint*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetBendConstraint_RootMotion_FinalIK_FullBodyBipedChain_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetBendConstraint(RootMotion.FinalIK.FullBodyBipedChain)">GetBendConstraint(FullBodyBipedChain)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKConstraintBend GetBendConstraint(FullBodyBipedChain limb)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FullBodyBipedChain.html">FullBodyBipedChain</a></td>
+        <td><span class="parametername">limb</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKConstraintBend.html">IKConstraintBend</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetChain_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetChain*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetChain_RootMotion_FinalIK_FullBodyBipedChain_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetChain(RootMotion.FinalIK.FullBodyBipedChain)">GetChain(FullBodyBipedChain)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FBIKChain GetChain(FullBodyBipedChain c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FullBodyBipedChain.html">FullBodyBipedChain</a></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FBIKChain.html">FBIKChain</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetChain_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetChain*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetChain_RootMotion_FinalIK_FullBodyBipedEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetChain(RootMotion.FinalIK.FullBodyBipedEffector)">GetChain(FullBodyBipedEffector)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FBIKChain GetChain(FullBodyBipedEffector effector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FullBodyBipedEffector.html">FullBodyBipedEffector</a></td>
+        <td><span class="parametername">effector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FBIKChain.html">FBIKChain</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetEffector*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetEffector_RootMotion_FinalIK_FullBodyBipedEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetEffector(RootMotion.FinalIK.FullBodyBipedEffector)">GetEffector(FullBodyBipedEffector)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKEffector GetEffector(FullBodyBipedEffector effector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FullBodyBipedEffector.html">FullBodyBipedEffector</a></td>
+        <td><span class="parametername">effector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKEffector.html">IKEffector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetEndEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetEndEffector*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetEndEffector_RootMotion_FinalIK_FullBodyBipedChain_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetEndEffector(RootMotion.FinalIK.FullBodyBipedChain)">GetEndEffector(FullBodyBipedChain)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKEffector GetEndEffector(FullBodyBipedChain c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FullBodyBipedChain.html">FullBodyBipedChain</a></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKEffector.html">IKEffector</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetHeadMapping_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetHeadMapping*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetHeadMapping" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetHeadMapping">GetHeadMapping()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKMappingBone GetHeadMapping()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKMappingBone.html">IKMappingBone</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetLimbMapping_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetLimbMapping*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetLimbMapping_RootMotion_FinalIK_FullBodyBipedChain_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetLimbMapping(RootMotion.FinalIK.FullBodyBipedChain)">GetLimbMapping(FullBodyBipedChain)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKMappingLimb GetLimbMapping(FullBodyBipedChain chain)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FullBodyBipedChain.html">FullBodyBipedChain</a></td>
+        <td><span class="parametername">chain</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKMappingLimb.html">IKMappingLimb</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetLimbMapping_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetLimbMapping*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetLimbMapping_RootMotion_FinalIK_FullBodyBipedEffector_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetLimbMapping(RootMotion.FinalIK.FullBodyBipedEffector)">GetLimbMapping(FullBodyBipedEffector)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKMappingLimb GetLimbMapping(FullBodyBipedEffector effector)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FullBodyBipedEffector.html">FullBodyBipedEffector</a></td>
+        <td><span class="parametername">effector</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKMappingLimb.html">IKMappingLimb</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetSpineMapping_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetSpineMapping*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_GetSpineMapping" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.GetSpineMapping">GetSpineMapping()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKMappingSpine GetSpineMapping()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKMappingSpine.html">IKMappingSpine</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_IsValid_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.IsValid*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_IsValid_System_String__" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.IsValid(System.String@)">IsValid(ref String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsValid(ref string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_IsValid_System_String__">IKSolverFullBody.IsValid(ref String)</a></div>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_ReadPose_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.ReadPose*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_ReadPose" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.ReadPose">ReadPose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void ReadPose()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_ReadPose">IKSolverFullBody.ReadPose()</a></div>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_SetChainWeights_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.SetChainWeights*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_SetChainWeights_RootMotion_FinalIK_FullBodyBipedChain_System_Single_System_Single_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.SetChainWeights(RootMotion.FinalIK.FullBodyBipedChain,System.Single,System.Single)">SetChainWeights(FullBodyBipedChain, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetChainWeights(FullBodyBipedChain c, float pull, float reach = 0F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FullBodyBipedChain.html">FullBodyBipedChain</a></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pull</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">reach</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_SetEffectorWeights_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.SetEffectorWeights*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_SetEffectorWeights_RootMotion_FinalIK_FullBodyBipedEffector_System_Single_System_Single_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.SetEffectorWeights(RootMotion.FinalIK.FullBodyBipedEffector,System.Single,System.Single)">SetEffectorWeights(FullBodyBipedEffector, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetEffectorWeights(FullBodyBipedEffector effector, float positionWeight, float rotationWeight)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.FullBodyBipedEffector.html">FullBodyBipedEffector</a></td>
+        <td><span class="parametername">effector</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">positionWeight</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">rotationWeight</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_SetLimbOrientations_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.SetLimbOrientations*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_SetLimbOrientations_RootMotion_BipedLimbOrientations_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.SetLimbOrientations(RootMotion.BipedLimbOrientations)">SetLimbOrientations(BipedLimbOrientations)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLimbOrientations(BipedLimbOrientations o)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.BipedLimbOrientations.html">BipedLimbOrientations</a></td>
+        <td><span class="parametername">o</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_SetToReferences_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.SetToReferences*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_SetToReferences_RootMotion_BipedReferences_UnityEngine_Transform_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.SetToReferences(RootMotion.BipedReferences,UnityEngine.Transform)">SetToReferences(BipedReferences, Transform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetToReferences(BipedReferences references, Transform rootNode = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.BipedReferences.html">BipedReferences</a></td>
+        <td><span class="parametername">references</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">rootNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverFullBodyBiped_WritePose_" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.WritePose*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverFullBodyBiped_WritePose" data-uid="RootMotion.FinalIK.IKSolverFullBodyBiped.WritePose">WritePose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void WritePose()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="RootMotion.FinalIK.IKSolverFullBody.html#RootMotion_FinalIK_IKSolverFullBody_WritePose">IKSolverFullBody.WritePose()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

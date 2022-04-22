@@ -1,0 +1,1405 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class uGUI_CraftNode
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class uGUI_CraftNode
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.uGUI_CraftNode">
+  
+  
+  <h1 id="AssemblyCSharp_uGUI_CraftNode" data-uid="AssemblyCSharp.uGUI_CraftNode" class="text-break">Class uGUI_CraftNode
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="AssemblyCSharp.TreeNode.html">TreeNode</a></div>
+    <div class="level2"><span class="xref">uGUI_CraftNode</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AssemblyCSharp.TreeNode.html">TreeNode</a>&gt;</div>
+    <div><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AssemblyCSharp.uGUI_CraftNode.html">uGUI_CraftNode</a>&gt;</div>
+    <div><span class="xref">System.Collections.IEnumerable</span></div>
+    <div><a class="xref" href="AssemblyCSharp.uGUI_IIconManager.html">uGUI_IIconManager</a></div>
+    <div><a class="xref" href="AssemblyCSharp.ISelectable.html">ISelectable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_nodes">TreeNode.nodes</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_id">TreeNode.id</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_parent">TreeNode.parent</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_depth">TreeNode.depth</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_isRoot">TreeNode.isRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_root">TreeNode.root</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_topmost">TreeNode.topmost</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_childCount">TreeNode.childCount</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_siblingCount">TreeNode.siblingCount</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_Item_System_String_">TreeNode.Item[String]</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_Item_System_Int32_">TreeNode.Item[Int32]</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_AddNode_AssemblyCSharp_TreeNode___">TreeNode.AddNode(TreeNode[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_RemoveNode_AssemblyCSharp_TreeNode_">TreeNode.RemoveNode(TreeNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_SetParent_AssemblyCSharp_TreeNode_">TreeNode.SetParent(TreeNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_OnDestroy">TreeNode.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_System_Collections_IEnumerable_GetEnumerator">TreeNode.IEnumerable.GetEnumerator()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_Traverse_System_Boolean_">TreeNode.Traverse(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_FindNodeById_System_String_System_Collections_Generic_List_AssemblyCSharp_TreeNode__System_Boolean_">TreeNode.FindNodeById(String, List&lt;TreeNode&gt;, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_FindNodeById_System_String_System_Boolean_">TreeNode.FindNodeById(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_FindNodeByPath_System_String___">TreeNode.FindNodeByPath(String[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_Copy">TreeNode.Copy()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_Sort_System_Collections_Generic_IComparer_AssemblyCSharp_TreeNode__">TreeNode.Sort(IComparer&lt;TreeNode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_Clear">TreeNode.Clear()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_GetReversedPath_System_Boolean_">TreeNode.GetReversedPath(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_GetPathString_System_Char_System_Boolean_System_String_System_String_">TreeNode.GetPathString(Char, Boolean, String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_ToString">TreeNode.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.TreeNode.html#AssemblyCSharp_TreeNode_LogTree_AssemblyCSharp_TreeNode_">TreeNode.LogTree(TreeNode)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.html">AssemblyCSharp</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_uGUI_CraftNode_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SuppressMessage(&quot;Subnautica.Rules&quot;, &quot;ValueTypeEnumeratorRule&quot;)]
+public class uGUI_CraftNode : TreeNode, IEnumerable&lt;TreeNode&gt;, IEnumerable&lt;uGUI_CraftNode&gt;, IEnumerable, uGUI_IIconManager, ISelectable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode__ctor_" data-uid="AssemblyCSharp.uGUI_CraftNode.#ctor*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode__ctor_AssemblyCSharp_uGUI_CraftingMenu_System_String_System_Int32_AssemblyCSharp_TreeAction_AssemblyCSharp_TechType_" data-uid="AssemblyCSharp.uGUI_CraftNode.#ctor(AssemblyCSharp.uGUI_CraftingMenu,System.String,System.Int32,AssemblyCSharp.TreeAction,AssemblyCSharp.TechType)">uGUI_CraftNode(uGUI_CraftingMenu, String, Int32, TreeAction, TechType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uGUI_CraftNode(uGUI_CraftingMenu view, string id, int index, TreeAction action = TreeAction.None, TechType techType = TechType.None)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_CraftingMenu.html">uGUI_CraftingMenu</a></td>
+        <td><span class="parametername">view</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TreeAction.html">TreeAction</a></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TechType.html">TechType</a></td>
+        <td><span class="parametername">techType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_techType0" data-uid="AssemblyCSharp.uGUI_CraftNode.techType0">techType0</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TechType techType0</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TechType.html">TechType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_view" data-uid="AssemblyCSharp.uGUI_CraftNode.view">view</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected uGUI_CraftingMenu view</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_CraftingMenu.html">uGUI_CraftingMenu</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_action_" data-uid="AssemblyCSharp.uGUI_CraftNode.action*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_action" data-uid="AssemblyCSharp.uGUI_CraftNode.action">action</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TreeAction action { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TreeAction.html">TreeAction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_expanded_" data-uid="AssemblyCSharp.uGUI_CraftNode.expanded*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_expanded" data-uid="AssemblyCSharp.uGUI_CraftNode.expanded">expanded</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool expanded { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_icon_" data-uid="AssemblyCSharp.uGUI_CraftNode.icon*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_icon" data-uid="AssemblyCSharp.uGUI_CraftNode.icon">icon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uGUI_ItemIcon icon { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_ItemIcon.html">uGUI_ItemIcon</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_index_" data-uid="AssemblyCSharp.uGUI_CraftNode.index*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_index" data-uid="AssemblyCSharp.uGUI_CraftNode.index">index</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int index { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_locked_" data-uid="AssemblyCSharp.uGUI_CraftNode.locked*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_locked" data-uid="AssemblyCSharp.uGUI_CraftNode.locked">locked</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool locked { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_notifications_" data-uid="AssemblyCSharp.uGUI_CraftNode.notifications*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_notifications" data-uid="AssemblyCSharp.uGUI_CraftNode.notifications">notifications</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int notifications { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_visible_" data-uid="AssemblyCSharp.uGUI_CraftNode.visible*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_visible" data-uid="AssemblyCSharp.uGUI_CraftNode.visible">visible</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool visible { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_Close_" data-uid="AssemblyCSharp.uGUI_CraftNode.Close*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_Close" data-uid="AssemblyCSharp.uGUI_CraftNode.Close">Close()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Close()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_CreateFromCraftTree_" data-uid="AssemblyCSharp.uGUI_CraftNode.CreateFromCraftTree*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_CreateFromCraftTree_AssemblyCSharp_uGUI_CraftingMenu_UnityEngine_RectTransform_AssemblyCSharp_CraftNode_AssemblyCSharp_CraftNode_Filter_" data-uid="AssemblyCSharp.uGUI_CraftNode.CreateFromCraftTree(AssemblyCSharp.uGUI_CraftingMenu,UnityEngine.RectTransform,AssemblyCSharp.CraftNode,AssemblyCSharp.CraftNode.Filter)">CreateFromCraftTree(uGUI_CraftingMenu, RectTransform, CraftNode, CraftNode.Filter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uGUI_CraftNode CreateFromCraftTree(uGUI_CraftingMenu view, RectTransform parent, CraftNode sourceTree, CraftNode.Filter filter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_CraftingMenu.html">uGUI_CraftingMenu</a></td>
+        <td><span class="parametername">view</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.RectTransform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.CraftNode.html">CraftNode</a></td>
+        <td><span class="parametername">sourceTree</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.CraftNode.Filter.html">CraftNode.Filter</a></td>
+        <td><span class="parametername">filter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_CraftNode.html">uGUI_CraftNode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_CreateIcon_" data-uid="AssemblyCSharp.uGUI_CraftNode.CreateIcon*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_CreateIcon" data-uid="AssemblyCSharp.uGUI_CraftNode.CreateIcon">CreateIcon()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void CreateIcon()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_Expand_" data-uid="AssemblyCSharp.uGUI_CraftNode.Expand*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_Expand" data-uid="AssemblyCSharp.uGUI_CraftNode.Expand">Expand()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Expand()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_GetEnumerator_" data-uid="AssemblyCSharp.uGUI_CraftNode.GetEnumerator*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_GetEnumerator" data-uid="AssemblyCSharp.uGUI_CraftNode.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;uGUI_CraftNode&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<a class="xref" href="AssemblyCSharp.uGUI_CraftNode.html">uGUI_CraftNode</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_GetRectTransform_" data-uid="AssemblyCSharp.uGUI_CraftNode.GetRectTransform*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_GetRectTransform" data-uid="AssemblyCSharp.uGUI_CraftNode.GetRectTransform">GetRectTransform()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected RectTransform GetRectTransform()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.RectTransform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_HandleNavigation_" data-uid="AssemblyCSharp.uGUI_CraftNode.HandleNavigation*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_HandleNavigation_System_Int32_System_Int32_" data-uid="AssemblyCSharp.uGUI_CraftNode.HandleNavigation(System.Int32,System.Int32)">HandleNavigation(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HandleNavigation(int dirX, int dirY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dirX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dirY</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_HideRecursively_" data-uid="AssemblyCSharp.uGUI_CraftNode.HideRecursively*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_HideRecursively_System_Boolean_" data-uid="AssemblyCSharp.uGUI_CraftNode.HideRecursively(System.Boolean)">HideRecursively(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void HideRecursively(bool includeSelf = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeSelf</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_NavigationDeselect_" data-uid="AssemblyCSharp.uGUI_CraftNode.NavigationDeselect*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_NavigationDeselect" data-uid="AssemblyCSharp.uGUI_CraftNode.NavigationDeselect">NavigationDeselect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NavigationDeselect()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_NavigationSelect_" data-uid="AssemblyCSharp.uGUI_CraftNode.NavigationSelect*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_NavigationSelect" data-uid="AssemblyCSharp.uGUI_CraftNode.NavigationSelect">NavigationSelect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NavigationSelect()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_OnSiblingClicked_" data-uid="AssemblyCSharp.uGUI_CraftNode.OnSiblingClicked*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_OnSiblingClicked" data-uid="AssemblyCSharp.uGUI_CraftNode.OnSiblingClicked">OnSiblingClicked()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void OnSiblingClicked()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_Punch_" data-uid="AssemblyCSharp.uGUI_CraftNode.Punch*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_Punch_System_Single_System_Single_" data-uid="AssemblyCSharp.uGUI_CraftNode.Punch(System.Single,System.Single)">Punch(Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Punch(float delay = 0F, float amplitude = 0.5F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">delay</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">amplitude</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_Remove_" data-uid="AssemblyCSharp.uGUI_CraftNode.Remove*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_Remove" data-uid="AssemblyCSharp.uGUI_CraftNode.Remove">Remove()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_SetExpanded_" data-uid="AssemblyCSharp.uGUI_CraftNode.SetExpanded*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_SetExpanded_System_Boolean_" data-uid="AssemblyCSharp.uGUI_CraftNode.SetExpanded(System.Boolean)">SetExpanded(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetExpanded(bool expanded)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">expanded</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_SetLocked_" data-uid="AssemblyCSharp.uGUI_CraftNode.SetLocked*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_SetLocked_System_Boolean_" data-uid="AssemblyCSharp.uGUI_CraftNode.SetLocked(System.Boolean)">SetLocked(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLocked(bool locked)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">locked</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_SetProgress_" data-uid="AssemblyCSharp.uGUI_CraftNode.SetProgress*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_SetProgress_System_Single_" data-uid="AssemblyCSharp.uGUI_CraftNode.SetProgress(System.Single)">SetProgress(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetProgress(float progress)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_SetVisible_" data-uid="AssemblyCSharp.uGUI_CraftNode.SetVisible*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_SetVisible_System_Boolean_" data-uid="AssemblyCSharp.uGUI_CraftNode.SetVisible(System.Boolean)">SetVisible(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetVisible(bool visible)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">visible</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_UpdateIcon_" data-uid="AssemblyCSharp.uGUI_CraftNode.UpdateIcon*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_UpdateIcon_System_Boolean_" data-uid="AssemblyCSharp.uGUI_CraftNode.UpdateIcon(System.Boolean)">UpdateIcon(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void UpdateIcon(bool available)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">available</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_UpdateRecursively_" data-uid="AssemblyCSharp.uGUI_CraftNode.UpdateRecursively*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_UpdateRecursively_System_Int32__System_Int32__" data-uid="AssemblyCSharp.uGUI_CraftNode.UpdateRecursively(System.Int32@,System.Int32@)">UpdateRecursively(ref Int32, ref Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateRecursively(ref int c, ref int n)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">n</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_ISelectable_GetRect_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#ISelectable#GetRect*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_ISelectable_GetRect" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#ISelectable#GetRect">ISelectable.GetRect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RectTransform ISelectable.GetRect()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.RectTransform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_ISelectable_IsValid_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#ISelectable#IsValid*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_ISelectable_IsValid" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#ISelectable#IsValid">ISelectable.IsValid()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ISelectable.IsValid()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_ISelectable_OnButtonDown_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#ISelectable#OnButtonDown*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_ISelectable_OnButtonDown_AssemblyCSharp_GameInput_Button_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#ISelectable#OnButtonDown(AssemblyCSharp.GameInput.Button)">ISelectable.OnButtonDown(GameInput.Button)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ISelectable.OnButtonDown(GameInput.Button button)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.GameInput.Button.html">GameInput.Button</a></td>
+        <td><span class="parametername">button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_GetTooltip_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#GetTooltip*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_GetTooltip_AssemblyCSharp_uGUI_ItemIcon_System_String__System_Collections_Generic_List_AssemblyCSharp_TooltipIcon__" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#GetTooltip(AssemblyCSharp.uGUI_ItemIcon,System.String@,System.Collections.Generic.List{AssemblyCSharp.TooltipIcon})">uGUI_IIconManager.GetTooltip(uGUI_ItemIcon, out String, List&lt;TooltipIcon&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void uGUI_IIconManager.GetTooltip(uGUI_ItemIcon icon, out string tooltipText, List&lt;TooltipIcon&gt; tooltipIcons)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_ItemIcon.html">uGUI_ItemIcon</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tooltipText</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="AssemblyCSharp.TooltipIcon.html">TooltipIcon</a>&gt;</td>
+        <td><span class="parametername">tooltipIcons</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnBeginDrag_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnBeginDrag*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnBeginDrag_AssemblyCSharp_uGUI_ItemIcon_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnBeginDrag(AssemblyCSharp.uGUI_ItemIcon)">uGUI_IIconManager.OnBeginDrag(uGUI_ItemIcon)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool uGUI_IIconManager.OnBeginDrag(uGUI_ItemIcon icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_ItemIcon.html">uGUI_ItemIcon</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnDragHoverEnter_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnDragHoverEnter*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnDragHoverEnter_AssemblyCSharp_uGUI_ItemIcon_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnDragHoverEnter(AssemblyCSharp.uGUI_ItemIcon)">uGUI_IIconManager.OnDragHoverEnter(uGUI_ItemIcon)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void uGUI_IIconManager.OnDragHoverEnter(uGUI_ItemIcon icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_ItemIcon.html">uGUI_ItemIcon</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnDragHoverExit_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnDragHoverExit*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnDragHoverExit_AssemblyCSharp_uGUI_ItemIcon_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnDragHoverExit(AssemblyCSharp.uGUI_ItemIcon)">uGUI_IIconManager.OnDragHoverExit(uGUI_ItemIcon)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void uGUI_IIconManager.OnDragHoverExit(uGUI_ItemIcon icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_ItemIcon.html">uGUI_ItemIcon</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnDragHoverStay_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnDragHoverStay*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnDragHoverStay_AssemblyCSharp_uGUI_ItemIcon_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnDragHoverStay(AssemblyCSharp.uGUI_ItemIcon)">uGUI_IIconManager.OnDragHoverStay(uGUI_ItemIcon)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void uGUI_IIconManager.OnDragHoverStay(uGUI_ItemIcon icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_ItemIcon.html">uGUI_ItemIcon</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnDrop_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnDrop*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnDrop_AssemblyCSharp_uGUI_ItemIcon_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnDrop(AssemblyCSharp.uGUI_ItemIcon)">uGUI_IIconManager.OnDrop(uGUI_ItemIcon)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void uGUI_IIconManager.OnDrop(uGUI_ItemIcon icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_ItemIcon.html">uGUI_ItemIcon</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnEndDrag_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnEndDrag*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnEndDrag_AssemblyCSharp_uGUI_ItemIcon_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnEndDrag(AssemblyCSharp.uGUI_ItemIcon)">uGUI_IIconManager.OnEndDrag(uGUI_ItemIcon)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void uGUI_IIconManager.OnEndDrag(uGUI_ItemIcon icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_ItemIcon.html">uGUI_ItemIcon</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnPointerClick_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnPointerClick*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnPointerClick_AssemblyCSharp_uGUI_ItemIcon_System_Int32_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnPointerClick(AssemblyCSharp.uGUI_ItemIcon,System.Int32)">uGUI_IIconManager.OnPointerClick(uGUI_ItemIcon, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool uGUI_IIconManager.OnPointerClick(uGUI_ItemIcon icon, int button)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_ItemIcon.html">uGUI_ItemIcon</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnPointerEnter_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnPointerEnter*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnPointerEnter_AssemblyCSharp_uGUI_ItemIcon_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnPointerEnter(AssemblyCSharp.uGUI_ItemIcon)">uGUI_IIconManager.OnPointerEnter(uGUI_ItemIcon)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void uGUI_IIconManager.OnPointerEnter(uGUI_ItemIcon icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_ItemIcon.html">uGUI_ItemIcon</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnPointerExit_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnPointerExit*"></a>
+  <h4 id="AssemblyCSharp_uGUI_CraftNode_AssemblyCSharp_uGUI_IIconManager_OnPointerExit_AssemblyCSharp_uGUI_ItemIcon_" data-uid="AssemblyCSharp.uGUI_CraftNode.AssemblyCSharp#uGUI_IIconManager#OnPointerExit(AssemblyCSharp.uGUI_ItemIcon)">uGUI_IIconManager.OnPointerExit(uGUI_ItemIcon)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void uGUI_IIconManager.OnPointerExit(uGUI_ItemIcon icon)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.uGUI_ItemIcon.html">uGUI_ItemIcon</a></td>
+        <td><span class="parametername">icon</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Collections.IEnumerable</span>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.uGUI_IIconManager.html">uGUI_IIconManager</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.ISelectable.html">ISelectable</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

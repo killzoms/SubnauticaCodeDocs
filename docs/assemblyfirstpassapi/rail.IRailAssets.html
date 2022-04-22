@@ -1,0 +1,782 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IRailAssets
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IRailAssets
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="rail.IRailAssets">
+  
+  
+  <h1 id="rail_IRailAssets" data-uid="rail.IRailAssets" class="text-break">Interface IRailAssets
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="rail.IRailComponent.html#rail_IRailComponent_GetComponentVersion">IRailComponent.GetComponentVersion()</a>
+    </div>
+    <div>
+      <a class="xref" href="rail.IRailComponent.html#rail_IRailComponent_Release">IRailComponent.Release()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="rail.html">rail</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp-firstpass.dll</h6>
+  <h5 id="rail_IRailAssets_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IRailAssets : IRailComponent</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="rail_IRailAssets_AsyncCompleteConsumeAsset_" data-uid="rail.IRailAssets.AsyncCompleteConsumeAsset*"></a>
+  <h4 id="rail_IRailAssets_AsyncCompleteConsumeAsset_System_UInt64_System_UInt32_System_String_" data-uid="rail.IRailAssets.AsyncCompleteConsumeAsset(System.UInt64,System.UInt32,System.String)">AsyncCompleteConsumeAsset(UInt64, UInt32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncCompleteConsumeAsset(ulong asset_id, uint quantity, string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">asset_id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">quantity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_AsyncDirectConsumeAssets_" data-uid="rail.IRailAssets.AsyncDirectConsumeAssets*"></a>
+  <h4 id="rail_IRailAssets_AsyncDirectConsumeAssets_System_Collections_Generic_List_rail_RailAssetItem__System_String_" data-uid="rail.IRailAssets.AsyncDirectConsumeAssets(System.Collections.Generic.List{rail.RailAssetItem},System.String)">AsyncDirectConsumeAssets(List&lt;RailAssetItem&gt;, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncDirectConsumeAssets(List&lt;RailAssetItem&gt; assets, string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="rail.RailAssetItem.html">RailAssetItem</a>&gt;</td>
+        <td><span class="parametername">assets</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_AsyncExchangeAssets_" data-uid="rail.IRailAssets.AsyncExchangeAssets*"></a>
+  <h4 id="rail_IRailAssets_AsyncExchangeAssets_System_Collections_Generic_List_rail_RailAssetItem__rail_RailProductItem_System_String_" data-uid="rail.IRailAssets.AsyncExchangeAssets(System.Collections.Generic.List{rail.RailAssetItem},rail.RailProductItem,System.String)">AsyncExchangeAssets(List&lt;RailAssetItem&gt;, RailProductItem, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncExchangeAssets(List&lt;RailAssetItem&gt; old_assets, RailProductItem to_product_info, string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="rail.RailAssetItem.html">RailAssetItem</a>&gt;</td>
+        <td><span class="parametername">old_assets</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="rail.RailProductItem.html">RailProductItem</a></td>
+        <td><span class="parametername">to_product_info</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_AsyncExchangeAssetsTo_" data-uid="rail.IRailAssets.AsyncExchangeAssetsTo*"></a>
+  <h4 id="rail_IRailAssets_AsyncExchangeAssetsTo_System_Collections_Generic_List_rail_RailAssetItem__rail_RailProductItem_System_UInt64_System_String_" data-uid="rail.IRailAssets.AsyncExchangeAssetsTo(System.Collections.Generic.List{rail.RailAssetItem},rail.RailProductItem,System.UInt64,System.String)">AsyncExchangeAssetsTo(List&lt;RailAssetItem&gt;, RailProductItem, UInt64, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncExchangeAssetsTo(List&lt;RailAssetItem&gt; old_assets, RailProductItem to_product_info, ulong add_to_exist_assets, string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="rail.RailAssetItem.html">RailAssetItem</a>&gt;</td>
+        <td><span class="parametername">old_assets</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="rail.RailProductItem.html">RailProductItem</a></td>
+        <td><span class="parametername">to_product_info</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">add_to_exist_assets</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_AsyncMergeAsset_" data-uid="rail.IRailAssets.AsyncMergeAsset*"></a>
+  <h4 id="rail_IRailAssets_AsyncMergeAsset_System_Collections_Generic_List_rail_RailAssetItem__System_String_" data-uid="rail.IRailAssets.AsyncMergeAsset(System.Collections.Generic.List{rail.RailAssetItem},System.String)">AsyncMergeAsset(List&lt;RailAssetItem&gt;, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncMergeAsset(List&lt;RailAssetItem&gt; source_assets, string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="rail.RailAssetItem.html">RailAssetItem</a>&gt;</td>
+        <td><span class="parametername">source_assets</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_AsyncMergeAssetTo_" data-uid="rail.IRailAssets.AsyncMergeAssetTo*"></a>
+  <h4 id="rail_IRailAssets_AsyncMergeAssetTo_System_Collections_Generic_List_rail_RailAssetItem__System_UInt64_System_String_" data-uid="rail.IRailAssets.AsyncMergeAssetTo(System.Collections.Generic.List{rail.RailAssetItem},System.UInt64,System.String)">AsyncMergeAssetTo(List&lt;RailAssetItem&gt;, UInt64, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncMergeAssetTo(List&lt;RailAssetItem&gt; source_assets, ulong add_to_asset, string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="rail.RailAssetItem.html">RailAssetItem</a>&gt;</td>
+        <td><span class="parametername">source_assets</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">add_to_asset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_AsyncRequestAllAssets_" data-uid="rail.IRailAssets.AsyncRequestAllAssets*"></a>
+  <h4 id="rail_IRailAssets_AsyncRequestAllAssets_System_String_" data-uid="rail.IRailAssets.AsyncRequestAllAssets(System.String)">AsyncRequestAllAssets(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncRequestAllAssets(string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_AsyncSplitAsset_" data-uid="rail.IRailAssets.AsyncSplitAsset*"></a>
+  <h4 id="rail_IRailAssets_AsyncSplitAsset_System_UInt64_System_UInt32_System_String_" data-uid="rail.IRailAssets.AsyncSplitAsset(System.UInt64,System.UInt32,System.String)">AsyncSplitAsset(UInt64, UInt32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncSplitAsset(ulong source_asset, uint to_quantity, string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">source_asset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">to_quantity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_AsyncSplitAssetTo_" data-uid="rail.IRailAssets.AsyncSplitAssetTo*"></a>
+  <h4 id="rail_IRailAssets_AsyncSplitAssetTo_System_UInt64_System_UInt32_System_UInt64_System_String_" data-uid="rail.IRailAssets.AsyncSplitAssetTo(System.UInt64,System.UInt32,System.UInt64,System.String)">AsyncSplitAssetTo(UInt64, UInt32, UInt64, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncSplitAssetTo(ulong source_asset, uint to_quantity, ulong add_to_asset, string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">source_asset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">to_quantity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">add_to_asset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_AsyncStartConsumeAsset_" data-uid="rail.IRailAssets.AsyncStartConsumeAsset*"></a>
+  <h4 id="rail_IRailAssets_AsyncStartConsumeAsset_System_UInt64_System_String_" data-uid="rail.IRailAssets.AsyncStartConsumeAsset(System.UInt64,System.String)">AsyncStartConsumeAsset(UInt64, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncStartConsumeAsset(ulong asset_id, string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">asset_id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_AsyncUpdateAssetsProperty_" data-uid="rail.IRailAssets.AsyncUpdateAssetsProperty*"></a>
+  <h4 id="rail_IRailAssets_AsyncUpdateAssetsProperty_System_Collections_Generic_List_rail_RailAssetProperty__System_String_" data-uid="rail.IRailAssets.AsyncUpdateAssetsProperty(System.Collections.Generic.List{rail.RailAssetProperty},System.String)">AsyncUpdateAssetsProperty(List&lt;RailAssetProperty&gt;, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncUpdateAssetsProperty(List&lt;RailAssetProperty&gt; asset_property_list, string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="rail.RailAssetProperty.html">RailAssetProperty</a>&gt;</td>
+        <td><span class="parametername">asset_property_list</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_AsyncUpdateConsumeProgress_" data-uid="rail.IRailAssets.AsyncUpdateConsumeProgress*"></a>
+  <h4 id="rail_IRailAssets_AsyncUpdateConsumeProgress_System_UInt64_System_String_System_String_" data-uid="rail.IRailAssets.AsyncUpdateConsumeProgress(System.UInt64,System.String,System.String)">AsyncUpdateConsumeProgress(UInt64, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult AsyncUpdateConsumeProgress(ulong asset_id, string progress, string user_data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">asset_id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">progress</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user_data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="rail_IRailAssets_QueryAssetInfo_" data-uid="rail.IRailAssets.QueryAssetInfo*"></a>
+  <h4 id="rail_IRailAssets_QueryAssetInfo_System_UInt64_rail_RailAssetInfo_" data-uid="rail.IRailAssets.QueryAssetInfo(System.UInt64,rail.RailAssetInfo)">QueryAssetInfo(UInt64, RailAssetInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">RailResult QueryAssetInfo(ulong asset_id, RailAssetInfo asset_info)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">asset_id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="rail.RailAssetInfo.html">RailAssetInfo</a></td>
+        <td><span class="parametername">asset_info</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="rail.RailResult.html">RailResult</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

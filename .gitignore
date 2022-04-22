@@ -16,6 +16,10 @@
 # Mono auto generated files
 mono_crash.*
 
+# Game Decompiled Projects
+Assembly-CSharp/
+Assembly-CSharp-firstpass/
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

@@ -1,8 +1,0 @@
-- name: Articles
-  href: articles/
-- name: Assembly-CSharp Api Documentation
-  href: assemblycsharpapi/
-  homepage: assemblycsharpapi/index.md
-- name: Assembly-CSharp-firstpass Api Documentation
-  href: assemblyfirstpassapi/
-  homepage: assemblyfirstpassapi/index.md

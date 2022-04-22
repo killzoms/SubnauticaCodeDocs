@@ -1,0 +1,913 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CaveCrawler
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CaveCrawler
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.CaveCrawler">
+  
+  
+  <h1 id="AssemblyCSharp_CaveCrawler" data-uid="AssemblyCSharp.CaveCrawler" class="text-break">Class CaveCrawler
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="AssemblyCSharp.Living.html">Living</a></div>
+    <div class="level6"><a class="xref" href="AssemblyCSharp.Creature.html">Creature</a></div>
+    <div class="level7"><span class="xref">CaveCrawler</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AssemblyCSharp.IProtoEventListener.html">IProtoEventListener</a></div>
+    <div><a class="xref" href="AssemblyCSharp.IOnTakeDamage.html">IOnTakeDamage</a></div>
+    <div><span class="xref">IScheduledUpdateBehaviour</span></div>
+    <div><span class="xref">IManagedBehaviour</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_liveMixin">Creature.liveMixin</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_initialCuriosity">Creature.initialCuriosity</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_initialFriendliness">Creature.initialFriendliness</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_initialHunger">Creature.initialHunger</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_Curiosity">Creature.Curiosity</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_Friendliness">Creature.Friendliness</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_Hunger">Creature.Hunger</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_Aggression">Creature.Aggression</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_Scared">Creature.Scared</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_Tired">Creature.Tired</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_Happy">Creature.Happy</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_activity">Creature.activity</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_maxFlinchAnimationDamage">Creature.maxFlinchAnimationDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_hasEyes">Creature.hasEyes</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_eyeFOV">Creature.eyeFOV</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_eyesOnTop">Creature.eyesOnTop</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_hearingSensitivity">Creature.hearingSensitivity</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_detectsMotion">Creature.detectsMotion</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_leashPosition">Creature.leashPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_version">Creature.version</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_isInitialized">Creature.isInitialized</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_babyScaleSize">Creature.babyScaleSize</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_sizeDistribution">Creature.sizeDistribution</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_seaLevelOffset">Creature.seaLevelOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_cyclopsSonarDetectable">Creature.cyclopsSonarDetectable</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_debug">Creature.debug</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_debugActionsString">Creature.debugActionsString</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_friend">Creature.friend</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_kSafeShallows">Creature.kSafeShallows</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_prisonAquriumBounds">Creature.prisonAquriumBounds</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_scheduledUpdateIndex">Creature.scheduledUpdateIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_GetProfileTag">Creature.GetProfileTag()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_Start">Creature.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_InitializeOnce">Creature.InitializeOnce()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_InitializeAgain">Creature.InitializeAgain()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_ScanCreatureActions">Creature.ScanCreatureActions()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_GetBestAction">Creature.GetBestAction()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_ScheduledUpdate">Creature.ScheduledUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_GetAnimator">Creature.GetAnimator()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_GetSize">Creature.GetSize()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_SetScale_System_Single_">Creature.SetScale(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_GetSpeedScalar">Creature.GetSpeedScalar()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_GetActiveBehaviourName">Creature.GetActiveBehaviourName()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_GetLastAction">Creature.GetLastAction()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_GetLastActionDebugString">Creature.GetLastActionDebugString()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_GetTimeLastActionSet">Creature.GetTimeLastActionSet()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_OnTakeDamage_AssemblyCSharp_DamageInfo_">Creature.OnTakeDamage(DamageInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_OnDrop">Creature.OnDrop()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_GetTechTypeHash">Creature.GetTechTypeHash()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_GetCanSeeObject_UnityEngine_GameObject_">Creature.GetCanSeeObject(GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_IsInFieldOfView_UnityEngine_GameObject_System_Single__">Creature.IsInFieldOfView(GameObject, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_OnProtoSerialize_AssemblyCSharp_ProtobufSerializer_">Creature.OnProtoSerialize(ProtobufSerializer)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_OnProtoDeserialize_AssemblyCSharp_ProtobufSerializer_">Creature.OnProtoDeserialize(ProtobufSerializer)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_OnEnable">Creature.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_OnDisable">Creature.OnDisable()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_OnDestroy">Creature.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_AllowCreatureUpdates_System_Boolean_">Creature.AllowCreatureUpdates(Boolean)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.html">AssemblyCSharp</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_CaveCrawler_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ProtoContract]
+public class CaveCrawler : Creature, IProtoEventListener, IOnTakeDamage, IScheduledUpdateBehaviour, IManagedBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_CaveCrawler_aliveCollider" data-uid="AssemblyCSharp.CaveCrawler.aliveCollider">aliveCollider</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AssertNotNull]
+public Collider aliveCollider</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Collider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CaveCrawler_animationMaxSpeed" data-uid="AssemblyCSharp.CaveCrawler.animationMaxSpeed">animationMaxSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float animationMaxSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CaveCrawler_animationMaxTilt" data-uid="AssemblyCSharp.CaveCrawler.animationMaxTilt">animationMaxTilt</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float animationMaxTilt</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CaveCrawler_dampTime" data-uid="AssemblyCSharp.CaveCrawler.dampTime">dampTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float dampTime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CaveCrawler_deadCollider" data-uid="AssemblyCSharp.CaveCrawler.deadCollider">deadCollider</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AssertNotNull]
+public Collider deadCollider</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Collider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CaveCrawler_jumpSound" data-uid="AssemblyCSharp.CaveCrawler.jumpSound">jumpSound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FMODAsset jumpSound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">FMODAsset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CaveCrawler_onSurfaceTracker" data-uid="AssemblyCSharp.CaveCrawler.onSurfaceTracker">onSurfaceTracker</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AssertNotNull]
+public OnSurfaceTracker onSurfaceTracker</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.OnSurfaceTracker.html">OnSurfaceTracker</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CaveCrawler_walkingSound" data-uid="AssemblyCSharp.CaveCrawler.walkingSound">walkingSound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FMOD_CustomLoopingEmitter walkingSound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.FMOD_CustomLoopingEmitter.html">FMOD_CustomLoopingEmitter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_CaveCrawler_GetSurfaceNormal_" data-uid="AssemblyCSharp.CaveCrawler.GetSurfaceNormal*"></a>
+  <h4 id="AssemblyCSharp_CaveCrawler_GetSurfaceNormal" data-uid="AssemblyCSharp.CaveCrawler.GetSurfaceNormal">GetSurfaceNormal()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetSurfaceNormal()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CaveCrawler_IsOnSurface_" data-uid="AssemblyCSharp.CaveCrawler.IsOnSurface*"></a>
+  <h4 id="AssemblyCSharp_CaveCrawler_IsOnSurface" data-uid="AssemblyCSharp.CaveCrawler.IsOnSurface">IsOnSurface()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOnSurface()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CaveCrawler_OnJump_" data-uid="AssemblyCSharp.CaveCrawler.OnJump*"></a>
+  <h4 id="AssemblyCSharp_CaveCrawler_OnJump" data-uid="AssemblyCSharp.CaveCrawler.OnJump">OnJump()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnJump()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_CaveCrawler_OnKill_" data-uid="AssemblyCSharp.CaveCrawler.OnKill*"></a>
+  <h4 id="AssemblyCSharp_CaveCrawler_OnKill" data-uid="AssemblyCSharp.CaveCrawler.OnKill">OnKill()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnKill()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Creature.html#AssemblyCSharp_Creature_OnKill">Creature.OnKill()</a></div>
+  
+  
+  <a id="AssemblyCSharp_CaveCrawler_Update_" data-uid="AssemblyCSharp.CaveCrawler.Update*"></a>
+  <h4 id="AssemblyCSharp_CaveCrawler_Update" data-uid="AssemblyCSharp.CaveCrawler.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IProtoEventListener.html">IProtoEventListener</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IOnTakeDamage.html">IOnTakeDamage</a>
+  </div>
+  <div>
+      <span class="xref">IScheduledUpdateBehaviour</span>
+  </div>
+  <div>
+      <span class="xref">IManagedBehaviour</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

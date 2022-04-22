@@ -1,0 +1,673 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ProtobufSerializerExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ProtobufSerializerExtensions
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.ProtobufSerializerExtensions">
+  
+  
+  <h1 id="AssemblyCSharp_ProtobufSerializerExtensions" data-uid="AssemblyCSharp.ProtobufSerializerExtensions" class="text-break">Class ProtobufSerializerExtensions
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ProtobufSerializerExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.html">AssemblyCSharp</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_ProtobufSerializerExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ProtobufSerializerExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_ProtobufSerializerExtensions_DeserializeObjects_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.DeserializeObjects*"></a>
+  <h4 id="AssemblyCSharp_ProtobufSerializerExtensions_DeserializeObjects_AssemblyCSharp_ProtobufSerializer_System_IO_Stream_UniqueIdentifier_System_Boolean_UnityEngine_Transform_System_Int32_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.DeserializeObjects(AssemblyCSharp.ProtobufSerializer,System.IO.Stream,UniqueIdentifier,System.Boolean,UnityEngine.Transform,System.Int32)">DeserializeObjects(ProtobufSerializer, Stream, UniqueIdentifier, Boolean, Transform, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject DeserializeObjects(this ProtobufSerializer serializer, Stream stream, UniqueIdentifier rootUid, bool forceParent, Transform parent, int verbose)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UniqueIdentifier</span></td>
+        <td><span class="parametername">rootUid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">forceParent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">verbose</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ProtobufSerializerExtensions_DeserializeObjectTree_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.DeserializeObjectTree*"></a>
+  <h4 id="AssemblyCSharp_ProtobufSerializerExtensions_DeserializeObjectTree_AssemblyCSharp_ProtobufSerializer_System_IO_Stream_System_Int32_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.DeserializeObjectTree(AssemblyCSharp.ProtobufSerializer,System.IO.Stream,System.Int32)">DeserializeObjectTree(ProtobufSerializer, Stream, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject DeserializeObjectTree(this ProtobufSerializer serializer, Stream stream, int verbose)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">verbose</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ProtobufSerializerExtensions_DeserializeObjectTree_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.DeserializeObjectTree*"></a>
+  <h4 id="AssemblyCSharp_ProtobufSerializerExtensions_DeserializeObjectTree_AssemblyCSharp_ProtobufSerializer_System_IO_Stream_UniqueIdentifier_System_Int32_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.DeserializeObjectTree(AssemblyCSharp.ProtobufSerializer,System.IO.Stream,UniqueIdentifier,System.Int32)">DeserializeObjectTree(ProtobufSerializer, Stream, UniqueIdentifier, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject DeserializeObjectTree(this ProtobufSerializer serializer, Stream stream, UniqueIdentifier uid, int verbose)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UniqueIdentifier</span></td>
+        <td><span class="parametername">uid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">verbose</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ProtobufSerializerExtensions_LoadObjectTreeFromBytes_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.LoadObjectTreeFromBytes*"></a>
+  <h4 id="AssemblyCSharp_ProtobufSerializerExtensions_LoadObjectTreeFromBytes_AssemblyCSharp_ProtobufSerializer_System_Byte___System_Action_UnityEngine_GameObject__System_Int32_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.LoadObjectTreeFromBytes(AssemblyCSharp.ProtobufSerializer,System.Byte[],System.Action{UnityEngine.GameObject},System.Int32)">LoadObjectTreeFromBytes(ProtobufSerializer, Byte[], Action&lt;GameObject&gt;, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadObjectTreeFromBytes(this ProtobufSerializer serializer, byte[] data, Action&lt;GameObject&gt; onLoaded, int verbose)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">UnityEngine.GameObject</span>&gt;</td>
+        <td><span class="parametername">onLoaded</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">verbose</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ProtobufSerializerExtensions_LoadObjectTreeFromFile_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.LoadObjectTreeFromFile*"></a>
+  <h4 id="AssemblyCSharp_ProtobufSerializerExtensions_LoadObjectTreeFromFile_AssemblyCSharp_ProtobufSerializer_System_String_System_Action_UnityEngine_GameObject__System_Int32_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.LoadObjectTreeFromFile(AssemblyCSharp.ProtobufSerializer,System.String,System.Action{UnityEngine.GameObject},System.Int32)">LoadObjectTreeFromFile(ProtobufSerializer, String, Action&lt;GameObject&gt;, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadObjectTreeFromFile(this ProtobufSerializer serializer, string filePath, Action&lt;GameObject&gt; onLoaded, int verbose)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">UnityEngine.GameObject</span>&gt;</td>
+        <td><span class="parametername">onLoaded</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">verbose</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ProtobufSerializerExtensions_SaveObjectTreeToBytes_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SaveObjectTreeToBytes*"></a>
+  <h4 id="AssemblyCSharp_ProtobufSerializerExtensions_SaveObjectTreeToBytes_AssemblyCSharp_ProtobufSerializer_UnityEngine_GameObject_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SaveObjectTreeToBytes(AssemblyCSharp.ProtobufSerializer,UnityEngine.GameObject)">SaveObjectTreeToBytes(ProtobufSerializer, GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] SaveObjectTreeToBytes(this ProtobufSerializer serializer, GameObject root)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">root</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ProtobufSerializerExtensions_SaveObjectTreeToFile_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SaveObjectTreeToFile*"></a>
+  <h4 id="AssemblyCSharp_ProtobufSerializerExtensions_SaveObjectTreeToFile_AssemblyCSharp_ProtobufSerializer_System_String_UnityEngine_GameObject_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SaveObjectTreeToFile(AssemblyCSharp.ProtobufSerializer,System.String,UnityEngine.GameObject)">SaveObjectTreeToFile(ProtobufSerializer, String, GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SaveObjectTreeToFile(this ProtobufSerializer serializer, string filePath, GameObject root)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">filePath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">root</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ProtobufSerializerExtensions_SerializeAndDeserialize_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SerializeAndDeserialize*"></a>
+  <h4 id="AssemblyCSharp_ProtobufSerializerExtensions_SerializeAndDeserialize_AssemblyCSharp_ProtobufSerializer_UnityEngine_GameObject_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SerializeAndDeserialize(AssemblyCSharp.ProtobufSerializer,UnityEngine.GameObject)">SerializeAndDeserialize(ProtobufSerializer, GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject SerializeAndDeserialize(this ProtobufSerializer serializer, GameObject source)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ProtobufSerializerExtensions_SerializeAndDeserialize_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SerializeAndDeserialize*"></a>
+  <h4 id="AssemblyCSharp_ProtobufSerializerExtensions_SerializeAndDeserialize__1_AssemblyCSharp_ProtobufSerializer___0___0_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SerializeAndDeserialize``1(AssemblyCSharp.ProtobufSerializer,``0,``0)">SerializeAndDeserialize&lt;T&gt;(ProtobufSerializer, T, T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeAndDeserialize&lt;T&gt;(this ProtobufSerializer serializer, T source, T target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ProtobufSerializerExtensions_SerializeObjects_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SerializeObjects*"></a>
+  <h4 id="AssemblyCSharp_ProtobufSerializerExtensions_SerializeObjects_AssemblyCSharp_ProtobufSerializer_System_IO_Stream_System_Collections_Generic_IList_UniqueIdentifier__System_Boolean_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SerializeObjects(AssemblyCSharp.ProtobufSerializer,System.IO.Stream,System.Collections.Generic.IList{UniqueIdentifier},System.Boolean)">SerializeObjects(ProtobufSerializer, Stream, IList&lt;UniqueIdentifier&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeObjects(this ProtobufSerializer serializer, Stream stream, IList&lt;UniqueIdentifier&gt; uids, bool storeParent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">UniqueIdentifier</span>&gt;</td>
+        <td><span class="parametername">uids</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">storeParent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_ProtobufSerializerExtensions_SerializeObjectTree_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SerializeObjectTree*"></a>
+  <h4 id="AssemblyCSharp_ProtobufSerializerExtensions_SerializeObjectTree_AssemblyCSharp_ProtobufSerializer_System_IO_Stream_UnityEngine_GameObject_" data-uid="AssemblyCSharp.ProtobufSerializerExtensions.SerializeObjectTree(AssemblyCSharp.ProtobufSerializer,System.IO.Stream,UnityEngine.GameObject)">SerializeObjectTree(ProtobufSerializer, Stream, GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SerializeObjectTree(this ProtobufSerializer serializer, Stream stream, GameObject root)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">root</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

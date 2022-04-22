@@ -1,0 +1,1191 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ProtoWriter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ProtoWriter
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ProtoBuf.ProtoWriter">
+  
+  
+  <h1 id="ProtoBuf_ProtoWriter" data-uid="ProtoBuf.ProtoWriter" class="text-break">Class ProtoWriter
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ProtoWriter</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProtoBuf.html">ProtoBuf</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp-firstpass.dll</h6>
+  <h5 id="ProtoBuf_ProtoWriter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ProtoWriter : IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="ProtoBuf_ProtoWriter__ctor_" data-uid="ProtoBuf.ProtoWriter.#ctor*"></a>
+  <h4 id="ProtoBuf_ProtoWriter__ctor" data-uid="ProtoBuf.ProtoWriter.#ctor">ProtoWriter()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProtoWriter()</code></pre>
+  </div>
+  
+  
+  <a id="ProtoBuf_ProtoWriter__ctor_" data-uid="ProtoBuf.ProtoWriter.#ctor*"></a>
+  <h4 id="ProtoBuf_ProtoWriter__ctor_System_IO_Stream_ProtoBuf_Meta_TypeModel_ProtoBuf_SerializationContext_" data-uid="ProtoBuf.ProtoWriter.#ctor(System.IO.Stream,ProtoBuf.Meta.TypeModel,ProtoBuf.SerializationContext)">ProtoWriter(Stream, TypeModel, SerializationContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProtoWriter(Stream dest, TypeModel model, SerializationContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">dest</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.Meta.TypeModel.html">TypeModel</a></td>
+        <td><span class="parametername">model</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.SerializationContext.html">SerializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_Context_" data-uid="ProtoBuf.ProtoWriter.Context*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_Context" data-uid="ProtoBuf.ProtoWriter.Context">Context</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SerializationContext Context { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.SerializationContext.html">SerializationContext</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_Model_" data-uid="ProtoBuf.ProtoWriter.Model*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_Model" data-uid="ProtoBuf.ProtoWriter.Model">Model</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TypeModel Model { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.Meta.TypeModel.html">TypeModel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_AppendExtensionData_" data-uid="ProtoBuf.ProtoWriter.AppendExtensionData*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_AppendExtensionData_ProtoBuf_IExtensible_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.AppendExtensionData(ProtoBuf.IExtensible,ProtoBuf.ProtoWriter)">AppendExtensionData(IExtensible, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AppendExtensionData(IExtensible instance, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.IExtensible.html">IExtensible</a></td>
+        <td><span class="parametername">instance</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_ClearPackedField_" data-uid="ProtoBuf.ProtoWriter.ClearPackedField*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_ClearPackedField_System_Int32_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.ClearPackedField(System.Int32,ProtoBuf.ProtoWriter)">ClearPackedField(Int32, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ClearPackedField(int fieldNumber, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">fieldNumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_Close_" data-uid="ProtoBuf.ProtoWriter.Close*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_Close" data-uid="ProtoBuf.ProtoWriter.Close">Close()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Close()</code></pre>
+  </div>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_EndSubItem_" data-uid="ProtoBuf.ProtoWriter.EndSubItem*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_EndSubItem_ProtoBuf_SubItemToken_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.EndSubItem(ProtoBuf.SubItemToken,ProtoBuf.ProtoWriter)">EndSubItem(SubItemToken, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EndSubItem(SubItemToken token, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.SubItemToken.html">SubItemToken</a></td>
+        <td><span class="parametername">token</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_Init_" data-uid="ProtoBuf.ProtoWriter.Init*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_Init_System_IO_Stream_ProtoBuf_Meta_TypeModel_ProtoBuf_SerializationContext_" data-uid="ProtoBuf.ProtoWriter.Init(System.IO.Stream,ProtoBuf.Meta.TypeModel,ProtoBuf.SerializationContext)">Init(Stream, TypeModel, SerializationContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Init(Stream dest, TypeModel model, SerializationContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">dest</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.Meta.TypeModel.html">TypeModel</a></td>
+        <td><span class="parametername">model</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.SerializationContext.html">SerializationContext</a></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_SetPackedField_" data-uid="ProtoBuf.ProtoWriter.SetPackedField*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_SetPackedField_System_Int32_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.SetPackedField(System.Int32,ProtoBuf.ProtoWriter)">SetPackedField(Int32, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPackedField(int fieldNumber, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">fieldNumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_SetRootObject_" data-uid="ProtoBuf.ProtoWriter.SetRootObject*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_SetRootObject_System_Object_" data-uid="ProtoBuf.ProtoWriter.SetRootObject(System.Object)">SetRootObject(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRootObject(object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_StartSubItem_" data-uid="ProtoBuf.ProtoWriter.StartSubItem*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_StartSubItem_System_Object_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.StartSubItem(System.Object,ProtoBuf.ProtoWriter)">StartSubItem(Object, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SubItemToken StartSubItem(object instance, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">instance</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.SubItemToken.html">SubItemToken</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_ThrowEnumException_" data-uid="ProtoBuf.ProtoWriter.ThrowEnumException*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_ThrowEnumException_ProtoBuf_ProtoWriter_System_Object_" data-uid="ProtoBuf.ProtoWriter.ThrowEnumException(ProtoBuf.ProtoWriter,System.Object)">ThrowEnumException(ProtoWriter, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ThrowEnumException(ProtoWriter writer, object enumValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">enumValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteBoolean_" data-uid="ProtoBuf.ProtoWriter.WriteBoolean*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteBoolean_System_Boolean_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteBoolean(System.Boolean,ProtoBuf.ProtoWriter)">WriteBoolean(Boolean, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteBoolean(bool value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteByte_" data-uid="ProtoBuf.ProtoWriter.WriteByte*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteByte_System_Byte_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteByte(System.Byte,ProtoBuf.ProtoWriter)">WriteByte(Byte, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteByte(byte value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteBytes_" data-uid="ProtoBuf.ProtoWriter.WriteBytes*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteBytes_System_Byte___ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteBytes(System.Byte[],ProtoBuf.ProtoWriter)">WriteBytes(Byte[], ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteBytes(byte[] data, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteBytes_" data-uid="ProtoBuf.ProtoWriter.WriteBytes*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteBytes_System_Byte___System_Int32_System_Int32_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteBytes(System.Byte[],System.Int32,System.Int32,ProtoBuf.ProtoWriter)">WriteBytes(Byte[], Int32, Int32, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteBytes(byte[] data, int offset, int length, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">length</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteDouble_" data-uid="ProtoBuf.ProtoWriter.WriteDouble*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteDouble_System_Double_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteDouble(System.Double,ProtoBuf.ProtoWriter)">WriteDouble(Double, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDouble(double value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteFieldHeader_" data-uid="ProtoBuf.ProtoWriter.WriteFieldHeader*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteFieldHeader_System_Int32_ProtoBuf_WireType_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteFieldHeader(System.Int32,ProtoBuf.WireType,ProtoBuf.ProtoWriter)">WriteFieldHeader(Int32, WireType, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteFieldHeader(int fieldNumber, WireType wireType, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">fieldNumber</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.WireType.html">WireType</a></td>
+        <td><span class="parametername">wireType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteInt16_" data-uid="ProtoBuf.ProtoWriter.WriteInt16*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteInt16_System_Int16_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteInt16(System.Int16,ProtoBuf.ProtoWriter)">WriteInt16(Int16, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteInt16(short value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteInt32_" data-uid="ProtoBuf.ProtoWriter.WriteInt32*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteInt32_System_Int32_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteInt32(System.Int32,ProtoBuf.ProtoWriter)">WriteInt32(Int32, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteInt32(int value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteInt64_" data-uid="ProtoBuf.ProtoWriter.WriteInt64*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteInt64_System_Int64_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteInt64(System.Int64,ProtoBuf.ProtoWriter)">WriteInt64(Int64, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteInt64(long value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteObject_" data-uid="ProtoBuf.ProtoWriter.WriteObject*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteObject_System_Object_System_Int32_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteObject(System.Object,System.Int32,ProtoBuf.ProtoWriter)">WriteObject(Object, Int32, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteObject(object value, int key, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WritePackedPrefix_" data-uid="ProtoBuf.ProtoWriter.WritePackedPrefix*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WritePackedPrefix_System_Int32_ProtoBuf_WireType_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WritePackedPrefix(System.Int32,ProtoBuf.WireType,ProtoBuf.ProtoWriter)">WritePackedPrefix(Int32, WireType, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WritePackedPrefix(int elementCount, WireType wireType, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">elementCount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.WireType.html">WireType</a></td>
+        <td><span class="parametername">wireType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteRecursionSafeObject_" data-uid="ProtoBuf.ProtoWriter.WriteRecursionSafeObject*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteRecursionSafeObject_System_Object_System_Int32_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteRecursionSafeObject(System.Object,System.Int32,ProtoBuf.ProtoWriter)">WriteRecursionSafeObject(Object, Int32, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteRecursionSafeObject(object value, int key, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteSByte_" data-uid="ProtoBuf.ProtoWriter.WriteSByte*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteSByte_System_SByte_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteSByte(System.SByte,ProtoBuf.ProtoWriter)">WriteSByte(SByte, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteSByte(sbyte value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteSingle_" data-uid="ProtoBuf.ProtoWriter.WriteSingle*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteSingle_System_Single_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteSingle(System.Single,ProtoBuf.ProtoWriter)">WriteSingle(Single, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteSingle(float value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteString_" data-uid="ProtoBuf.ProtoWriter.WriteString*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteString_System_String_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteString(System.String,ProtoBuf.ProtoWriter)">WriteString(String, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteString(string value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteType_" data-uid="ProtoBuf.ProtoWriter.WriteType*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteType_System_Type_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteType(System.Type,ProtoBuf.ProtoWriter)">WriteType(Type, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteType(Type value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteUInt16_" data-uid="ProtoBuf.ProtoWriter.WriteUInt16*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteUInt16_System_UInt16_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteUInt16(System.UInt16,ProtoBuf.ProtoWriter)">WriteUInt16(UInt16, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteUInt16(ushort value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteUInt32_" data-uid="ProtoBuf.ProtoWriter.WriteUInt32*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteUInt32_System_UInt32_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteUInt32(System.UInt32,ProtoBuf.ProtoWriter)">WriteUInt32(UInt32, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteUInt32(uint value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_WriteUInt64_" data-uid="ProtoBuf.ProtoWriter.WriteUInt64*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_WriteUInt64_System_UInt64_ProtoBuf_ProtoWriter_" data-uid="ProtoBuf.ProtoWriter.WriteUInt64(System.UInt64,ProtoBuf.ProtoWriter)">WriteUInt64(UInt64, ProtoWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteUInt64(ulong value, ProtoWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="ProtoBuf.ProtoWriter.html">ProtoWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="ProtoBuf_ProtoWriter_System_IDisposable_Dispose_" data-uid="ProtoBuf.ProtoWriter.System#IDisposable#Dispose*"></a>
+  <h4 id="ProtoBuf_ProtoWriter_System_IDisposable_Dispose" data-uid="ProtoBuf.ProtoWriter.System#IDisposable#Dispose">IDisposable.Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IDisposable.Dispose()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

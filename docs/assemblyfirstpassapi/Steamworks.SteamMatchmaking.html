@@ -1,0 +1,1833 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SteamMatchmaking
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SteamMatchmaking
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Steamworks.SteamMatchmaking">
+  
+  
+  <h1 id="Steamworks_SteamMatchmaking" data-uid="Steamworks.SteamMatchmaking" class="text-break">Class SteamMatchmaking
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SteamMatchmaking</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Steamworks.html">Steamworks</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp-firstpass.dll</h6>
+  <h5 id="Steamworks_SteamMatchmaking_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class SteamMatchmaking</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_AddFavoriteGame_" data-uid="Steamworks.SteamMatchmaking.AddFavoriteGame*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_AddFavoriteGame_Steamworks_AppId_t_System_UInt32_System_UInt16_System_UInt16_System_UInt32_System_UInt32_" data-uid="Steamworks.SteamMatchmaking.AddFavoriteGame(Steamworks.AppId_t,System.UInt32,System.UInt16,System.UInt16,System.UInt32,System.UInt32)">AddFavoriteGame(AppId_t, UInt32, UInt16, UInt16, UInt32, UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int AddFavoriteGame(AppId_t nAppID, uint nIP, ushort nConnPort, ushort nQueryPort, uint unFlags, uint rTime32LastPlayedOnServer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.AppId_t.html">AppId_t</a></td>
+        <td><span class="parametername">nAppID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">nIP</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">nConnPort</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">nQueryPort</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">unFlags</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">rTime32LastPlayedOnServer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_AddRequestLobbyListCompatibleMembersFilter_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListCompatibleMembersFilter*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_AddRequestLobbyListCompatibleMembersFilter_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListCompatibleMembersFilter(Steamworks.CSteamID)">AddRequestLobbyListCompatibleMembersFilter(CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddRequestLobbyListCompatibleMembersFilter(CSteamID steamIDLobby)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_AddRequestLobbyListDistanceFilter_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListDistanceFilter*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_AddRequestLobbyListDistanceFilter_Steamworks_ELobbyDistanceFilter_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListDistanceFilter(Steamworks.ELobbyDistanceFilter)">AddRequestLobbyListDistanceFilter(ELobbyDistanceFilter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddRequestLobbyListDistanceFilter(ELobbyDistanceFilter eLobbyDistanceFilter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.ELobbyDistanceFilter.html">ELobbyDistanceFilter</a></td>
+        <td><span class="parametername">eLobbyDistanceFilter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_AddRequestLobbyListFilterSlotsAvailable_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListFilterSlotsAvailable*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_AddRequestLobbyListFilterSlotsAvailable_System_Int32_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListFilterSlotsAvailable(System.Int32)">AddRequestLobbyListFilterSlotsAvailable(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddRequestLobbyListFilterSlotsAvailable(int nSlotsAvailable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">nSlotsAvailable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_AddRequestLobbyListNearValueFilter_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListNearValueFilter*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_AddRequestLobbyListNearValueFilter_System_String_System_Int32_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListNearValueFilter(System.String,System.Int32)">AddRequestLobbyListNearValueFilter(String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddRequestLobbyListNearValueFilter(string pchKeyToMatch, int nValueToBeCloseTo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchKeyToMatch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">nValueToBeCloseTo</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_AddRequestLobbyListNumericalFilter_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListNumericalFilter*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_AddRequestLobbyListNumericalFilter_System_String_System_Int32_Steamworks_ELobbyComparison_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListNumericalFilter(System.String,System.Int32,Steamworks.ELobbyComparison)">AddRequestLobbyListNumericalFilter(String, Int32, ELobbyComparison)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddRequestLobbyListNumericalFilter(string pchKeyToMatch, int nValueToMatch, ELobbyComparison eComparisonType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchKeyToMatch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">nValueToMatch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.ELobbyComparison.html">ELobbyComparison</a></td>
+        <td><span class="parametername">eComparisonType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_AddRequestLobbyListResultCountFilter_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListResultCountFilter*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_AddRequestLobbyListResultCountFilter_System_Int32_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListResultCountFilter(System.Int32)">AddRequestLobbyListResultCountFilter(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddRequestLobbyListResultCountFilter(int cMaxResults)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cMaxResults</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_AddRequestLobbyListStringFilter_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListStringFilter*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_AddRequestLobbyListStringFilter_System_String_System_String_Steamworks_ELobbyComparison_" data-uid="Steamworks.SteamMatchmaking.AddRequestLobbyListStringFilter(System.String,System.String,Steamworks.ELobbyComparison)">AddRequestLobbyListStringFilter(String, String, ELobbyComparison)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddRequestLobbyListStringFilter(string pchKeyToMatch, string pchValueToMatch, ELobbyComparison eComparisonType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchKeyToMatch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchValueToMatch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.ELobbyComparison.html">ELobbyComparison</a></td>
+        <td><span class="parametername">eComparisonType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_CreateLobby_" data-uid="Steamworks.SteamMatchmaking.CreateLobby*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_CreateLobby_Steamworks_ELobbyType_System_Int32_" data-uid="Steamworks.SteamMatchmaking.CreateLobby(Steamworks.ELobbyType,System.Int32)">CreateLobby(ELobbyType, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SteamAPICall_t CreateLobby(ELobbyType eLobbyType, int cMaxMembers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.ELobbyType.html">ELobbyType</a></td>
+        <td><span class="parametername">eLobbyType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cMaxMembers</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.SteamAPICall_t.html">SteamAPICall_t</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_DeleteLobbyData_" data-uid="Steamworks.SteamMatchmaking.DeleteLobbyData*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_DeleteLobbyData_Steamworks_CSteamID_System_String_" data-uid="Steamworks.SteamMatchmaking.DeleteLobbyData(Steamworks.CSteamID,System.String)">DeleteLobbyData(CSteamID, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DeleteLobbyData(CSteamID steamIDLobby, string pchKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetFavoriteGame_" data-uid="Steamworks.SteamMatchmaking.GetFavoriteGame*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetFavoriteGame_System_Int32_Steamworks_AppId_t__System_UInt32__System_UInt16__System_UInt16__System_UInt32__System_UInt32__" data-uid="Steamworks.SteamMatchmaking.GetFavoriteGame(System.Int32,Steamworks.AppId_t@,System.UInt32@,System.UInt16@,System.UInt16@,System.UInt32@,System.UInt32@)">GetFavoriteGame(Int32, out AppId_t, out UInt32, out UInt16, out UInt16, out UInt32, out UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetFavoriteGame(int iGame, out AppId_t pnAppID, out uint pnIP, out ushort pnConnPort, out ushort pnQueryPort, out uint punFlags, out uint pRTime32LastPlayedOnServer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iGame</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.AppId_t.html">AppId_t</a></td>
+        <td><span class="parametername">pnAppID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">pnIP</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">pnConnPort</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">pnQueryPort</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">punFlags</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">pRTime32LastPlayedOnServer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetFavoriteGameCount_" data-uid="Steamworks.SteamMatchmaking.GetFavoriteGameCount*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetFavoriteGameCount" data-uid="Steamworks.SteamMatchmaking.GetFavoriteGameCount">GetFavoriteGameCount()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetFavoriteGameCount()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetLobbyByIndex_" data-uid="Steamworks.SteamMatchmaking.GetLobbyByIndex*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetLobbyByIndex_System_Int32_" data-uid="Steamworks.SteamMatchmaking.GetLobbyByIndex(System.Int32)">GetLobbyByIndex(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CSteamID GetLobbyByIndex(int iLobby)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iLobby</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetLobbyChatEntry_" data-uid="Steamworks.SteamMatchmaking.GetLobbyChatEntry*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetLobbyChatEntry_Steamworks_CSteamID_System_Int32_Steamworks_CSteamID__System_Byte___System_Int32_Steamworks_EChatEntryType__" data-uid="Steamworks.SteamMatchmaking.GetLobbyChatEntry(Steamworks.CSteamID,System.Int32,Steamworks.CSteamID@,System.Byte[],System.Int32,Steamworks.EChatEntryType@)">GetLobbyChatEntry(CSteamID, Int32, out CSteamID, Byte[], Int32, out EChatEntryType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetLobbyChatEntry(CSteamID steamIDLobby, int iChatID, out CSteamID pSteamIDUser, byte[] pvData, int cubData, out EChatEntryType peChatEntryType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iChatID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">pSteamIDUser</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">pvData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cubData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.EChatEntryType.html">EChatEntryType</a></td>
+        <td><span class="parametername">peChatEntryType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetLobbyData_" data-uid="Steamworks.SteamMatchmaking.GetLobbyData*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetLobbyData_Steamworks_CSteamID_System_String_" data-uid="Steamworks.SteamMatchmaking.GetLobbyData(Steamworks.CSteamID,System.String)">GetLobbyData(CSteamID, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetLobbyData(CSteamID steamIDLobby, string pchKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetLobbyDataByIndex_" data-uid="Steamworks.SteamMatchmaking.GetLobbyDataByIndex*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetLobbyDataByIndex_Steamworks_CSteamID_System_Int32_System_String__System_Int32_System_String__System_Int32_" data-uid="Steamworks.SteamMatchmaking.GetLobbyDataByIndex(Steamworks.CSteamID,System.Int32,System.String@,System.Int32,System.String@,System.Int32)">GetLobbyDataByIndex(CSteamID, Int32, out String, Int32, out String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetLobbyDataByIndex(CSteamID steamIDLobby, int iLobbyData, out string pchKey, int cchKeyBufferSize, out string pchValue, int cchValueBufferSize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iLobbyData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cchKeyBufferSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cchValueBufferSize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetLobbyDataCount_" data-uid="Steamworks.SteamMatchmaking.GetLobbyDataCount*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetLobbyDataCount_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.GetLobbyDataCount(Steamworks.CSteamID)">GetLobbyDataCount(CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetLobbyDataCount(CSteamID steamIDLobby)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetLobbyGameServer_" data-uid="Steamworks.SteamMatchmaking.GetLobbyGameServer*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetLobbyGameServer_Steamworks_CSteamID_System_UInt32__System_UInt16__Steamworks_CSteamID__" data-uid="Steamworks.SteamMatchmaking.GetLobbyGameServer(Steamworks.CSteamID,System.UInt32@,System.UInt16@,Steamworks.CSteamID@)">GetLobbyGameServer(CSteamID, out UInt32, out UInt16, out CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetLobbyGameServer(CSteamID steamIDLobby, out uint punGameServerIP, out ushort punGameServerPort, out CSteamID psteamIDGameServer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">punGameServerIP</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">punGameServerPort</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">psteamIDGameServer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetLobbyMemberByIndex_" data-uid="Steamworks.SteamMatchmaking.GetLobbyMemberByIndex*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetLobbyMemberByIndex_Steamworks_CSteamID_System_Int32_" data-uid="Steamworks.SteamMatchmaking.GetLobbyMemberByIndex(Steamworks.CSteamID,System.Int32)">GetLobbyMemberByIndex(CSteamID, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CSteamID GetLobbyMemberByIndex(CSteamID steamIDLobby, int iMember)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">iMember</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetLobbyMemberData_" data-uid="Steamworks.SteamMatchmaking.GetLobbyMemberData*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetLobbyMemberData_Steamworks_CSteamID_Steamworks_CSteamID_System_String_" data-uid="Steamworks.SteamMatchmaking.GetLobbyMemberData(Steamworks.CSteamID,Steamworks.CSteamID,System.String)">GetLobbyMemberData(CSteamID, CSteamID, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetLobbyMemberData(CSteamID steamIDLobby, CSteamID steamIDUser, string pchKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDUser</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetLobbyMemberLimit_" data-uid="Steamworks.SteamMatchmaking.GetLobbyMemberLimit*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetLobbyMemberLimit_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.GetLobbyMemberLimit(Steamworks.CSteamID)">GetLobbyMemberLimit(CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetLobbyMemberLimit(CSteamID steamIDLobby)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetLobbyOwner_" data-uid="Steamworks.SteamMatchmaking.GetLobbyOwner*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetLobbyOwner_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.GetLobbyOwner(Steamworks.CSteamID)">GetLobbyOwner(CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CSteamID GetLobbyOwner(CSteamID steamIDLobby)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_GetNumLobbyMembers_" data-uid="Steamworks.SteamMatchmaking.GetNumLobbyMembers*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_GetNumLobbyMembers_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.GetNumLobbyMembers(Steamworks.CSteamID)">GetNumLobbyMembers(CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetNumLobbyMembers(CSteamID steamIDLobby)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_InviteUserToLobby_" data-uid="Steamworks.SteamMatchmaking.InviteUserToLobby*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_InviteUserToLobby_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.InviteUserToLobby(Steamworks.CSteamID,Steamworks.CSteamID)">InviteUserToLobby(CSteamID, CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool InviteUserToLobby(CSteamID steamIDLobby, CSteamID steamIDInvitee)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDInvitee</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_JoinLobby_" data-uid="Steamworks.SteamMatchmaking.JoinLobby*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_JoinLobby_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.JoinLobby(Steamworks.CSteamID)">JoinLobby(CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SteamAPICall_t JoinLobby(CSteamID steamIDLobby)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.SteamAPICall_t.html">SteamAPICall_t</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_LeaveLobby_" data-uid="Steamworks.SteamMatchmaking.LeaveLobby*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_LeaveLobby_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.LeaveLobby(Steamworks.CSteamID)">LeaveLobby(CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LeaveLobby(CSteamID steamIDLobby)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_RemoveFavoriteGame_" data-uid="Steamworks.SteamMatchmaking.RemoveFavoriteGame*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_RemoveFavoriteGame_Steamworks_AppId_t_System_UInt32_System_UInt16_System_UInt16_System_UInt32_" data-uid="Steamworks.SteamMatchmaking.RemoveFavoriteGame(Steamworks.AppId_t,System.UInt32,System.UInt16,System.UInt16,System.UInt32)">RemoveFavoriteGame(AppId_t, UInt32, UInt16, UInt16, UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RemoveFavoriteGame(AppId_t nAppID, uint nIP, ushort nConnPort, ushort nQueryPort, uint unFlags)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.AppId_t.html">AppId_t</a></td>
+        <td><span class="parametername">nAppID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">nIP</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">nConnPort</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">nQueryPort</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">unFlags</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_RequestLobbyData_" data-uid="Steamworks.SteamMatchmaking.RequestLobbyData*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_RequestLobbyData_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.RequestLobbyData(Steamworks.CSteamID)">RequestLobbyData(CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool RequestLobbyData(CSteamID steamIDLobby)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_RequestLobbyList_" data-uid="Steamworks.SteamMatchmaking.RequestLobbyList*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_RequestLobbyList" data-uid="Steamworks.SteamMatchmaking.RequestLobbyList">RequestLobbyList()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SteamAPICall_t RequestLobbyList()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.SteamAPICall_t.html">SteamAPICall_t</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_SendLobbyChatMsg_" data-uid="Steamworks.SteamMatchmaking.SendLobbyChatMsg*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_SendLobbyChatMsg_Steamworks_CSteamID_System_Byte___System_Int32_" data-uid="Steamworks.SteamMatchmaking.SendLobbyChatMsg(Steamworks.CSteamID,System.Byte[],System.Int32)">SendLobbyChatMsg(CSteamID, Byte[], Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SendLobbyChatMsg(CSteamID steamIDLobby, byte[] pvMsgBody, int cubMsgBody)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">pvMsgBody</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cubMsgBody</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_SetLinkedLobby_" data-uid="Steamworks.SteamMatchmaking.SetLinkedLobby*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_SetLinkedLobby_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.SetLinkedLobby(Steamworks.CSteamID,Steamworks.CSteamID)">SetLinkedLobby(CSteamID, CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetLinkedLobby(CSteamID steamIDLobby, CSteamID steamIDLobbyDependent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobbyDependent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_SetLobbyData_" data-uid="Steamworks.SteamMatchmaking.SetLobbyData*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_SetLobbyData_Steamworks_CSteamID_System_String_System_String_" data-uid="Steamworks.SteamMatchmaking.SetLobbyData(Steamworks.CSteamID,System.String,System.String)">SetLobbyData(CSteamID, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetLobbyData(CSteamID steamIDLobby, string pchKey, string pchValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_SetLobbyGameServer_" data-uid="Steamworks.SteamMatchmaking.SetLobbyGameServer*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_SetLobbyGameServer_Steamworks_CSteamID_System_UInt32_System_UInt16_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.SetLobbyGameServer(Steamworks.CSteamID,System.UInt32,System.UInt16,Steamworks.CSteamID)">SetLobbyGameServer(CSteamID, UInt32, UInt16, CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLobbyGameServer(CSteamID steamIDLobby, uint unGameServerIP, ushort unGameServerPort, CSteamID steamIDGameServer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">unGameServerIP</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">unGameServerPort</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDGameServer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_SetLobbyJoinable_" data-uid="Steamworks.SteamMatchmaking.SetLobbyJoinable*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_SetLobbyJoinable_Steamworks_CSteamID_System_Boolean_" data-uid="Steamworks.SteamMatchmaking.SetLobbyJoinable(Steamworks.CSteamID,System.Boolean)">SetLobbyJoinable(CSteamID, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetLobbyJoinable(CSteamID steamIDLobby, bool bLobbyJoinable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bLobbyJoinable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_SetLobbyMemberData_" data-uid="Steamworks.SteamMatchmaking.SetLobbyMemberData*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_SetLobbyMemberData_Steamworks_CSteamID_System_String_System_String_" data-uid="Steamworks.SteamMatchmaking.SetLobbyMemberData(Steamworks.CSteamID,System.String,System.String)">SetLobbyMemberData(CSteamID, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLobbyMemberData(CSteamID steamIDLobby, string pchKey, string pchValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pchValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_SetLobbyMemberLimit_" data-uid="Steamworks.SteamMatchmaking.SetLobbyMemberLimit*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_SetLobbyMemberLimit_Steamworks_CSteamID_System_Int32_" data-uid="Steamworks.SteamMatchmaking.SetLobbyMemberLimit(Steamworks.CSteamID,System.Int32)">SetLobbyMemberLimit(CSteamID, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetLobbyMemberLimit(CSteamID steamIDLobby, int cMaxMembers)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cMaxMembers</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_SetLobbyOwner_" data-uid="Steamworks.SteamMatchmaking.SetLobbyOwner*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_SetLobbyOwner_Steamworks_CSteamID_Steamworks_CSteamID_" data-uid="Steamworks.SteamMatchmaking.SetLobbyOwner(Steamworks.CSteamID,Steamworks.CSteamID)">SetLobbyOwner(CSteamID, CSteamID)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetLobbyOwner(CSteamID steamIDLobby, CSteamID steamIDNewOwner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDNewOwner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Steamworks_SteamMatchmaking_SetLobbyType_" data-uid="Steamworks.SteamMatchmaking.SetLobbyType*"></a>
+  <h4 id="Steamworks_SteamMatchmaking_SetLobbyType_Steamworks_CSteamID_Steamworks_ELobbyType_" data-uid="Steamworks.SteamMatchmaking.SetLobbyType(Steamworks.CSteamID,Steamworks.ELobbyType)">SetLobbyType(CSteamID, ELobbyType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetLobbyType(CSteamID steamIDLobby, ELobbyType eLobbyType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Steamworks.CSteamID.html">CSteamID</a></td>
+        <td><span class="parametername">steamIDLobby</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Steamworks.ELobbyType.html">ELobbyType</a></td>
+        <td><span class="parametername">eLobbyType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1086 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ClipmapStreamer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ClipmapStreamer
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer">
+  
+  
+  <h1 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer" class="text-break">Class ClipmapStreamer
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ClipmapStreamer</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IListener.html">BatchOctreesStreamer.IListener</a></div>
+    <div><a class="xref" href="AssemblyCSharp.WorldStreaming.IStreamer.html">IStreamer</a></div>
+    <div><a class="xref" href="AssemblyCSharp.WorldStreaming.IPipeline.html">IPipeline</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.WorldStreaming.html">AssemblyCSharp.WorldStreaming</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ClipmapStreamer : BatchOctreesStreamer.IListener, IStreamer, IPipeline</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer__ctor_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.#ctor*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer__ctor_AssemblyCSharp_WorldStreaming_WorldStreamer_AssemblyCSharp_WorldStreaming_ClipmapVisibilityUpdater_UWE_IThread_UWE_IThread_UWE_IThread_UWE_IThread_AssemblyCSharp_ClipMapManager_Settings_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.#ctor(AssemblyCSharp.WorldStreaming.WorldStreamer,AssemblyCSharp.WorldStreaming.ClipmapVisibilityUpdater,UWE.IThread,UWE.IThread,UWE.IThread,UWE.IThread,AssemblyCSharp.ClipMapManager.Settings)">ClipmapStreamer(WorldStreamer, ClipmapVisibilityUpdater, IThread, IThread, IThread, IThread, ClipMapManager.Settings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ClipmapStreamer(WorldStreamer host, ClipmapVisibilityUpdater visibilityUpdater, IThread streamingThread, IThread buildLayersThread, IThread toggleChunksThread, IThread destroyChunksThread, ClipMapManager.Settings settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.WorldStreamer.html">WorldStreamer</a></td>
+        <td><span class="parametername">host</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.ClipmapVisibilityUpdater.html">ClipmapVisibilityUpdater</a></td>
+        <td><span class="parametername">visibilityUpdater</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.IThread.html">IThread</a></td>
+        <td><span class="parametername">streamingThread</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.IThread.html">IThread</a></td>
+        <td><span class="parametername">buildLayersThread</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.IThread.html">IThread</a></td>
+        <td><span class="parametername">toggleChunksThread</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.IThread.html">IThread</a></td>
+        <td><span class="parametername">destroyChunksThread</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ClipMapManager.Settings.html">ClipMapManager.Settings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_buildLayersThread" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.buildLayersThread">buildLayersThread</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly IThread buildLayersThread</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.IThread.html">IThread</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_destroyChunksThread" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.destroyChunksThread">destroyChunksThread</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly IThread destroyChunksThread</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.IThread.html">IThread</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_host" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.host">host</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly WorldStreamer host</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.WorldStreamer.html">WorldStreamer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_meshBuilderPool" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.meshBuilderPool">meshBuilderPool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly BoundedObjectPool&lt;MeshBuilder&gt; meshBuilderPool</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.BoundedObjectPool-1.html">BoundedObjectPool</a>&lt;<a class="xref" href="AssemblyCSharp.WorldStreaming.MeshBuilder.html">MeshBuilder</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_meshingThreads" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.meshingThreads">meshingThreads</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly ThreadPool meshingThreads</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.ThreadPool.html">ThreadPool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_settings" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.settings">settings</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly ClipMapManager.Settings settings</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ClipMapManager.Settings.html">ClipMapManager.Settings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_streamingThread" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.streamingThread">streamingThread</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly IThread streamingThread</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.IThread.html">IThread</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_toggleChunksThread" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.toggleChunksThread">toggleChunksThread</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly IThread toggleChunksThread</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.IThread.html">IThread</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_DeregisterListener_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.DeregisterListener*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_DeregisterListener_AssemblyCSharp_ClipMapManager_IClipMapEventHandler_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.DeregisterListener(AssemblyCSharp.ClipMapManager.IClipMapEventHandler)">DeregisterListener(ClipMapManager.IClipMapEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeregisterListener(ClipMapManager.IClipMapEventHandler listener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ClipMapManager.IClipMapEventHandler.html">ClipMapManager.IClipMapEventHandler</a></td>
+        <td><span class="parametername">listener</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_DrawGizmos_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.DrawGizmos*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_DrawGizmos" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.DrawGizmos">DrawGizmos()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawGizmos()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_EnqueueForLoading_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.EnqueueForLoading*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_EnqueueForLoading_AssemblyCSharp_WorldStreaming_ClipmapCell_System_Int32_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.EnqueueForLoading(AssemblyCSharp.WorldStreaming.ClipmapCell,System.Int32)">EnqueueForLoading(ClipmapCell, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnqueueForLoading(ClipmapCell cell, int priority)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.ClipmapCell.html">ClipmapCell</a></td>
+        <td><span class="parametername">cell</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_EnqueueForUnloading_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.EnqueueForUnloading*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_EnqueueForUnloading_AssemblyCSharp_WorldStreaming_ClipmapCell_System_Int32_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.EnqueueForUnloading(AssemblyCSharp.WorldStreaming.ClipmapCell,System.Int32)">EnqueueForUnloading(ClipmapCell, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnqueueForUnloading(ClipmapCell cell, int priority)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.ClipmapCell.html">ClipmapCell</a></td>
+        <td><span class="parametername">cell</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">priority</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_GetLevel_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.GetLevel*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_GetLevel_System_Int32_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.GetLevel(System.Int32)">GetLevel(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ClipmapLevel GetLevel(int levelId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">levelId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.ClipmapLevel.html">ClipmapLevel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_GetQueueLength_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.GetQueueLength*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_GetQueueLength" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.GetQueueLength">GetQueueLength()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetQueueLength()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_IsIdle_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.IsIdle*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_IsIdle" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.IsIdle">IsIdle()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsIdle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_IsProcessing_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.IsProcessing*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_IsProcessing_AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_Int3_Bounds_System_Int32_System_Int32_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.IsProcessing(AssemblyCSharp.WorldStreaming.BatchOctreesStreamer,Int3.Bounds,System.Int32,System.Int32)">IsProcessing(BatchOctreesStreamer, Int3.Bounds, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsProcessing(BatchOctreesStreamer streamer, Int3.Bounds blockRange, int minLod, int maxLod)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.html">BatchOctreesStreamer</a></td>
+        <td><span class="parametername">streamer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">blockRange</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">minLod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxLod</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_IsRangeActiveAndBuilt_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.IsRangeActiveAndBuilt*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_IsRangeActiveAndBuilt_Int3_Bounds_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.IsRangeActiveAndBuilt(Int3.Bounds)">IsRangeActiveAndBuilt(Int3.Bounds)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRangeActiveAndBuilt(Int3.Bounds blockRange)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">blockRange</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_IsRunning_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.IsRunning*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_IsRunning" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.IsRunning">IsRunning()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRunning()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_NotifyListeners_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.NotifyListeners*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_NotifyListeners_Int3_Bounds_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.NotifyListeners(Int3.Bounds)">NotifyListeners(Int3.Bounds)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NotifyListeners(Int3.Bounds blockRange)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">blockRange</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_OnCellLoaded_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.OnCellLoaded*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_OnCellLoaded_AssemblyCSharp_WorldStreaming_ClipmapLevel_Int3_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.OnCellLoaded(AssemblyCSharp.WorldStreaming.ClipmapLevel,Int3)">OnCellLoaded(ClipmapLevel, Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnCellLoaded(ClipmapLevel level, Int3 cell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.ClipmapLevel.html">ClipmapLevel</a></td>
+        <td><span class="parametername">level</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">cell</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_OnCellUnloaded_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.OnCellUnloaded*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_OnCellUnloaded_AssemblyCSharp_WorldStreaming_ClipmapLevel_Int3_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.OnCellUnloaded(AssemblyCSharp.WorldStreaming.ClipmapLevel,Int3)">OnCellUnloaded(ClipmapLevel, Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnCellUnloaded(ClipmapLevel level, Int3 cellId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.ClipmapLevel.html">ClipmapLevel</a></td>
+        <td><span class="parametername">level</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">cellId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_OnGUI_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.OnGUI*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_OnGUI" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.OnGUI">OnGUI()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnGUI()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_OnRangeLoaded_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.OnRangeLoaded*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_OnRangeLoaded_AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_Int3_Bounds_System_Int32_System_Int32_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.OnRangeLoaded(AssemblyCSharp.WorldStreaming.BatchOctreesStreamer,Int3.Bounds,System.Int32,System.Int32)">OnRangeLoaded(BatchOctreesStreamer, Int3.Bounds, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRangeLoaded(BatchOctreesStreamer streamer, Int3.Bounds blockRange, int minLod, int maxLod)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.html">BatchOctreesStreamer</a></td>
+        <td><span class="parametername">streamer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">blockRange</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">minLod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxLod</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_OnRangeUnloaded_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.OnRangeUnloaded*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_OnRangeUnloaded_AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_Int3_Bounds_System_Int32_System_Int32_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.OnRangeUnloaded(AssemblyCSharp.WorldStreaming.BatchOctreesStreamer,Int3.Bounds,System.Int32,System.Int32)">OnRangeUnloaded(BatchOctreesStreamer, Int3.Bounds, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRangeUnloaded(BatchOctreesStreamer streamer, Int3.Bounds blockRange, int minLod, int maxLod)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.html">BatchOctreesStreamer</a></td>
+        <td><span class="parametername">streamer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">blockRange</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">minLod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxLod</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_ProcessLoadingQueue_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.ProcessLoadingQueue*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_ProcessLoadingQueue" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.ProcessLoadingQueue">ProcessLoadingQueue()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ProcessLoadingQueue()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_ProcessQueues_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.ProcessQueues*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_ProcessQueues" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.ProcessQueues">ProcessQueues()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ProcessQueues()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_ProcessUnloadingQueue_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.ProcessUnloadingQueue*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_ProcessUnloadingQueue" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.ProcessUnloadingQueue">ProcessUnloadingQueue()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ProcessUnloadingQueue()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_RegisterListener_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.RegisterListener*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_RegisterListener_AssemblyCSharp_ClipMapManager_IClipMapEventHandler_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.RegisterListener(AssemblyCSharp.ClipMapManager.IClipMapEventHandler)">RegisterListener(ClipMapManager.IClipMapEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterListener(ClipMapManager.IClipMapEventHandler listener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ClipMapManager.IClipMapEventHandler.html">ClipMapManager.IClipMapEventHandler</a></td>
+        <td><span class="parametername">listener</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_Stop_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.Stop*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_Stop" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.Stop">Stop()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_Unload_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.Unload*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_Unload" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.Unload">Unload()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Unload()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_UpdateCenter_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.UpdateCenter*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_ClipmapStreamer_UpdateCenter_Int3_" data-uid="AssemblyCSharp.WorldStreaming.ClipmapStreamer.UpdateCenter(Int3)">UpdateCenter(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateCenter(Int3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IListener.html">BatchOctreesStreamer.IListener</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.WorldStreaming.IStreamer.html">IStreamer</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.WorldStreaming.IPipeline.html">IPipeline</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

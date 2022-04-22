@@ -1,0 +1,968 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BatchOctreesStreamer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BatchOctreesStreamer
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer">
+  
+  
+  <h1 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer" class="text-break">Class BatchOctreesStreamer
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BatchOctreesStreamer</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AssemblyCSharp.WorldStreaming.IStreamer.html">IStreamer</a></div>
+    <div><a class="xref" href="AssemblyCSharp.WorldStreaming.IPipeline.html">IPipeline</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.WorldStreaming.html">AssemblyCSharp.WorldStreaming</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class BatchOctreesStreamer : IStreamer, IPipeline</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer__ctor_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.#ctor*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer__ctor_UWE_IThread_Int3_Bounds_System_Int32_System_Int32_System_Int32_System_Int32_System_String_AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_Settings_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.#ctor(UWE.IThread,Int3.Bounds,System.Int32,System.Int32,System.Int32,System.Int32,System.String,AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.Settings)">BatchOctreesStreamer(IThread, Int3.Bounds, Int32, Int32, Int32, Int32, String, BatchOctreesStreamer.Settings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BatchOctreesStreamer(IThread streamingThread, Int3.Bounds octreeBounds, int minLod, int maxLod, int batchSize, int numOctreesPerBatch, string path, BatchOctreesStreamer.Settings settings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.IThread.html">IThread</a></td>
+        <td><span class="parametername">streamingThread</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">octreeBounds</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">minLod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxLod</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">batchSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">numOctreesPerBatch</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.Settings.html">BatchOctreesStreamer.Settings</a></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_batchSize" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.batchSize">batchSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly int batchSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_ioThread" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.ioThread">ioThread</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly WorkerThread ioThread</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.WorkerThread.html">WorkerThread</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_maxLod" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.maxLod">maxLod</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly int maxLod</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_minLod" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.minLod">minLod</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly int minLod</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_octreeBounds" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.octreeBounds">octreeBounds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Int3.Bounds octreeBounds</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_streamingThread" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.streamingThread">streamingThread</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly IThread streamingThread</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.IThread.html">IThread</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_DeregisterListener_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.DeregisterListener*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_DeregisterListener_AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_IListener_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.DeregisterListener(AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IListener)">DeregisterListener(BatchOctreesStreamer.IListener)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeregisterListener(BatchOctreesStreamer.IListener listener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IListener.html">BatchOctreesStreamer.IListener</a></td>
+        <td><span class="parametername">listener</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_DrawGizmos_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.DrawGizmos*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_DrawGizmos_System_Single_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.DrawGizmos(System.Single)">DrawGizmos(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DrawGizmos(float alpha)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">alpha</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_EnqueueForLoading_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.EnqueueForLoading*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_EnqueueForLoading_AssemblyCSharp_WorldStreaming_BatchOctrees_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.EnqueueForLoading(AssemblyCSharp.WorldStreaming.BatchOctrees)">EnqueueForLoading(BatchOctrees)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnqueueForLoading(BatchOctrees batch)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctrees.html">BatchOctrees</a></td>
+        <td><span class="parametername">batch</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_EnqueueForUnloading_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.EnqueueForUnloading*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_EnqueueForUnloading_AssemblyCSharp_WorldStreaming_BatchOctrees_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.EnqueueForUnloading(AssemblyCSharp.WorldStreaming.BatchOctrees)">EnqueueForUnloading(BatchOctrees)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnqueueForUnloading(BatchOctrees batch)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctrees.html">BatchOctrees</a></td>
+        <td><span class="parametername">batch</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_GetBatch_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.GetBatch*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_GetBatch_Int3_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.GetBatch(Int3)">GetBatch(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BatchOctrees GetBatch(Int3 id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctrees.html">BatchOctrees</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_GetBlockType_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.GetBlockType*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_GetBlockType_Int3_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.GetBlockType(Int3)">GetBlockType(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte GetBlockType(Int3 block)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">block</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_GetOctree_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.GetOctree*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_GetOctree_Int3_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.GetOctree(Int3)">GetOctree(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Octree GetOctree(Int3 id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.Octree.html">Octree</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_GetPath_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.GetPath*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_GetPath_Int3_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.GetPath(Int3)">GetPath(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetPath(Int3 batchId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">batchId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_GetQueueLength_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.GetQueueLength*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_GetQueueLength" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.GetQueueLength">GetQueueLength()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetQueueLength()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_IsIdle_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IsIdle*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_IsIdle" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IsIdle">IsIdle()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsIdle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_IsRangeLoaded_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IsRangeLoaded*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_IsRangeLoaded_Int3_Bounds_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IsRangeLoaded(Int3.Bounds)">IsRangeLoaded(Int3.Bounds)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRangeLoaded(Int3.Bounds range)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">range</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_IsRunning_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IsRunning*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_IsRunning" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IsRunning">IsRunning()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRunning()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_OnBatchLoaded_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.OnBatchLoaded*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_OnBatchLoaded_Int3_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.OnBatchLoaded(Int3)">OnBatchLoaded(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBatchLoaded(Int3 batchId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">batchId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_OnBatchUnloaded_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.OnBatchUnloaded*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_OnBatchUnloaded_Int3_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.OnBatchUnloaded(Int3)">OnBatchUnloaded(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnBatchUnloaded(Int3 batchId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">batchId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_OnGUI_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.OnGUI*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_OnGUI" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.OnGUI">OnGUI()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnGUI()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_ProcessQueues_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.ProcessQueues*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_ProcessQueues" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.ProcessQueues">ProcessQueues()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ProcessQueues()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_RegisterListener_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.RegisterListener*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_RegisterListener_AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_IListener_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.RegisterListener(AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IListener)">RegisterListener(BatchOctreesStreamer.IListener)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterListener(BatchOctreesStreamer.IListener listener)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.IListener.html">BatchOctreesStreamer.IListener</a></td>
+        <td><span class="parametername">listener</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_Stop_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.Stop*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_Stop" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.Stop">Stop()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Stop()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_ToString_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.ToString*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_ToString" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_Unload_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.Unload*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_Unload" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.Unload">Unload()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Unload()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_UpdateCenter_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.UpdateCenter*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_UpdateCenter_Int3_" data-uid="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.UpdateCenter(Int3)">UpdateCenter(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateCenter(Int3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AssemblyCSharp.WorldStreaming.IStreamer.html">IStreamer</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.WorldStreaming.IPipeline.html">IPipeline</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

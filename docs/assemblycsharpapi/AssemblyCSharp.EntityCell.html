@@ -1,0 +1,1725 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EntityCell
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EntityCell
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.EntityCell">
+  
+  
+  <h1 id="AssemblyCSharp_EntityCell" data-uid="AssemblyCSharp.EntityCell" class="text-break">Class EntityCell
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">EntityCell</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPriorityQueueItem</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.html">AssemblyCSharp</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_EntityCell_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EntityCell : IPriorityQueueItem</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_EntityCell__ctor_" data-uid="AssemblyCSharp.EntityCell.#ctor*"></a>
+  <h4 id="AssemblyCSharp_EntityCell__ctor" data-uid="AssemblyCSharp.EntityCell.#ctor">EntityCell()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityCell()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell__ctor_" data-uid="AssemblyCSharp.EntityCell.#ctor*"></a>
+  <h4 id="AssemblyCSharp_EntityCell__ctor_AssemblyCSharp_CellManager_AssemblyCSharp_LargeWorldStreamer_Int3_Int3_System_Int32_" data-uid="AssemblyCSharp.EntityCell.#ctor(AssemblyCSharp.CellManager,AssemblyCSharp.LargeWorldStreamer,Int3,Int3,System.Int32)">EntityCell(CellManager, LargeWorldStreamer, Int3, Int3, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityCell(CellManager manager, LargeWorldStreamer host, Int3 batchId, Int3 cellId, int level)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.CellManager.html">CellManager</a></td>
+        <td><span class="parametername">manager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldStreamer.html">LargeWorldStreamer</a></td>
+        <td><span class="parametername">host</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">batchId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">cellId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">level</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_EntityCell_liveRoot" data-uid="AssemblyCSharp.EntityCell.liveRoot">liveRoot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject liveRoot</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_BatchId_" data-uid="AssemblyCSharp.EntityCell.BatchId*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_BatchId" data-uid="AssemblyCSharp.EntityCell.BatchId">BatchId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Int3 BatchId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_CellId_" data-uid="AssemblyCSharp.EntityCell.CellId*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_CellId" data-uid="AssemblyCSharp.EntityCell.CellId">CellId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Int3 CellId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_CurrentState_" data-uid="AssemblyCSharp.EntityCell.CurrentState*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_CurrentState" data-uid="AssemblyCSharp.EntityCell.CurrentState">CurrentState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntityCell.State CurrentState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.EntityCell.State.html">EntityCell.State</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_Level_" data-uid="AssemblyCSharp.EntityCell.Level*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_Level" data-uid="AssemblyCSharp.EntityCell.Level">Level</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Level { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_numPriorityChanges_" data-uid="AssemblyCSharp.EntityCell.numPriorityChanges*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_numPriorityChanges" data-uid="AssemblyCSharp.EntityCell.numPriorityChanges">numPriorityChanges</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numPriorityChanges { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_priority_" data-uid="AssemblyCSharp.EntityCell.priority*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_priority" data-uid="AssemblyCSharp.EntityCell.priority">priority</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float priority { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_AddEntity_" data-uid="AssemblyCSharp.EntityCell.AddEntity*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_AddEntity_AssemblyCSharp_LargeWorldEntity_" data-uid="AssemblyCSharp.EntityCell.AddEntity(AssemblyCSharp.LargeWorldEntity)">AddEntity(LargeWorldEntity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddEntity(LargeWorldEntity ent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldEntity.html">LargeWorldEntity</a></td>
+        <td><span class="parametername">ent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_Awake_" data-uid="AssemblyCSharp.EntityCell.Awake*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_Awake_AssemblyCSharp_ProtobufSerializer_" data-uid="AssemblyCSharp.EntityCell.Awake(AssemblyCSharp.ProtobufSerializer)">Awake(ProtobufSerializer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Awake(ProtobufSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_BeginLoad_" data-uid="AssemblyCSharp.EntityCell.BeginLoad*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_BeginLoad" data-uid="AssemblyCSharp.EntityCell.BeginLoad">BeginLoad()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BeginLoad()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_ClearTempSerialData_" data-uid="AssemblyCSharp.EntityCell.ClearTempSerialData*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_ClearTempSerialData" data-uid="AssemblyCSharp.EntityCell.ClearTempSerialData">ClearTempSerialData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearTempSerialData()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_CollectEntities_" data-uid="AssemblyCSharp.EntityCell.CollectEntities*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_CollectEntities_System_Func_UniqueIdentifier_System_Boolean__" data-uid="AssemblyCSharp.EntityCell.CollectEntities(System.Func{UniqueIdentifier,System.Boolean})">CollectEntities(Func&lt;UniqueIdentifier, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;UniqueIdentifier&gt; CollectEntities(Func&lt;UniqueIdentifier, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">UniqueIdentifier</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">UniqueIdentifier</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_ContainsEntity_" data-uid="AssemblyCSharp.EntityCell.ContainsEntity*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_ContainsEntity_System_Func_UniqueIdentifier_System_Boolean__" data-uid="AssemblyCSharp.EntityCell.ContainsEntity(System.Func{UniqueIdentifier,System.Boolean})">ContainsEntity(Func&lt;UniqueIdentifier, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsEntity(Func&lt;UniqueIdentifier, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">UniqueIdentifier</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_Cycle_" data-uid="AssemblyCSharp.EntityCell.Cycle*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_Cycle_AssemblyCSharp_ProtobufSerializer_" data-uid="AssemblyCSharp.EntityCell.Cycle(AssemblyCSharp.ProtobufSerializer)">Cycle(ProtobufSerializer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Cycle(ProtobufSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_DestroyTileInstanceEntities_" data-uid="AssemblyCSharp.EntityCell.DestroyTileInstanceEntities*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_DestroyTileInstanceEntities" data-uid="AssemblyCSharp.EntityCell.DestroyTileInstanceEntities">DestroyTileInstanceEntities()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DestroyTileInstanceEntities()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_EndLoad_" data-uid="AssemblyCSharp.EntityCell.EndLoad*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_EndLoad" data-uid="AssemblyCSharp.EntityCell.EndLoad">EndLoad()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EndLoad()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_EnsureAwake_" data-uid="AssemblyCSharp.EntityCell.EnsureAwake*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_EnsureAwake_AssemblyCSharp_ProtobufSerializer_" data-uid="AssemblyCSharp.EntityCell.EnsureAwake(AssemblyCSharp.ProtobufSerializer)">EnsureAwake(ProtobufSerializer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnsureAwake(ProtobufSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_EnsureRoot_" data-uid="AssemblyCSharp.EntityCell.EnsureRoot*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_EnsureRoot" data-uid="AssemblyCSharp.EntityCell.EnsureRoot">EnsureRoot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnsureRoot()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_EnsureSerialDataSerialized_" data-uid="AssemblyCSharp.EntityCell.EnsureSerialDataSerialized*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_EnsureSerialDataSerialized_AssemblyCSharp_ProtobufSerializer_" data-uid="AssemblyCSharp.EntityCell.EnsureSerialDataSerialized(AssemblyCSharp.ProtobufSerializer)">EnsureSerialDataSerialized(ProtobufSerializer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator EnsureSerialDataSerialized(ProtobufSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_EnsureSleepAsync_" data-uid="AssemblyCSharp.EntityCell.EnsureSleepAsync*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_EnsureSleepAsync_AssemblyCSharp_ProtobufSerializer_" data-uid="AssemblyCSharp.EntityCell.EnsureSleepAsync(AssemblyCSharp.ProtobufSerializer)">EnsureSleepAsync(ProtobufSerializer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator EnsureSleepAsync(ProtobufSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_EnsureWaiterDataSerialized_" data-uid="AssemblyCSharp.EntityCell.EnsureWaiterDataSerialized*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_EnsureWaiterDataSerialized_AssemblyCSharp_ProtobufSerializer_" data-uid="AssemblyCSharp.EntityCell.EnsureWaiterDataSerialized(AssemblyCSharp.ProtobufSerializer)">EnsureWaiterDataSerialized(ProtobufSerializer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator EnsureWaiterDataSerialized(ProtobufSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_EstimateBytes_" data-uid="AssemblyCSharp.EntityCell.EstimateBytes*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_EstimateBytes" data-uid="AssemblyCSharp.EntityCell.EstimateBytes">EstimateBytes()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EstimateBytes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_GetBlockBounds_" data-uid="AssemblyCSharp.EntityCell.GetBlockBounds*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_GetBlockBounds" data-uid="AssemblyCSharp.EntityCell.GetBlockBounds">GetBlockBounds()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Int3.Bounds GetBlockBounds()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_GetCellRootPosition_" data-uid="AssemblyCSharp.EntityCell.GetCellRootPosition*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_GetCellRootPosition" data-uid="AssemblyCSharp.EntityCell.GetCellRootPosition">GetCellRootPosition()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetCellRootPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_GetCenter_" data-uid="AssemblyCSharp.EntityCell.GetCenter*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_GetCenter" data-uid="AssemblyCSharp.EntityCell.GetCenter">GetCenter()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetCenter()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_GetCenter_" data-uid="AssemblyCSharp.EntityCell.GetCenter*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_GetCenter_Int3_Bounds_" data-uid="AssemblyCSharp.EntityCell.GetCenter(Int3.Bounds)">GetCenter(Int3.Bounds)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetCenter(Int3.Bounds blockBounds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">blockBounds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_GetFromPool_" data-uid="AssemblyCSharp.EntityCell.GetFromPool*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_GetFromPool_AssemblyCSharp_CellManager_AssemblyCSharp_LargeWorldStreamer_Int3_Int3_System_Int32_" data-uid="AssemblyCSharp.EntityCell.GetFromPool(AssemblyCSharp.CellManager,AssemblyCSharp.LargeWorldStreamer,Int3,Int3,System.Int32)">GetFromPool(CellManager, LargeWorldStreamer, Int3, Int3, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static EntityCell GetFromPool(CellManager manager, LargeWorldStreamer host, Int3 batchId, Int3 cellId, int level)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.CellManager.html">CellManager</a></td>
+        <td><span class="parametername">manager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldStreamer.html">LargeWorldStreamer</a></td>
+        <td><span class="parametername">host</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">batchId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">cellId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">level</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.EntityCell.html">EntityCell</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_GetLegacyData_" data-uid="AssemblyCSharp.EntityCell.GetLegacyData*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_GetLegacyData" data-uid="AssemblyCSharp.EntityCell.GetLegacyData">GetLegacyData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SerialData GetLegacyData()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.SerialData.html">SerialData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_GetPriority_" data-uid="AssemblyCSharp.EntityCell.GetPriority*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_GetPriority" data-uid="AssemblyCSharp.EntityCell.GetPriority">GetPriority()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetPriority()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_GetSerialData_" data-uid="AssemblyCSharp.EntityCell.GetSerialData*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_GetSerialData" data-uid="AssemblyCSharp.EntityCell.GetSerialData">GetSerialData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SerialData GetSerialData()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.SerialData.html">SerialData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_GetSize_" data-uid="AssemblyCSharp.EntityCell.GetSize*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_GetSize" data-uid="AssemblyCSharp.EntityCell.GetSize">GetSize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Int3 GetSize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_GetWaiterData_" data-uid="AssemblyCSharp.EntityCell.GetWaiterData*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_GetWaiterData" data-uid="AssemblyCSharp.EntityCell.GetWaiterData">GetWaiterData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SerialData GetWaiterData()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.SerialData.html">SerialData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_HasData_" data-uid="AssemblyCSharp.EntityCell.HasData*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_HasData" data-uid="AssemblyCSharp.EntityCell.HasData">HasData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasData()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_InitData_" data-uid="AssemblyCSharp.EntityCell.InitData*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_InitData_AssemblyCSharp_CellManager_AssemblyCSharp_LargeWorldStreamer_Int3_Int3_System_Int32_" data-uid="AssemblyCSharp.EntityCell.InitData(AssemblyCSharp.CellManager,AssemblyCSharp.LargeWorldStreamer,Int3,Int3,System.Int32)">InitData(CellManager, LargeWorldStreamer, Int3, Int3, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitData(CellManager manager, LargeWorldStreamer host, Int3 batchId, Int3 cellId, int level)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.CellManager.html">CellManager</a></td>
+        <td><span class="parametername">manager</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldStreamer.html">LargeWorldStreamer</a></td>
+        <td><span class="parametername">host</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">batchId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">cellId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">level</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_Initialize_" data-uid="AssemblyCSharp.EntityCell.Initialize*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_Initialize_AssemblyCSharp_SerialData_AssemblyCSharp_SerialData_AssemblyCSharp_SerialData_" data-uid="AssemblyCSharp.EntityCell.Initialize(AssemblyCSharp.SerialData,AssemblyCSharp.SerialData,AssemblyCSharp.SerialData)">Initialize(SerialData, SerialData, SerialData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(SerialData serialData = null, SerialData legacySerialData = null, SerialData waiterSerialData = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.SerialData.html">SerialData</a></td>
+        <td><span class="parametername">serialData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.SerialData.html">SerialData</a></td>
+        <td><span class="parametername">legacySerialData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.SerialData.html">SerialData</a></td>
+        <td><span class="parametername">waiterSerialData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_IsEmpty_" data-uid="AssemblyCSharp.EntityCell.IsEmpty*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_IsEmpty" data-uid="AssemblyCSharp.EntityCell.IsEmpty">IsEmpty()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEmpty()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_LegacyRead_" data-uid="AssemblyCSharp.EntityCell.LegacyRead*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_LegacyRead_System_IO_BinaryReader_System_Int32_" data-uid="AssemblyCSharp.EntityCell.LegacyRead(System.IO.BinaryReader,System.Int32)">LegacyRead(BinaryReader, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LegacyRead(BinaryReader reader, int version)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.BinaryReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">version</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_LoadPassFromStream_" data-uid="AssemblyCSharp.EntityCell.LoadPassFromStream*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_LoadPassFromStream_System_IO_Stream_AssemblyCSharp_ProtobufSerializer_" data-uid="AssemblyCSharp.EntityCell.LoadPassFromStream(System.IO.Stream,AssemblyCSharp.ProtobufSerializer)">LoadPassFromStream(Stream, ProtobufSerializer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadPassFromStream(Stream stream, ProtobufSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_MoveSerialDataToLegacy_" data-uid="AssemblyCSharp.EntityCell.MoveSerialDataToLegacy*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_MoveSerialDataToLegacy" data-uid="AssemblyCSharp.EntityCell.MoveSerialDataToLegacy">MoveSerialDataToLegacy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveSerialDataToLegacy()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_OnDequeue_" data-uid="AssemblyCSharp.EntityCell.OnDequeue*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_OnDequeue" data-uid="AssemblyCSharp.EntityCell.OnDequeue">OnDequeue()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDequeue()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_OnEnqueue_" data-uid="AssemblyCSharp.EntityCell.OnEnqueue*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_OnEnqueue" data-uid="AssemblyCSharp.EntityCell.OnEnqueue">OnEnqueue()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEnqueue()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_Proceed_" data-uid="AssemblyCSharp.EntityCell.Proceed*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_Proceed_AssemblyCSharp_ProtobufSerializer_" data-uid="AssemblyCSharp.EntityCell.Proceed(AssemblyCSharp.ProtobufSerializer)">Proceed(ProtobufSerializer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator Proceed(ProtobufSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_QueueForAwake_" data-uid="AssemblyCSharp.EntityCell.QueueForAwake*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_QueueForAwake_IQueue_AssemblyCSharp_EntityCell__" data-uid="AssemblyCSharp.EntityCell.QueueForAwake(IQueue{AssemblyCSharp.EntityCell})">QueueForAwake(IQueue&lt;EntityCell&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueueForAwake(IQueue&lt;EntityCell&gt; queue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IQueue</span>&lt;<a class="xref" href="AssemblyCSharp.EntityCell.html">EntityCell</a>&gt;</td>
+        <td><span class="parametername">queue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_QueueForSleep_" data-uid="AssemblyCSharp.EntityCell.QueueForSleep*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_QueueForSleep_IQueue_AssemblyCSharp_EntityCell__" data-uid="AssemblyCSharp.EntityCell.QueueForSleep(IQueue{AssemblyCSharp.EntityCell})">QueueForSleep(IQueue&lt;EntityCell&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueueForSleep(IQueue&lt;EntityCell&gt; queue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IQueue</span>&lt;<a class="xref" href="AssemblyCSharp.EntityCell.html">EntityCell</a>&gt;</td>
+        <td><span class="parametername">queue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_ReadLegacyDataFromStream_" data-uid="AssemblyCSharp.EntityCell.ReadLegacyDataFromStream*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_ReadLegacyDataFromStream_System_IO_Stream_System_Int32_" data-uid="AssemblyCSharp.EntityCell.ReadLegacyDataFromStream(System.IO.Stream,System.Int32)">ReadLegacyDataFromStream(Stream, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadLegacyDataFromStream(Stream stream, int dataLength)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dataLength</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_ReadSerialDataFromStream_" data-uid="AssemblyCSharp.EntityCell.ReadSerialDataFromStream*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_ReadSerialDataFromStream_System_IO_Stream_System_Int32_" data-uid="AssemblyCSharp.EntityCell.ReadSerialDataFromStream(System.IO.Stream,System.Int32)">ReadSerialDataFromStream(Stream, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadSerialDataFromStream(Stream stream, int dataLength)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dataLength</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_ReadWaiterDataFromStream_" data-uid="AssemblyCSharp.EntityCell.ReadWaiterDataFromStream*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_ReadWaiterDataFromStream_System_IO_Stream_System_Int32_" data-uid="AssemblyCSharp.EntityCell.ReadWaiterDataFromStream(System.IO.Stream,System.Int32)">ReadWaiterDataFromStream(Stream, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadWaiterDataFromStream(Stream stream, int dataLength)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dataLength</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_RequestAbort_" data-uid="AssemblyCSharp.EntityCell.RequestAbort*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_RequestAbort" data-uid="AssemblyCSharp.EntityCell.RequestAbort">RequestAbort()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RequestAbort()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_ReregisterEntities_" data-uid="AssemblyCSharp.EntityCell.ReregisterEntities*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_ReregisterEntities" data-uid="AssemblyCSharp.EntityCell.ReregisterEntities">ReregisterEntities()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReregisterEntities()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_Reset_" data-uid="AssemblyCSharp.EntityCell.Reset*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_Reset" data-uid="AssemblyCSharp.EntityCell.Reset">Reset()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_ReturnToPool_" data-uid="AssemblyCSharp.EntityCell.ReturnToPool*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_ReturnToPool_AssemblyCSharp_EntityCell_" data-uid="AssemblyCSharp.EntityCell.ReturnToPool(AssemblyCSharp.EntityCell)">ReturnToPool(EntityCell)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ReturnToPool(EntityCell cell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.EntityCell.html">EntityCell</a></td>
+        <td><span class="parametername">cell</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_SavePassToStream_" data-uid="AssemblyCSharp.EntityCell.SavePassToStream*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_SavePassToStream_System_IO_Stream_AssemblyCSharp_ProtobufSerializer_System_Func_UniqueIdentifier_System_Boolean__" data-uid="AssemblyCSharp.EntityCell.SavePassToStream(System.IO.Stream,AssemblyCSharp.ProtobufSerializer,System.Func{UniqueIdentifier,System.Boolean})">SavePassToStream(Stream, ProtobufSerializer, Func&lt;UniqueIdentifier, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SavePassToStream(Stream stream, ProtobufSerializer serializer, Func&lt;UniqueIdentifier, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">UniqueIdentifier</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_SetRenderersEnabled_" data-uid="AssemblyCSharp.EntityCell.SetRenderersEnabled*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_SetRenderersEnabled_System_Boolean_" data-uid="AssemblyCSharp.EntityCell.SetRenderersEnabled(System.Boolean)">SetRenderersEnabled(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRenderersEnabled(bool val)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">val</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_Sleep_" data-uid="AssemblyCSharp.EntityCell.Sleep*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_Sleep_AssemblyCSharp_ProtobufSerializer_" data-uid="AssemblyCSharp.EntityCell.Sleep(AssemblyCSharp.ProtobufSerializer)">Sleep(ProtobufSerializer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Sleep(ProtobufSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_ToString_" data-uid="AssemblyCSharp.EntityCell.ToString*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_ToString" data-uid="AssemblyCSharp.EntityCell.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  
+  
+  <a id="AssemblyCSharp_EntityCell_UpdatePriority_" data-uid="AssemblyCSharp.EntityCell.UpdatePriority*"></a>
+  <h4 id="AssemblyCSharp_EntityCell_UpdatePriority" data-uid="AssemblyCSharp.EntityCell.UpdatePriority">UpdatePriority()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float UpdatePriority()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPriorityQueueItem</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

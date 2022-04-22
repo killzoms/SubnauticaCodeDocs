@@ -1,0 +1,1152 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MeshBuilder
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MeshBuilder
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder">
+  
+  
+  <h1 id="AssemblyCSharp_WorldStreaming_MeshBuilder" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder" class="text-break">Class MeshBuilder
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MeshBuilder</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IVoxelandChunk</span></div>
+    <div><span class="xref">IVoxelandChunkInfo</span></div>
+    <div><span class="xref">IVoxeland</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.WorldStreaming.html">AssemblyCSharp.WorldStreaming</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_WorldStreaming_MeshBuilder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class MeshBuilder : IVoxelandChunk, IVoxelandChunkInfo, IVoxeland</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_meshBufferPools" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.meshBufferPools">meshBufferPools</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly MeshBufferPools meshBufferPools</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="../assemblyfirstpassapi/UWE.MeshBufferPools.html">MeshBufferPools</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_debugThoroughTopologyChecks_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.debugThoroughTopologyChecks*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_debugThoroughTopologyChecks" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.debugThoroughTopologyChecks">debugThoroughTopologyChecks</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool debugThoroughTopologyChecks { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_DestroyMeshes_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.DestroyMeshes*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_DestroyMeshes_IVoxelandChunk2_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.DestroyMeshes(IVoxelandChunk2)">DestroyMeshes(IVoxelandChunk2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DestroyMeshes(IVoxelandChunk2 chunk)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IVoxelandChunk2</span></td>
+        <td><span class="parametername">chunk</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_DoFinalizePart_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.DoFinalizePart*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_DoFinalizePart_UnityEngine_Transform_AssemblyCSharp_WorldStreaming_ClipmapChunk_UnityEngine_GameObject_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.DoFinalizePart(UnityEngine.Transform,AssemblyCSharp.WorldStreaming.ClipmapChunk,UnityEngine.GameObject)">DoFinalizePart(Transform, ClipmapChunk, GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ClipmapChunk DoFinalizePart(Transform chunkRoot, ClipmapChunk chunkPrefab, GameObject chunkLayerPrefab)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">chunkRoot</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.ClipmapChunk.html">ClipmapChunk</a></td>
+        <td><span class="parametername">chunkPrefab</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">chunkLayerPrefab</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.ClipmapChunk.html">ClipmapChunk</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_DoThreadablePart_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.DoThreadablePart*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_DoThreadablePart_AssemblyCSharp_WorldStreaming_BatchOctreesStreamer_AssemblyCSharp_VoxelandCollisionMeshSimplifier_Settings_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.DoThreadablePart(AssemblyCSharp.WorldStreaming.BatchOctreesStreamer,AssemblyCSharp.VoxelandCollisionMeshSimplifier.Settings)">DoThreadablePart(BatchOctreesStreamer, VoxelandCollisionMeshSimplifier.Settings)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DoThreadablePart(BatchOctreesStreamer streamer, VoxelandCollisionMeshSimplifier.Settings colSettings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.WorldStreaming.BatchOctreesStreamer.html">BatchOctreesStreamer</a></td>
+        <td><span class="parametername">streamer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.VoxelandCollisionMeshSimplifier.Settings.html">VoxelandCollisionMeshSimplifier.Settings</a></td>
+        <td><span class="parametername">colSettings</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_Reset_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.Reset*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_Reset_System_Int32_Int3_System_Int32_AssemblyCSharp_ClipMapManager_LevelSettings_VoxelandBlockType___" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.Reset(System.Int32,Int3,System.Int32,AssemblyCSharp.ClipMapManager.LevelSettings,VoxelandBlockType[])">Reset(Int32, Int3, Int32, ClipMapManager.LevelSettings, VoxelandBlockType[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset(int levelId, Int3 cellId, int cellSize, ClipMapManager.LevelSettings levelSettings, VoxelandBlockType[] blockTypes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">levelId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">cellId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cellSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ClipMapManager.LevelSettings.html">ClipMapManager.LevelSettings</a></td>
+        <td><span class="parametername">levelSettings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">VoxelandBlockType</span>[]</td>
+        <td><span class="parametername">blockTypes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_data_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#data*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_data" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#data">IVoxeland.data</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VoxelandData IVoxeland.data { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VoxelandData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_debugBlocky_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#debugBlocky*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_debugBlocky" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#debugBlocky">IVoxeland.debugBlocky</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IVoxeland.debugBlocky { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_debugLogMeshing_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#debugLogMeshing*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_debugLogMeshing" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#debugLogMeshing">IVoxeland.debugLogMeshing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IVoxeland.debugLogMeshing { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_debugOneType_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#debugOneType*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_debugOneType" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#debugOneType">IVoxeland.debugOneType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IVoxeland.debugOneType { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_faceCreator_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#faceCreator*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_faceCreator" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#faceCreator">IVoxeland.faceCreator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Voxeland.FaceCreator IVoxeland.faceCreator { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Voxeland.FaceCreator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_IsLimitedMeshing_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#IsLimitedMeshing*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_IsLimitedMeshing" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#IsLimitedMeshing">IVoxeland.IsLimitedMeshing()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IVoxeland.IsLimitedMeshing()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_meshMaxs_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#meshMaxs*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_meshMaxs" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#meshMaxs">IVoxeland.meshMaxs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Int3 IVoxeland.meshMaxs { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_meshMins_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#meshMins*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_meshMins" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#meshMins">IVoxeland.meshMins</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Int3 IVoxeland.meshMins { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_normalsSmooth_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#normalsSmooth*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_normalsSmooth" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#normalsSmooth">IVoxeland.normalsSmooth</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VoxelandNormalsSmooth IVoxeland.normalsSmooth { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VoxelandNormalsSmooth</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_RasterizeVoxels_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#RasterizeVoxels*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_RasterizeVoxels_Voxeland_RasterWorkspace_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#RasterizeVoxels(Voxeland.RasterWorkspace,System.Int32,System.Int32,System.Int32,System.Int32)">IVoxeland.RasterizeVoxels(Voxeland.RasterWorkspace, Int32, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IVoxeland.RasterizeVoxels(Voxeland.RasterWorkspace ws, int wx0, int wy0, int wz0, int downsampleLevels)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Voxeland.RasterWorkspace</span></td>
+        <td><span class="parametername">ws</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">wx0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">wy0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">wz0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">downsampleLevels</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_types_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#types*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxeland_types" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxeland#types">IVoxeland.types</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VoxelandBlockType[] IVoxeland.types { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VoxelandBlockType</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_ComputeSurfaceIntersection_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#ComputeSurfaceIntersection*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_ComputeSurfaceIntersection_UnityEngine_Vector3_UnityEngine_Vector3_System_Byte_System_Byte_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#ComputeSurfaceIntersection(UnityEngine.Vector3,UnityEngine.Vector3,System.Byte,System.Byte)">IVoxelandChunk.ComputeSurfaceIntersection(Vector3, Vector3, Byte, Byte)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3 IVoxelandChunk.ComputeSurfaceIntersection(Vector3 p0, Vector3 p1, byte d0, byte d1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">p0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">p1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">d0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">d1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_disableGrass_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#disableGrass*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_disableGrass" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#disableGrass">IVoxelandChunk.disableGrass</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IVoxelandChunk.disableGrass { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_downsamples_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#downsamples*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_downsamples" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#downsamples">IVoxelandChunk.downsamples</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IVoxelandChunk.downsamples { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_EnumerateGrass_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#EnumerateGrass*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_EnumerateGrass_VoxelandTypeBase_System_Byte_System_Int32_System_Double_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#EnumerateGrass(VoxelandTypeBase,System.Byte,System.Int32,System.Double)">IVoxelandChunk.EnumerateGrass(VoxelandTypeBase, Byte, Int32, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;VoxelandChunk.GrassPos&gt; IVoxelandChunk.EnumerateGrass(VoxelandTypeBase settings, byte typeFilter, int randSeed, double reduction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VoxelandTypeBase</span></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">typeFilter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">randSeed</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">reduction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">VoxelandChunk.GrassPos</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_IsBlockVisible_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#IsBlockVisible*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_IsBlockVisible_System_Int32_System_Int32_System_Int32_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#IsBlockVisible(System.Int32,System.Int32,System.Int32)">IVoxelandChunk.IsBlockVisible(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IVoxelandChunk.IsBlockVisible(int x, int y, int z)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">z</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_meshRes_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#meshRes*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_meshRes" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#meshRes">IVoxelandChunk.meshRes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IVoxelandChunk.meshRes { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_offsetX_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#offsetX*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_offsetX" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#offsetX">IVoxelandChunk.offsetX</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IVoxelandChunk.offsetX { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_offsetY_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#offsetY*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_offsetY" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#offsetY">IVoxelandChunk.offsetY</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IVoxelandChunk.offsetY { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_offsetZ_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#offsetZ*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_offsetZ" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#offsetZ">IVoxelandChunk.offsetZ</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IVoxelandChunk.offsetZ { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_OnTypeUsed_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#OnTypeUsed*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_OnTypeUsed_System_Byte_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#OnTypeUsed(System.Byte)">IVoxelandChunk.OnTypeUsed(Byte)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IVoxelandChunk.OnTypeUsed(byte typeNum)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">typeNum</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_skipHiRes_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#skipHiRes*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_skipHiRes" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#skipHiRes">IVoxelandChunk.skipHiRes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IVoxelandChunk.skipHiRes { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_surfaceDensityValue_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#surfaceDensityValue*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_surfaceDensityValue" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#surfaceDensityValue">IVoxelandChunk.surfaceDensityValue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float IVoxelandChunk.surfaceDensityValue { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_ws_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#ws*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunk_ws" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunk#ws">IVoxelandChunk.ws</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VoxelandChunkWorkspace IVoxelandChunk.ws { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VoxelandChunkWorkspace</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunkInfo_land_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunkInfo#land*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunkInfo_land" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunkInfo#land">IVoxelandChunkInfo.land</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IVoxeland IVoxelandChunkInfo.land { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IVoxeland</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunkInfo_usedTypes_" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunkInfo#usedTypes*"></a>
+  <h4 id="AssemblyCSharp_WorldStreaming_MeshBuilder_IVoxelandChunkInfo_usedTypes" data-uid="AssemblyCSharp.WorldStreaming.MeshBuilder.IVoxelandChunkInfo#usedTypes">IVoxelandChunkInfo.usedTypes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;VoxelandChunk.TypeUse&gt; IVoxelandChunkInfo.usedTypes { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">VoxelandChunk.TypeUse</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IVoxelandChunk</span>
+  </div>
+  <div>
+      <span class="xref">IVoxelandChunkInfo</span>
+  </div>
+  <div>
+      <span class="xref">IVoxeland</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AssemblyCSharp.VoxelandUtils.html#AssemblyCSharp_VoxelandUtils_GetOffset_IVoxelandChunk_">VoxelandUtils.GetOffset(IVoxelandChunk)</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.VoxelandUtils.html#AssemblyCSharp_VoxelandUtils_GetOffset_IVoxelandChunk_">VoxelandUtils.GetOffset(IVoxelandChunk)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

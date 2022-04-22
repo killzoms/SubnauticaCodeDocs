@@ -1,0 +1,1361 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GridUtils
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GridUtils
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UWE.GridUtils">
+  
+  
+  <h1 id="UWE_GridUtils" data-uid="UWE.GridUtils" class="text-break">Class GridUtils
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GridUtils</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UWE.html">UWE</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp-firstpass.dll</h6>
+  <h5 id="UWE_GridUtils_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class GridUtils</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="UWE_GridUtils_ComputeSobelMagnitudeSquared_" data-uid="UWE.GridUtils.ComputeSobelMagnitudeSquared*"></a>
+  <h4 id="UWE_GridUtils_ComputeSobelMagnitudeSquared_UWE_FiniteGrid_System_Int32__UWE_FiniteGrid_System_Int32__" data-uid="UWE.GridUtils.ComputeSobelMagnitudeSquared(UWE.FiniteGrid{System.Int32},UWE.FiniteGrid{System.Int32})">ComputeSobelMagnitudeSquared(FiniteGrid&lt;Int32&gt;, FiniteGrid&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ComputeSobelMagnitudeSquared(this FiniteGrid&lt;int&gt; input, FiniteGrid&lt;int&gt; output)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">output</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Convolve3x3_" data-uid="UWE.GridUtils.Convolve3x3*"></a>
+  <h4 id="UWE_GridUtils_Convolve3x3_UWE_FiniteGrid_System_Int32__System_Int32_0__0___UWE_FiniteGrid_System_Int32__" data-uid="UWE.GridUtils.Convolve3x3(UWE.FiniteGrid{System.Int32},System.Int32[0:,0:],UWE.FiniteGrid{System.Int32})">Convolve3x3(FiniteGrid&lt;Int32&gt;, Int32[,], FiniteGrid&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Convolve3x3(this FiniteGrid&lt;int&gt; input, int[, ] kernel, FiniteGrid&lt;int&gt; output)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[,]</td>
+        <td><span class="parametername">kernel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">output</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Convolve3x3Single_" data-uid="UWE.GridUtils.Convolve3x3Single*"></a>
+  <h4 id="UWE_GridUtils_Convolve3x3Single_UWE_FiniteGrid_System_Int32__System_Int32_0__0___System_Int32_System_Int32_" data-uid="UWE.GridUtils.Convolve3x3Single(UWE.FiniteGrid{System.Int32},System.Int32[0:,0:],System.Int32,System.Int32)">Convolve3x3Single(FiniteGrid&lt;Int32&gt;, Int32[,], Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int Convolve3x3Single(this FiniteGrid&lt;int&gt; input, int[, ] kernel, int x, int y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[,]</td>
+        <td><span class="parametername">kernel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_ConvolveLaplace_" data-uid="UWE.GridUtils.ConvolveLaplace*"></a>
+  <h4 id="UWE_GridUtils_ConvolveLaplace_UWE_FiniteGrid_System_Int32__UWE_FiniteGrid_System_Int32__" data-uid="UWE.GridUtils.ConvolveLaplace(UWE.FiniteGrid{System.Int32},UWE.FiniteGrid{System.Int32})">ConvolveLaplace(FiniteGrid&lt;Int32&gt;, FiniteGrid&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ConvolveLaplace(this FiniteGrid&lt;int&gt; input, FiniteGrid&lt;int&gt; output)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">output</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_FloodFill_" data-uid="UWE.GridUtils.FloodFill*"></a>
+  <h4 id="UWE_GridUtils_FloodFill__1___0_0__0___Int2___0_UWE_GridUtils_CellBoolFunc_" data-uid="UWE.GridUtils.FloodFill``1(``0[0:,0:],Int2,``0,UWE.GridUtils.CellBoolFunc)">FloodFill&lt;T&gt;(T[,], Int2, T, GridUtils.CellBoolFunc)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int FloodFill&lt;T&gt;(T[, ] grid, Int2 startPos, T newValue, GridUtils.CellBoolFunc isCellFloodable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[,]</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int2</span></td>
+        <td><span class="parametername">startPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">newValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.GridUtils.CellBoolFunc.html">GridUtils.CellBoolFunc</a></td>
+        <td><span class="parametername">isCellFloodable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Map_" data-uid="UWE.GridUtils.Map*"></a>
+  <h4 id="UWE_GridUtils_Map__1_UWE_FiniteGrid_System_Int32__UWE_FiniteGrid___0__System_Collections_Generic_IList___0__" data-uid="UWE.GridUtils.Map``1(UWE.FiniteGrid{System.Int32},UWE.FiniteGrid{``0},System.Collections.Generic.IList{``0})">Map&lt;T&gt;(FiniteGrid&lt;Int32&gt;, FiniteGrid&lt;T&gt;, IList&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Map&lt;T&gt;(FiniteGrid&lt;int&gt; src, FiniteGrid&lt;T&gt; dest, IList&lt;T&gt; map)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">src</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;T&gt;</td>
+        <td><span class="parametername">dest</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;T&gt;</td>
+        <td><span class="parametername">map</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Max_" data-uid="UWE.GridUtils.Max*"></a>
+  <h4 id="UWE_GridUtils_Max_UWE_FiniteGrid_System_Single__" data-uid="UWE.GridUtils.Max(UWE.FiniteGrid{System.Single})">Max(FiniteGrid&lt;Single&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Max(FiniteGrid&lt;float&gt; field)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_MaxPos_" data-uid="UWE.GridUtils.MaxPos*"></a>
+  <h4 id="UWE_GridUtils_MaxPos_UWE_FiniteGrid_System_Single__" data-uid="UWE.GridUtils.MaxPos(UWE.FiniteGrid{System.Single})">MaxPos(FiniteGrid&lt;Single&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Int2 MaxPos(FiniteGrid&lt;float&gt; field)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Min_" data-uid="UWE.GridUtils.Min*"></a>
+  <h4 id="UWE_GridUtils_Min_UWE_FiniteGrid_System_Single__" data-uid="UWE.GridUtils.Min(UWE.FiniteGrid{System.Single})">Min(FiniteGrid&lt;Single&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Min(FiniteGrid&lt;float&gt; field)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_NormalizeField_" data-uid="UWE.GridUtils.NormalizeField*"></a>
+  <h4 id="UWE_GridUtils_NormalizeField_UWE_FiniteGrid_System_Single__" data-uid="UWE.GridUtils.NormalizeField(UWE.FiniteGrid{System.Single})">NormalizeField(FiniteGrid&lt;Single&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void NormalizeField(FiniteGrid&lt;float&gt; field)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_NormalizeFieldBothEnds_" data-uid="UWE.GridUtils.NormalizeFieldBothEnds*"></a>
+  <h4 id="UWE_GridUtils_NormalizeFieldBothEnds_UWE_FiniteGrid_System_Single__" data-uid="UWE.GridUtils.NormalizeFieldBothEnds(UWE.FiniteGrid{System.Single})">NormalizeFieldBothEnds(FiniteGrid&lt;Single&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void NormalizeFieldBothEnds(FiniteGrid&lt;float&gt; field)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Read_" data-uid="UWE.GridUtils.Read*"></a>
+  <h4 id="UWE_GridUtils_Read_System_IO_BinaryReader_UWE_FiniteGrid_System_Boolean__" data-uid="UWE.GridUtils.Read(System.IO.BinaryReader,UWE.FiniteGrid{System.Boolean})">Read(BinaryReader, FiniteGrid&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Read(BinaryReader r, FiniteGrid&lt;bool&gt; grid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.BinaryReader</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Read_" data-uid="UWE.GridUtils.Read*"></a>
+  <h4 id="UWE_GridUtils_Read_System_IO_BinaryReader_UWE_FiniteGrid_System_Int32__" data-uid="UWE.GridUtils.Read(System.IO.BinaryReader,UWE.FiniteGrid{System.Int32})">Read(BinaryReader, FiniteGrid&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Read(BinaryReader r, FiniteGrid&lt;int&gt; grid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.BinaryReader</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Read_" data-uid="UWE.GridUtils.Read*"></a>
+  <h4 id="UWE_GridUtils_Read_System_IO_BinaryReader_UWE_FiniteGrid_System_Single__" data-uid="UWE.GridUtils.Read(System.IO.BinaryReader,UWE.FiniteGrid{System.Single})">Read(BinaryReader, FiniteGrid&lt;Single&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Read(BinaryReader r, FiniteGrid&lt;float&gt; grid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.BinaryReader</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Read_" data-uid="UWE.GridUtils.Read*"></a>
+  <h4 id="UWE_GridUtils_Read_System_IO_StreamReader_UWE_FiniteGrid_System_Int32__" data-uid="UWE.GridUtils.Read(System.IO.StreamReader,UWE.FiniteGrid{System.Int32})">Read(StreamReader, FiniteGrid&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Read(StreamReader reader, FiniteGrid&lt;int&gt; grid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.StreamReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Read_" data-uid="UWE.GridUtils.Read*"></a>
+  <h4 id="UWE_GridUtils_Read_System_IO_StreamReader_UWE_FiniteGrid_System_Single__" data-uid="UWE.GridUtils.Read(System.IO.StreamReader,UWE.FiniteGrid{System.Single})">Read(StreamReader, FiniteGrid&lt;Single&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Read(StreamReader reader, FiniteGrid&lt;float&gt; grid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.StreamReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Read_" data-uid="UWE.GridUtils.Read*"></a>
+  <h4 id="UWE_GridUtils_Read__1_System_IO_BinaryReader_UWE_FiniteGrid___0__" data-uid="UWE.GridUtils.Read``1(System.IO.BinaryReader,UWE.FiniteGrid{``0})">Read&lt;T&gt;(BinaryReader, FiniteGrid&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Read&lt;T&gt;(BinaryReader r, FiniteGrid&lt;T&gt; grid)
+
+    where T : GridUtils.IBinaryReadWrite</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.BinaryReader</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;T&gt;</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_ReadCharGrid_" data-uid="UWE.GridUtils.ReadCharGrid*"></a>
+  <h4 id="UWE_GridUtils_ReadCharGrid_System_String___System_Char_System_Boolean_" data-uid="UWE.GridUtils.ReadCharGrid(System.String[],System.Char,System.Boolean)">ReadCharGrid(String[], Char, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FiniteGrid&lt;char&gt; ReadCharGrid(string[] lines, char defaultChar, bool flipRows)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">lines</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">defaultChar</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">flipRows</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Scale_" data-uid="UWE.GridUtils.Scale*"></a>
+  <h4 id="UWE_GridUtils_Scale_UWE_FiniteGrid_System_Single__System_Single_" data-uid="UWE.GridUtils.Scale(UWE.FiniteGrid{System.Single},System.Single)">Scale(FiniteGrid&lt;Single&gt;, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Scale(FiniteGrid&lt;float&gt; field, float s)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">s</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_TestBinaryReadWrite_" data-uid="UWE.GridUtils.TestBinaryReadWrite*"></a>
+  <h4 id="UWE_GridUtils_TestBinaryReadWrite" data-uid="UWE.GridUtils.TestBinaryReadWrite">TestBinaryReadWrite()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TestBinaryReadWrite()</code></pre>
+  </div>
+  
+  
+  <a id="UWE_GridUtils_TestReadWrite_" data-uid="UWE.GridUtils.TestReadWrite*"></a>
+  <h4 id="UWE_GridUtils_TestReadWrite" data-uid="UWE.GridUtils.TestReadWrite">TestReadWrite()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void TestReadWrite()</code></pre>
+  </div>
+  
+  
+  <a id="UWE_GridUtils_UpdateDistanceField_" data-uid="UWE.GridUtils.UpdateDistanceField*"></a>
+  <h4 id="UWE_GridUtils_UpdateDistanceField_System_Single_0__0___System_Collections_Generic_Queue_Int2__" data-uid="UWE.GridUtils.UpdateDistanceField(System.Single[0:,0:],System.Collections.Generic.Queue{Int2})">UpdateDistanceField(Single[,], Queue&lt;Int2&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateDistanceField(float[, ] field, Queue&lt;Int2&gt; dirtyCells)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[,]</td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Queue</span>&lt;<span class="xref">Int2</span>&gt;</td>
+        <td><span class="parametername">dirtyCells</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_UpdateDistanceField_" data-uid="UWE.GridUtils.UpdateDistanceField*"></a>
+  <h4 id="UWE_GridUtils_UpdateDistanceField_System_Single_0__0___System_Collections_Generic_Queue_Int2__UWE_GridUtils_CellBoolFunc_" data-uid="UWE.GridUtils.UpdateDistanceField(System.Single[0:,0:],System.Collections.Generic.Queue{Int2},UWE.GridUtils.CellBoolFunc)">UpdateDistanceField(Single[,], Queue&lt;Int2&gt;, GridUtils.CellBoolFunc)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateDistanceField(float[, ] field, Queue&lt;Int2&gt; dirtyCells, GridUtils.CellBoolFunc isCellValid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span>[,]</td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Queue</span>&lt;<span class="xref">Int2</span>&gt;</td>
+        <td><span class="parametername">dirtyCells</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.GridUtils.CellBoolFunc.html">GridUtils.CellBoolFunc</a></td>
+        <td><span class="parametername">isCellValid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_UpdateDistanceField_" data-uid="UWE.GridUtils.UpdateDistanceField*"></a>
+  <h4 id="UWE_GridUtils_UpdateDistanceField_UWE_FiniteGrid_System_Single__System_Collections_Generic_Queue_Int2__" data-uid="UWE.GridUtils.UpdateDistanceField(UWE.FiniteGrid{System.Single},System.Collections.Generic.Queue{Int2})">UpdateDistanceField(FiniteGrid&lt;Single&gt;, Queue&lt;Int2&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateDistanceField(FiniteGrid&lt;float&gt; field, Queue&lt;Int2&gt; dirtyCells)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Queue</span>&lt;<span class="xref">Int2</span>&gt;</td>
+        <td><span class="parametername">dirtyCells</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_UpdateDistanceField_" data-uid="UWE.GridUtils.UpdateDistanceField*"></a>
+  <h4 id="UWE_GridUtils_UpdateDistanceField_UWE_FiniteGrid_System_Single__System_Collections_Generic_Queue_Int2__UWE_GridUtils_CellBoolFunc_" data-uid="UWE.GridUtils.UpdateDistanceField(UWE.FiniteGrid{System.Single},System.Collections.Generic.Queue{Int2},UWE.GridUtils.CellBoolFunc)">UpdateDistanceField(FiniteGrid&lt;Single&gt;, Queue&lt;Int2&gt;, GridUtils.CellBoolFunc)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateDistanceField(FiniteGrid&lt;float&gt; field, Queue&lt;Int2&gt; dirtyCells, GridUtils.CellBoolFunc isCellValid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Queue</span>&lt;<span class="xref">Int2</span>&gt;</td>
+        <td><span class="parametername">dirtyCells</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.GridUtils.CellBoolFunc.html">GridUtils.CellBoolFunc</a></td>
+        <td><span class="parametername">isCellValid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Write_" data-uid="UWE.GridUtils.Write*"></a>
+  <h4 id="UWE_GridUtils_Write_System_IO_BinaryWriter_UWE_FiniteGrid_System_Boolean__" data-uid="UWE.GridUtils.Write(System.IO.BinaryWriter,UWE.FiniteGrid{System.Boolean})">Write(BinaryWriter, FiniteGrid&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Write(BinaryWriter w, FiniteGrid&lt;bool&gt; grid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.BinaryWriter</span></td>
+        <td><span class="parametername">w</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Write_" data-uid="UWE.GridUtils.Write*"></a>
+  <h4 id="UWE_GridUtils_Write_System_IO_BinaryWriter_UWE_FiniteGrid_System_Int32__" data-uid="UWE.GridUtils.Write(System.IO.BinaryWriter,UWE.FiniteGrid{System.Int32})">Write(BinaryWriter, FiniteGrid&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Write(BinaryWriter w, FiniteGrid&lt;int&gt; grid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.BinaryWriter</span></td>
+        <td><span class="parametername">w</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Write_" data-uid="UWE.GridUtils.Write*"></a>
+  <h4 id="UWE_GridUtils_Write_System_IO_BinaryWriter_UWE_FiniteGrid_System_Single__" data-uid="UWE.GridUtils.Write(System.IO.BinaryWriter,UWE.FiniteGrid{System.Single})">Write(BinaryWriter, FiniteGrid&lt;Single&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Write(BinaryWriter w, FiniteGrid&lt;float&gt; grid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.BinaryWriter</span></td>
+        <td><span class="parametername">w</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Write_" data-uid="UWE.GridUtils.Write*"></a>
+  <h4 id="UWE_GridUtils_Write__1_System_IO_BinaryWriter_UWE_FiniteGrid___0__" data-uid="UWE.GridUtils.Write``1(System.IO.BinaryWriter,UWE.FiniteGrid{``0})">Write&lt;T&gt;(BinaryWriter, FiniteGrid&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Write&lt;T&gt;(BinaryWriter w, FiniteGrid&lt;T&gt; grid)
+
+    where T : GridUtils.IBinaryReadWrite</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.BinaryWriter</span></td>
+        <td><span class="parametername">w</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;T&gt;</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="UWE_GridUtils_Write_" data-uid="UWE.GridUtils.Write*"></a>
+  <h4 id="UWE_GridUtils_Write__1_System_IO_StreamWriter_UWE_FiniteGrid___0__" data-uid="UWE.GridUtils.Write``1(System.IO.StreamWriter,UWE.FiniteGrid{``0})">Write&lt;T&gt;(StreamWriter, FiniteGrid&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Write&lt;T&gt;(StreamWriter writer, FiniteGrid&lt;T&gt; grid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IO.StreamWriter</span></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="UWE.FiniteGrid-1.html">FiniteGrid</a>&lt;T&gt;</td>
+        <td><span class="parametername">grid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

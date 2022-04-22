@@ -1,0 +1,935 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class LargeWorldOctreeCompiler
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class LargeWorldOctreeCompiler
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler">
+  
+  
+  <h1 id="AssemblyCSharp_LargeWorldOctreeCompiler" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler" class="text-break">Class LargeWorldOctreeCompiler
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">LargeWorldOctreeCompiler</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">VoxelandData.EventHandler</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.html">AssemblyCSharp</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_LargeWorldOctreeCompiler_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class LargeWorldOctreeCompiler : VoxelandData.EventHandler</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler__ctor_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.#ctor*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler__ctor_AssemblyCSharp_LargeWorldStreamer_VoxelandData_VoxelandData_VoxelandData_Array3_AssemblyCSharp_CompactOctree__" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.#ctor(AssemblyCSharp.LargeWorldStreamer,VoxelandData,VoxelandData,VoxelandData,Array3{AssemblyCSharp.CompactOctree})">LargeWorldOctreeCompiler(LargeWorldStreamer, VoxelandData, VoxelandData, VoxelandData, Array3&lt;CompactOctree&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LargeWorldOctreeCompiler(LargeWorldStreamer streamer, VoxelandData voxelSrc, VoxelandData bakedSrc, VoxelandData dest, Array3&lt;CompactOctree&gt; compactDest)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldStreamer.html">LargeWorldStreamer</a></td>
+        <td><span class="parametername">streamer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">VoxelandData</span></td>
+        <td><span class="parametername">voxelSrc</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">VoxelandData</span></td>
+        <td><span class="parametername">bakedSrc</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">VoxelandData</span></td>
+        <td><span class="parametername">dest</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Array3</span>&lt;<a class="xref" href="AssemblyCSharp.CompactOctree.html">CompactOctree</a>&gt;</td>
+        <td><span class="parametername">compactDest</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_debugFreeze" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.debugFreeze">debugFreeze</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool debugFreeze</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_debugDisableInstances_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.debugDisableInstances*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_debugDisableInstances" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.debugDisableInstances">debugDisableInstances</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool debugDisableInstances { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_numRootsCompiled_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.numRootsCompiled*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_numRootsCompiled" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.numRootsCompiled">numRootsCompiled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numRootsCompiled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_numRootsToCompile_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.numRootsToCompile*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_numRootsToCompile" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.numRootsToCompile">numRootsToCompile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numRootsToCompile { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_CheckRoot_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.CheckRoot*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_CheckRoot_Int3_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.CheckRoot(Int3)">CheckRoot(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CheckRoot(Int3 root)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">root</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_ContainsCompilingRoot_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.ContainsCompilingRoot*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_ContainsCompilingRoot_Int3_Bounds_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.ContainsCompilingRoot(Int3.Bounds)">ContainsCompilingRoot(Int3.Bounds)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsCompilingRoot(Int3.Bounds bounds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">bounds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_GetNumOutstandingRequests_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.GetNumOutstandingRequests*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_GetNumOutstandingRequests" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.GetNumOutstandingRequests">GetNumOutstandingRequests()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetNumOutstandingRequests()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_IsRangeCompiled_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.IsRangeCompiled*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_IsRangeCompiled_Int3_Int3_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.IsRangeCompiled(Int3,Int3)">IsRangeCompiled(Int3, Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRangeCompiled(Int3 min, Int3 max)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">min</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">max</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_IsRootCompiled_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.IsRootCompiled*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_IsRootCompiled_Int3_System_Boolean_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.IsRootCompiled(Int3,System.Boolean)">IsRootCompiled(Int3, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRootCompiled(Int3 r, bool lowDetail)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">lowDetail</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_IsRootReadyToCompile_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.IsRootReadyToCompile*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_IsRootReadyToCompile_Int3_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.IsRootReadyToCompile(Int3)">IsRootReadyToCompile(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRootReadyToCompile(Int3 r)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">r</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_LayoutGUI_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.LayoutGUI*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_LayoutGUI" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.LayoutGUI">LayoutGUI()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LayoutGUI()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_MainLoop_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.MainLoop*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_MainLoop_System_Object_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.MainLoop(System.Object)">MainLoop(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MainLoop(object dummy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">dummy</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_NotifyLowDetailRootAlreadyCompiled_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.NotifyLowDetailRootAlreadyCompiled*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_NotifyLowDetailRootAlreadyCompiled_Int3_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.NotifyLowDetailRootAlreadyCompiled(Int3)">NotifyLowDetailRootAlreadyCompiled(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NotifyLowDetailRootAlreadyCompiled(Int3 root)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">root</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_NotifyRootAlreadyCompiledNoLock_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.NotifyRootAlreadyCompiledNoLock*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_NotifyRootAlreadyCompiledNoLock_Int3_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.NotifyRootAlreadyCompiledNoLock(Int3)">NotifyRootAlreadyCompiledNoLock(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NotifyRootAlreadyCompiledNoLock(Int3 root)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">root</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_NotifyRootReadyToCompileNoLock_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.NotifyRootReadyToCompileNoLock*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_NotifyRootReadyToCompileNoLock_Int3_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.NotifyRootReadyToCompileNoLock(Int3)">NotifyRootReadyToCompileNoLock(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NotifyRootReadyToCompileNoLock(Int3 root)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">root</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_NotifyRootsUnloading_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.NotifyRootsUnloading*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_NotifyRootsUnloading_Int3_Bounds_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.NotifyRootsUnloading(Int3.Bounds)">NotifyRootsUnloading(Int3.Bounds)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NotifyRootsUnloading(Int3.Bounds bounds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">bounds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_NotifyRootUnloadedNoLock_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.NotifyRootUnloadedNoLock*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_NotifyRootUnloadedNoLock_Int3_System_Boolean_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.NotifyRootUnloadedNoLock(Int3,System.Boolean)">NotifyRootUnloadedNoLock(Int3, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NotifyRootUnloadedNoLock(Int3 root, bool keepLowDetailRoot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">root</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepLowDetailRoot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_OnHeightmapChanged_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.OnHeightmapChanged*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_OnHeightmapChanged" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.OnHeightmapChanged">OnHeightmapChanged()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnHeightmapChanged()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_OnRangeChanged_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.OnRangeChanged*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_OnRangeChanged_Int3_Bounds_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.OnRangeChanged(Int3.Bounds)">OnRangeChanged(Int3.Bounds)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRangeChanged(Int3.Bounds blocks)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">blocks</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_OnRootChanged_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.OnRootChanged*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_OnRootChanged_System_Int32_System_Int32_System_Int32_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.OnRootChanged(System.Int32,System.Int32,System.Int32)">OnRootChanged(Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnRootChanged(int rx, int ry, int rz)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">rx</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">ry</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">rz</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_RequestAbort_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.RequestAbort*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_RequestAbort" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.RequestAbort">RequestAbort()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RequestAbort()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_RequestCompile_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.RequestCompile*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_RequestCompile_Int3_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.RequestCompile(Int3)">RequestCompile(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RequestCompile(Int3 root)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">root</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_ResetCompiled_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.ResetCompiled*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_ResetCompiled" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.ResetCompiled">ResetCompiled()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetCompiled()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_SetDisableInstances_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.SetDisableInstances*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_SetDisableInstances_System_Boolean_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.SetDisableInstances(System.Boolean)">SetDisableInstances(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDisableInstances(bool disable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_UpdateViewerOctree_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.UpdateViewerOctree*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_UpdateViewerOctree_Int3_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.UpdateViewerOctree(Int3)">UpdateViewerOctree(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateViewerOctree(Int3 root)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">root</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_LargeWorldOctreeCompiler_WaitForRequests_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.WaitForRequests*"></a>
+  <h4 id="AssemblyCSharp_LargeWorldOctreeCompiler_WaitForRequests_AssemblyCSharp_LargeWorldOctreeCompiler_OnRequestsProgress_" data-uid="AssemblyCSharp.LargeWorldOctreeCompiler.WaitForRequests(AssemblyCSharp.LargeWorldOctreeCompiler.OnRequestsProgress)">WaitForRequests(LargeWorldOctreeCompiler.OnRequestsProgress)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WaitForRequests(LargeWorldOctreeCompiler.OnRequestsProgress cb)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldOctreeCompiler.OnRequestsProgress.html">LargeWorldOctreeCompiler.OnRequestsProgress</a></td>
+        <td><span class="parametername">cb</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">VoxelandData.EventHandler</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

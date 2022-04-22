@@ -1,0 +1,2548 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Exosuit
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Exosuit
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.Exosuit">
+  
+  
+  <h1 id="AssemblyCSharp_Exosuit" data-uid="AssemblyCSharp.Exosuit" class="text-break">Class Exosuit
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="AssemblyCSharp.HandTarget.html">HandTarget</a></div>
+    <div class="level6"><a class="xref" href="AssemblyCSharp.Vehicle.html">Vehicle</a></div>
+    <div class="level7"><span class="xref">Exosuit</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AssemblyCSharp.IHandTarget.html">IHandTarget</a></div>
+    <div><a class="xref" href="AssemblyCSharp.IProtoEventListener.html">IProtoEventListener</a></div>
+    <div><a class="xref" href="AssemblyCSharp.IProtoTreeEventListener.html">IProtoTreeEventListener</a></div>
+    <div><a class="xref" href="AssemblyCSharp.IAnimParamReceiver.html">IAnimParamReceiver</a></div>
+    <div><a class="xref" href="AssemblyCSharp.IQuickSlots.html">IQuickSlots</a></div>
+    <div><a class="xref" href="AssemblyCSharp.IGroundMoveable.html">IGroundMoveable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_torpedoTypes">Vehicle.torpedoTypes</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_version">Vehicle.version</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_vehicleName">Vehicle.vehicleName</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_vehicleColors">Vehicle.vehicleColors</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_serializedModules">Vehicle.serializedModules</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_serializedModuleSlots">Vehicle.serializedModuleSlots</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_precursorOutOfWater">Vehicle.precursorOutOfWater</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_pilotId">Vehicle.pilotId</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_onGround">Vehicle.onGround</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_timeOnGround">Vehicle.timeOnGround</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_surfaceNormal">Vehicle.surfaceNormal</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_prevVelocity">Vehicle.prevVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_mainAnimator">Vehicle.mainAnimator</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_destructionEffect">Vehicle.destructionEffect</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_subName">Vehicle.subName</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_handLabel">Vehicle.handLabel</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_stabilizeRoll">Vehicle.stabilizeRoll</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_replenishesOxygen">Vehicle.replenishesOxygen</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_oxygenPerSecond">Vehicle.oxygenPerSecond</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_oxygenEnergyCost">Vehicle.oxygenEnergyCost</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_controlSheme">Vehicle.controlSheme</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_playerSits">Vehicle.playerSits</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_moveOnLand">Vehicle.moveOnLand</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_customGoalOnEnter">Vehicle.customGoalOnEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_welcomeNotification">Vehicle.welcomeNotification</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_noPowerWelcomeNotification">Vehicle.noPowerWelcomeNotification</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_enterSound">Vehicle.enterSound</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_leftHandPlug">Vehicle.leftHandPlug</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_rightHandPlug">Vehicle.rightHandPlug</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_forwardForce">Vehicle.forwardForce</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_backwardForce">Vehicle.backwardForce</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_sidewardForce">Vehicle.sidewardForce</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_sidewaysTorque">Vehicle.sidewaysTorque</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_verticalForce">Vehicle.verticalForce</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_onGroundForceMultiplier">Vehicle.onGroundForceMultiplier</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_collisionModel">Vehicle.collisionModel</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_upgradesInput">Vehicle.upgradesInput</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_playerPosition">Vehicle.playerPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_chargingSound">Vehicle.chargingSound</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_splashSound">Vehicle.splashSound</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_worldForces">Vehicle.worldForces</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_useRigidbody">Vehicle.useRigidbody</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_crushDamage">Vehicle.crushDamage</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_powerDownSound">Vehicle.powerDownSound</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_liveMixin">Vehicle.liveMixin</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_modulesRoot">Vehicle.modulesRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_depthAlarms">Vehicle.depthAlarms</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_angularVelocity">Vehicle.angularVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_turnedOnEvent">Vehicle.turnedOnEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_turnedOffEvent">Vehicle.turnedOffEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle__docked">Vehicle._docked</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_timeDocked">Vehicle.timeDocked</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_slotIndexes">Vehicle.slotIndexes</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_quickSlotTimeUsed">Vehicle.quickSlotTimeUsed</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_quickSlotCooldown">Vehicle.quickSlotCooldown</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_quickSlotToggled">Vehicle.quickSlotToggled</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_quickSlotCharge">Vehicle.quickSlotCharge</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_activeSlot">Vehicle.activeSlot</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_disableOnDock">Vehicle.disableOnDock</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_modules">Vehicle.modules</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_turnedOn">Vehicle.turnedOn</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_docked">Vehicle.docked</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_onBind">Vehicle.onBind</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_onToggle">Vehicle.onToggle</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_onSelect">Vehicle.onSelect</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetTemperature">Vehicle.GetTemperature()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetDepth_System_Int32__System_Int32__">Vehicle.GetDepth(Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetRecentlyUndocked">Vehicle.GetRecentlyUndocked()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnUndockingComplete_AssemblyCSharp_Player_">Vehicle.OnUndockingComplete(Player)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_ReAttach_UnityEngine_Vector3_">Vehicle.ReAttach(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_UpdateModuleSlots">Vehicle.UpdateModuleSlots()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetSlotIndex_System_String_">Vehicle.GetSlotIndex(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_IsInsideAquarium">Vehicle.IsInsideAquarium()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnEquip_System_String_AssemblyCSharp_InventoryItem_">Vehicle.OnEquip(String, InventoryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnUnequip_System_String_AssemblyCSharp_InventoryItem_">Vehicle.OnUnequip(String, InventoryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetName">Vehicle.GetName()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_AssemblyCSharp_IAnimParamReceiver_ForwardAnimationParameterBool_System_String_System_Boolean_">Vehicle.IAnimParamReceiver.ForwardAnimationParameterBool(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetPilotingMode">Vehicle.GetPilotingMode()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnHandHover_AssemblyCSharp_GUIHand_">Vehicle.OnHandHover(GUIHand)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnHandClick_AssemblyCSharp_GUIHand_">Vehicle.OnHandClick(GUIHand)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SetRotationLocked_System_Boolean_">Vehicle.SetRotationLocked(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_TeleportVehicle_UnityEngine_Vector3_UnityEngine_Quaternion_">Vehicle.TeleportVehicle(Vector3, Quaternion)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnPoweredChanged_System_Boolean_">Vehicle.OnPoweredChanged(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetAllowedToEject">Vehicle.GetAllowedToEject()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnProtoSerialize_AssemblyCSharp_ProtobufSerializer_">Vehicle.OnProtoSerialize(ProtobufSerializer)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnProtoDeserialize_AssemblyCSharp_ProtobufSerializer_">Vehicle.OnProtoDeserialize(ProtobufSerializer)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnProtoSerializeObjectTree_AssemblyCSharp_ProtobufSerializer_">Vehicle.OnProtoSerializeObjectTree(ProtobufSerializer)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnProtoDeserializeObjectTree_AssemblyCSharp_ProtobufSerializer_">Vehicle.OnProtoDeserializeObjectTree(ProtobufSerializer)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetQuickSlotCooldown_System_Int32_">Vehicle.GetQuickSlotCooldown(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_IsPowered">Vehicle.IsPowered()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetEnergyValues_System_Single__System_Single__">Vehicle.GetEnergyValues(Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_HasEnoughEnergy_System_Single_">Vehicle.HasEnoughEnergy(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_AddEnergy_System_Single_">Vehicle.AddEnergy(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_ConsumeEngineEnergy_System_Single_">Vehicle.ConsumeEngineEnergy(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_ConsumeEnergy_System_Single_">Vehicle.ConsumeEnergy(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_HasEnoughEnergy_AssemblyCSharp_TechType_">Vehicle.HasEnoughEnergy(TechType)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_ConsumeEnergy_AssemblyCSharp_TechType_">Vehicle.ConsumeEnergy(TechType)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetSlotByItem_AssemblyCSharp_InventoryItem_">Vehicle.GetSlotByItem(InventoryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetSlotProgress_System_Int32_">Vehicle.GetSlotProgress(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetSlotCharge_System_Int32_">Vehicle.GetSlotCharge(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetActiveSlotID">Vehicle.GetActiveSlotID()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetSlotCount">Vehicle.GetSlotCount()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_Bind_System_Int32_AssemblyCSharp_InventoryItem_">Vehicle.Bind(Int32, InventoryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_Unbind_System_Int32_">Vehicle.Unbind(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_UpgradeModuleChanged_System_String_AssemblyCSharp_TechType_System_Boolean_">Vehicle.UpgradeModuleChanged(String, TechType, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnUpgradeModuleToggle_System_Int32_System_Boolean_">Vehicle.OnUpgradeModuleToggle(Int32, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnUpgradeModuleUse_AssemblyCSharp_TechType_System_Int32_">Vehicle.OnUpgradeModuleUse(TechType, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_NotifyToggleSlot_System_Int32_">Vehicle.NotifyToggleSlot(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_NotifySelectSlot_System_Int32_">Vehicle.NotifySelectSlot(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_ToggleSlot_System_Int32_System_Boolean_">Vehicle.ToggleSlot(Int32, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_ToggleSlot_System_Int32_">Vehicle.ToggleSlot(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetAllStorages_System_Collections_Generic_List_AssemblyCSharp_IItemsContainer__">Vehicle.GetAllStorages(List&lt;IItemsContainer&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetStorageInSlot_System_Int32_AssemblyCSharp_TechType_">Vehicle.GetStorageInSlot(Int32, TechType)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_ChargeModule_AssemblyCSharp_TechType_System_Int32_">Vehicle.ChargeModule(TechType, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_TorpedoShot_AssemblyCSharp_ItemsContainer_AssemblyCSharp_TorpedoType_UnityEngine_Transform_">Vehicle.TorpedoShot(ItemsContainer, TorpedoType, Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.HandTarget.html#AssemblyCSharp_HandTarget_isValidHandTarget">HandTarget.isValidHandTarget</a>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.html">AssemblyCSharp</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_Exosuit_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ProtoContract]
+public class Exosuit : Vehicle, IHandTarget, IProtoEventListener, IProtoTreeEventListener, IAnimParamReceiver, IQuickSlots, IGroundMoveable</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_aimTargetLeft" data-uid="AssemblyCSharp.Exosuit.aimTargetLeft">aimTargetLeft</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform aimTargetLeft</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_aimTargetRight" data-uid="AssemblyCSharp.Exosuit.aimTargetRight">aimTargetRight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform aimTargetRight</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_ambienceSound" data-uid="AssemblyCSharp.Exosuit.ambienceSound">ambienceSound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FMOD_CustomLoopingEmitter ambienceSound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.FMOD_CustomLoopingEmitter.html">FMOD_CustomLoopingEmitter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_armPrefabs" data-uid="AssemblyCSharp.Exosuit.armPrefabs">armPrefabs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Exosuit.ExosuitArmPrefab[] armPrefabs</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.Exosuit.ExosuitArmPrefab.html">Exosuit.ExosuitArmPrefab</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_bottomTransform" data-uid="AssemblyCSharp.Exosuit.bottomTransform">bottomTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform bottomTransform</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_disableDockedColliders" data-uid="AssemblyCSharp.Exosuit.disableDockedColliders">disableDockedColliders</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Collider[] disableDockedColliders</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Collider</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_dropTarget" data-uid="AssemblyCSharp.Exosuit.dropTarget">dropTarget</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform dropTarget</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_dynamicModel" data-uid="AssemblyCSharp.Exosuit.dynamicModel">dynamicModel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject dynamicModel</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_fxcontrol" data-uid="AssemblyCSharp.Exosuit.fxcontrol">fxcontrol</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VFXController fxcontrol</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.VFXController.html">VFXController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_jumpSound" data-uid="AssemblyCSharp.Exosuit.jumpSound">jumpSound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FMODAsset jumpSound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">FMODAsset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_landSound" data-uid="AssemblyCSharp.Exosuit.landSound">landSound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FMODAsset landSound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">FMODAsset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_leftArmAttach" data-uid="AssemblyCSharp.Exosuit.leftArmAttach">leftArmAttach</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform leftArmAttach</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_leftArmID" data-uid="AssemblyCSharp.Exosuit.leftArmID">leftArmID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string leftArmID = &quot;ExosuitArmLeft&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_loopingJetSound" data-uid="AssemblyCSharp.Exosuit.loopingJetSound">loopingJetSound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FMOD_CustomLoopingEmitter loopingJetSound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.FMOD_CustomLoopingEmitter.html">FMOD_CustomLoopingEmitter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_mainModel" data-uid="AssemblyCSharp.Exosuit.mainModel">mainModel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject mainModel</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_nameLabelCanvas" data-uid="AssemblyCSharp.Exosuit.nameLabelCanvas">nameLabelCanvas</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CanvasRenderer nameLabelCanvas</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.CanvasRenderer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_rightArmAttach" data-uid="AssemblyCSharp.Exosuit.rightArmAttach">rightArmAttach</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform rightArmAttach</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_rightArmID" data-uid="AssemblyCSharp.Exosuit.rightArmID">rightArmID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string rightArmID = &quot;ExosuitArmRight&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_storageContainer" data-uid="AssemblyCSharp.Exosuit.storageContainer">storageContainer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AssertNotNull]
+public StorageContainer storageContainer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.StorageContainer.html">StorageContainer</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_storageFlap" data-uid="AssemblyCSharp.Exosuit.storageFlap">storageFlap</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform storageFlap</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_thermalReactorCharge" data-uid="AssemblyCSharp.Exosuit.thermalReactorCharge">thermalReactorCharge</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimationCurve thermalReactorCharge</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.AnimationCurve</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_timeForFullVirbation" data-uid="AssemblyCSharp.Exosuit.timeForFullVirbation">timeForFullVirbation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float timeForFullVirbation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_vfxConstructing" data-uid="AssemblyCSharp.Exosuit.vfxConstructing">vfxConstructing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VFXConstructing vfxConstructing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.VFXConstructing.html">VFXConstructing</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_Exosuit_xzSpeed" data-uid="AssemblyCSharp.Exosuit.xzSpeed">xzSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float xzSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_cinematicMode_" data-uid="AssemblyCSharp.Exosuit.cinematicMode*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_cinematicMode" data-uid="AssemblyCSharp.Exosuit.cinematicMode">cinematicMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool cinematicMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_leftArmType_" data-uid="AssemblyCSharp.Exosuit.leftArmType*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_leftArmType" data-uid="AssemblyCSharp.Exosuit.leftArmType">leftArmType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TechType leftArmType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TechType.html">TechType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_rightArmType_" data-uid="AssemblyCSharp.Exosuit.rightArmType*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_rightArmType" data-uid="AssemblyCSharp.Exosuit.rightArmType">rightArmType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TechType rightArmType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TechType.html">TechType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_slotIDs_" data-uid="AssemblyCSharp.Exosuit.slotIDs*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_slotIDs" data-uid="AssemblyCSharp.Exosuit.slotIDs">slotIDs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string[] slotIDs { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_slotIDs">Vehicle.slotIDs</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_vehicleDefaultColors_" data-uid="AssemblyCSharp.Exosuit.vehicleDefaultColors*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_vehicleDefaultColors" data-uid="AssemblyCSharp.Exosuit.vehicleDefaultColors">vehicleDefaultColors</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Vector3[] vehicleDefaultColors { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_vehicleDefaultColors">Vehicle.vehicleDefaultColors</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_vehicleDefaultName_" data-uid="AssemblyCSharp.Exosuit.vehicleDefaultName*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_vehicleDefaultName" data-uid="AssemblyCSharp.Exosuit.vehicleDefaultName">vehicleDefaultName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override string vehicleDefaultName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_vehicleDefaultName">Vehicle.vehicleDefaultName</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_Awake_" data-uid="AssemblyCSharp.Exosuit.Awake*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_Awake" data-uid="AssemblyCSharp.Exosuit.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Awake()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_Awake">Vehicle.Awake()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_CanPilot_" data-uid="AssemblyCSharp.Exosuit.CanPilot*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_CanPilot" data-uid="AssemblyCSharp.Exosuit.CanPilot">CanPilot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanPilot()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_CanPilot">Vehicle.CanPilot()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_DeselectSlots_" data-uid="AssemblyCSharp.Exosuit.DeselectSlots*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_DeselectSlots" data-uid="AssemblyCSharp.Exosuit.DeselectSlots">DeselectSlots()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void DeselectSlots()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_DeselectSlots">Vehicle.DeselectSlots()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_EnterVehicle_" data-uid="AssemblyCSharp.Exosuit.EnterVehicle*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_EnterVehicle_AssemblyCSharp_Player_System_Boolean_System_Boolean_" data-uid="AssemblyCSharp.Exosuit.EnterVehicle(AssemblyCSharp.Player,System.Boolean,System.Boolean)">EnterVehicle(Player, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void EnterVehicle(Player player, bool teleport, bool playEnterAnimation = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.Player.html">Player</a></td>
+        <td><span class="parametername">player</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">teleport</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">playEnterAnimation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_EnterVehicle_AssemblyCSharp_Player_System_Boolean_System_Boolean_">Vehicle.EnterVehicle(Player, Boolean, Boolean)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_FixedUpdate_" data-uid="AssemblyCSharp.Exosuit.FixedUpdate*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_FixedUpdate" data-uid="AssemblyCSharp.Exosuit.FixedUpdate">FixedUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void FixedUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_FixedUpdate">Vehicle.FixedUpdate()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_GetActiveTarget_" data-uid="AssemblyCSharp.Exosuit.GetActiveTarget*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_GetActiveTarget" data-uid="AssemblyCSharp.Exosuit.GetActiveTarget">GetActiveTarget()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject GetActiveTarget()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_GetHUDValues_" data-uid="AssemblyCSharp.Exosuit.GetHUDValues*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_GetHUDValues_System_Single__System_Single__System_Single__" data-uid="AssemblyCSharp.Exosuit.GetHUDValues(System.Single@,System.Single@,System.Single@)">GetHUDValues(out Single, out Single, out Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetHUDValues(out float health, out float power, out float thrust)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">health</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">power</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">thrust</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_GetQuickSlotType_" data-uid="AssemblyCSharp.Exosuit.GetQuickSlotType*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_GetQuickSlotType_System_Int32_AssemblyCSharp_TechType__" data-uid="AssemblyCSharp.Exosuit.GetQuickSlotType(System.Int32,AssemblyCSharp.TechType@)">GetQuickSlotType(Int32, out TechType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override QuickSlotType GetQuickSlotType(int slotID, out TechType techType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slotID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TechType.html">TechType</a></td>
+        <td><span class="parametername">techType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.QuickSlotType.html">QuickSlotType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetQuickSlotType_System_Int32_AssemblyCSharp_TechType__">Vehicle.GetQuickSlotType(Int32, out TechType)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_GetSlotBinding_" data-uid="AssemblyCSharp.Exosuit.GetSlotBinding*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_GetSlotBinding" data-uid="AssemblyCSharp.Exosuit.GetSlotBinding">GetSlotBinding()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override TechType[] GetSlotBinding()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TechType.html">TechType</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetSlotBinding">Vehicle.GetSlotBinding()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_GetSlotBinding_" data-uid="AssemblyCSharp.Exosuit.GetSlotBinding*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_GetSlotBinding_System_Int32_" data-uid="AssemblyCSharp.Exosuit.GetSlotBinding(System.Int32)">GetSlotBinding(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override TechType GetSlotBinding(int slotID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slotID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TechType.html">TechType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetSlotBinding_System_Int32_">Vehicle.GetSlotBinding(Int32)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_GetSlotItem_" data-uid="AssemblyCSharp.Exosuit.GetSlotItem*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_GetSlotItem_System_Int32_" data-uid="AssemblyCSharp.Exosuit.GetSlotItem(System.Int32)">GetSlotItem(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override InventoryItem GetSlotItem(int slotID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slotID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.InventoryItem.html">InventoryItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_GetSlotItem_System_Int32_">Vehicle.GetSlotItem(Int32)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_HasClaw_" data-uid="AssemblyCSharp.Exosuit.HasClaw*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_HasClaw" data-uid="AssemblyCSharp.Exosuit.HasClaw">HasClaw()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasClaw()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_HasDrill_" data-uid="AssemblyCSharp.Exosuit.HasDrill*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_HasDrill" data-uid="AssemblyCSharp.Exosuit.HasDrill">HasDrill()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasDrill()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_IsToggled_" data-uid="AssemblyCSharp.Exosuit.IsToggled*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_IsToggled_System_Int32_" data-uid="AssemblyCSharp.Exosuit.IsToggled(System.Int32)">IsToggled(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsToggled(int slotID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slotID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_IsToggled_System_Int32_">Vehicle.IsToggled(Int32)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_IsUnderwater_" data-uid="AssemblyCSharp.Exosuit.IsUnderwater*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_IsUnderwater" data-uid="AssemblyCSharp.Exosuit.IsUnderwater">IsUnderwater()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUnderwater()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_MarkArmsDirty_" data-uid="AssemblyCSharp.Exosuit.MarkArmsDirty*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_MarkArmsDirty" data-uid="AssemblyCSharp.Exosuit.MarkArmsDirty">MarkArmsDirty()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MarkArmsDirty()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_OnCollisionEnter_" data-uid="AssemblyCSharp.Exosuit.OnCollisionEnter*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_OnCollisionEnter_UnityEngine_Collision_" data-uid="AssemblyCSharp.Exosuit.OnCollisionEnter(UnityEngine.Collision)">OnCollisionEnter(Collision)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnCollisionEnter(Collision collision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Collision</span></td>
+        <td><span class="parametername">collision</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnCollisionEnter_UnityEngine_Collision_">Vehicle.OnCollisionEnter(Collision)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_OnDestroy_" data-uid="AssemblyCSharp.Exosuit.OnDestroy*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_OnDestroy" data-uid="AssemblyCSharp.Exosuit.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDestroy()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_OnDockedChanged_" data-uid="AssemblyCSharp.Exosuit.OnDockedChanged*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_OnDockedChanged_System_Boolean_AssemblyCSharp_Vehicle_DockType_" data-uid="AssemblyCSharp.Exosuit.OnDockedChanged(System.Boolean,AssemblyCSharp.Vehicle.DockType)">OnDockedChanged(Boolean, Vehicle.DockType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDockedChanged(bool docked, Vehicle.DockType dockType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">docked</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.Vehicle.DockType.html">Vehicle.DockType</a></td>
+        <td><span class="parametername">dockType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnDockedChanged_System_Boolean_AssemblyCSharp_Vehicle_DockType_">Vehicle.OnDockedChanged(Boolean, Vehicle.DockType)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_OnLand_" data-uid="AssemblyCSharp.Exosuit.OnLand*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_OnLand" data-uid="AssemblyCSharp.Exosuit.OnLand">OnLand()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnLand()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnLand">Vehicle.OnLand()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_OnPilotModeBegin_" data-uid="AssemblyCSharp.Exosuit.OnPilotModeBegin*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_OnPilotModeBegin" data-uid="AssemblyCSharp.Exosuit.OnPilotModeBegin">OnPilotModeBegin()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnPilotModeBegin()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnPilotModeBegin">Vehicle.OnPilotModeBegin()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_OnPilotModeEnd_" data-uid="AssemblyCSharp.Exosuit.OnPilotModeEnd*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_OnPilotModeEnd" data-uid="AssemblyCSharp.Exosuit.OnPilotModeEnd">OnPilotModeEnd()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnPilotModeEnd()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnPilotModeEnd">Vehicle.OnPilotModeEnd()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_OnPlayerEntered_" data-uid="AssemblyCSharp.Exosuit.OnPlayerEntered*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_OnPlayerEntered" data-uid="AssemblyCSharp.Exosuit.OnPlayerEntered">OnPlayerEntered()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPlayerEntered()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_OnUpgradeModuleChange_" data-uid="AssemblyCSharp.Exosuit.OnUpgradeModuleChange*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_OnUpgradeModuleChange_System_Int32_AssemblyCSharp_TechType_System_Boolean_" data-uid="AssemblyCSharp.Exosuit.OnUpgradeModuleChange(System.Int32,AssemblyCSharp.TechType,System.Boolean)">OnUpgradeModuleChange(Int32, TechType, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnUpgradeModuleChange(int slotID, TechType techType, bool added)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slotID</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.TechType.html">TechType</a></td>
+        <td><span class="parametername">techType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">added</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OnUpgradeModuleChange_System_Int32_AssemblyCSharp_TechType_System_Boolean_">Vehicle.OnUpgradeModuleChange(Int32, TechType, Boolean)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_OverrideAcceleration_" data-uid="AssemblyCSharp.Exosuit.OverrideAcceleration*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_OverrideAcceleration_UnityEngine_Vector3__" data-uid="AssemblyCSharp.Exosuit.OverrideAcceleration(UnityEngine.Vector3@)">OverrideAcceleration(ref Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OverrideAcceleration(ref Vector3 acceleration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">acceleration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_OverrideAcceleration_UnityEngine_Vector3__">Vehicle.OverrideAcceleration(ref Vector3)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SetPlayerInside_" data-uid="AssemblyCSharp.Exosuit.SetPlayerInside*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SetPlayerInside_System_Boolean_" data-uid="AssemblyCSharp.Exosuit.SetPlayerInside(System.Boolean)">SetPlayerInside(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetPlayerInside(bool inside)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inside</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SetPlayerInside_System_Boolean_">Vehicle.SetPlayerInside(Boolean)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SlotKeyDown_" data-uid="AssemblyCSharp.Exosuit.SlotKeyDown*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SlotKeyDown_System_Int32_" data-uid="AssemblyCSharp.Exosuit.SlotKeyDown(System.Int32)">SlotKeyDown(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SlotKeyDown(int slotID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slotID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SlotKeyDown_System_Int32_">Vehicle.SlotKeyDown(Int32)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SlotKeyHeld_" data-uid="AssemblyCSharp.Exosuit.SlotKeyHeld*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SlotKeyHeld_System_Int32_" data-uid="AssemblyCSharp.Exosuit.SlotKeyHeld(System.Int32)">SlotKeyHeld(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SlotKeyHeld(int slotID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slotID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SlotKeyHeld_System_Int32_">Vehicle.SlotKeyHeld(Int32)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SlotKeyUp_" data-uid="AssemblyCSharp.Exosuit.SlotKeyUp*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SlotKeyUp_System_Int32_" data-uid="AssemblyCSharp.Exosuit.SlotKeyUp(System.Int32)">SlotKeyUp(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SlotKeyUp(int slotID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">slotID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SlotKeyUp_System_Int32_">Vehicle.SlotKeyUp(Int32)</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SlotLeftDown_" data-uid="AssemblyCSharp.Exosuit.SlotLeftDown*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SlotLeftDown" data-uid="AssemblyCSharp.Exosuit.SlotLeftDown">SlotLeftDown()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SlotLeftDown()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SlotLeftDown">Vehicle.SlotLeftDown()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SlotLeftHeld_" data-uid="AssemblyCSharp.Exosuit.SlotLeftHeld*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SlotLeftHeld" data-uid="AssemblyCSharp.Exosuit.SlotLeftHeld">SlotLeftHeld()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SlotLeftHeld()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SlotLeftHeld">Vehicle.SlotLeftHeld()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SlotLeftUp_" data-uid="AssemblyCSharp.Exosuit.SlotLeftUp*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SlotLeftUp" data-uid="AssemblyCSharp.Exosuit.SlotLeftUp">SlotLeftUp()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SlotLeftUp()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SlotLeftUp">Vehicle.SlotLeftUp()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SlotNext_" data-uid="AssemblyCSharp.Exosuit.SlotNext*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SlotNext" data-uid="AssemblyCSharp.Exosuit.SlotNext">SlotNext()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SlotNext()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SlotNext">Vehicle.SlotNext()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SlotPrevious_" data-uid="AssemblyCSharp.Exosuit.SlotPrevious*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SlotPrevious" data-uid="AssemblyCSharp.Exosuit.SlotPrevious">SlotPrevious()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SlotPrevious()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SlotPrevious">Vehicle.SlotPrevious()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SlotRightDown_" data-uid="AssemblyCSharp.Exosuit.SlotRightDown*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SlotRightDown" data-uid="AssemblyCSharp.Exosuit.SlotRightDown">SlotRightDown()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SlotRightDown()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SlotRightDown">Vehicle.SlotRightDown()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SlotRightHeld_" data-uid="AssemblyCSharp.Exosuit.SlotRightHeld*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SlotRightHeld" data-uid="AssemblyCSharp.Exosuit.SlotRightHeld">SlotRightHeld()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SlotRightHeld()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SlotRightHeld">Vehicle.SlotRightHeld()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SlotRightUp_" data-uid="AssemblyCSharp.Exosuit.SlotRightUp*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SlotRightUp" data-uid="AssemblyCSharp.Exosuit.SlotRightUp">SlotRightUp()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SlotRightUp()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_SlotRightUp">Vehicle.SlotRightUp()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_Start_" data-uid="AssemblyCSharp.Exosuit.Start*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_Start" data-uid="AssemblyCSharp.Exosuit.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Start()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_Start">Vehicle.Start()</a></div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_SubConstructionComplete_" data-uid="AssemblyCSharp.Exosuit.SubConstructionComplete*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_SubConstructionComplete" data-uid="AssemblyCSharp.Exosuit.SubConstructionComplete">SubConstructionComplete()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SubConstructionComplete()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_Update_" data-uid="AssemblyCSharp.Exosuit.Update*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_Update" data-uid="AssemblyCSharp.Exosuit.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Update()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.Vehicle.html#AssemblyCSharp_Vehicle_Update">Vehicle.Update()</a></div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_AssemblyCSharp_IGroundMoveable_GetGroundSurfaceType_" data-uid="AssemblyCSharp.Exosuit.AssemblyCSharp#IGroundMoveable#GetGroundSurfaceType*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_AssemblyCSharp_IGroundMoveable_GetGroundSurfaceType" data-uid="AssemblyCSharp.Exosuit.AssemblyCSharp#IGroundMoveable#GetGroundSurfaceType">IGroundMoveable.GetGroundSurfaceType()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">VFXSurfaceTypes IGroundMoveable.GetGroundSurfaceType()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.VFXSurfaceTypes.html">VFXSurfaceTypes</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_AssemblyCSharp_IGroundMoveable_GetVelocity_" data-uid="AssemblyCSharp.Exosuit.AssemblyCSharp#IGroundMoveable#GetVelocity*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_AssemblyCSharp_IGroundMoveable_GetVelocity" data-uid="AssemblyCSharp.Exosuit.AssemblyCSharp#IGroundMoveable#GetVelocity">IGroundMoveable.GetVelocity()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3 IGroundMoveable.GetVelocity()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_AssemblyCSharp_IGroundMoveable_IsActive_" data-uid="AssemblyCSharp.Exosuit.AssemblyCSharp#IGroundMoveable#IsActive*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_AssemblyCSharp_IGroundMoveable_IsActive" data-uid="AssemblyCSharp.Exosuit.AssemblyCSharp#IGroundMoveable#IsActive">IGroundMoveable.IsActive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IGroundMoveable.IsActive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_Exosuit_AssemblyCSharp_IGroundMoveable_IsOnGround_" data-uid="AssemblyCSharp.Exosuit.AssemblyCSharp#IGroundMoveable#IsOnGround*"></a>
+  <h4 id="AssemblyCSharp_Exosuit_AssemblyCSharp_IGroundMoveable_IsOnGround" data-uid="AssemblyCSharp.Exosuit.AssemblyCSharp#IGroundMoveable#IsOnGround">IGroundMoveable.IsOnGround()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IGroundMoveable.IsOnGround()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IHandTarget.html">IHandTarget</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IProtoEventListener.html">IProtoEventListener</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IProtoTreeEventListener.html">IProtoTreeEventListener</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IAnimParamReceiver.html">IAnimParamReceiver</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IQuickSlots.html">IQuickSlots</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IGroundMoveable.html">IGroundMoveable</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

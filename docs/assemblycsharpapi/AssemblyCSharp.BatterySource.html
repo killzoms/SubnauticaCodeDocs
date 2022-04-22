@@ -1,0 +1,842 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BatterySource
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BatterySource
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.BatterySource">
+  
+  
+  <h1 id="AssemblyCSharp_BatterySource" data-uid="AssemblyCSharp.BatterySource" class="text-break">Class BatterySource
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="AssemblyCSharp.EnergyMixin.html">EnergyMixin</a></div>
+    <div class="level6"><span class="xref">BatterySource</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AssemblyCSharp.IProtoEventListener.html">IProtoEventListener</a></div>
+    <div><a class="xref" href="AssemblyCSharp.ICraftTarget.html">ICraftTarget</a></div>
+    <div><a class="xref" href="AssemblyCSharp.IItemSelectorManager.html">IItemSelectorManager</a></div>
+    <div><a class="xref" href="AssemblyCSharp.IPowerInterface.html">IPowerInterface</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_storageRoot">EnergyMixin.storageRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_defaultBattery">EnergyMixin.defaultBattery</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_defaultBatteryCharge">EnergyMixin.defaultBatteryCharge</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_compatibleBatteries">EnergyMixin.compatibleBatteries</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_allowBatteryReplacement">EnergyMixin.allowBatteryReplacement</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_controlledObjects">EnergyMixin.controlledObjects</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_soundPowerUp">EnergyMixin.soundPowerUp</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_soundPowerDown">EnergyMixin.soundPowerDown</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_soundBatteryAdd">EnergyMixin.soundBatteryAdd</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_soundBatteryRemove">EnergyMixin.soundBatteryRemove</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_batteryModels">EnergyMixin.batteryModels</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_energy">EnergyMixin.energy</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_maxEnergy">EnergyMixin.maxEnergy</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_batterySlot">EnergyMixin.batterySlot</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_battery">EnergyMixin.battery</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_allowedToPlaySounds">EnergyMixin.allowedToPlaySounds</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_sGroups">EnergyMixin.sGroups</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_charge">EnergyMixin.charge</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_capacity">EnergyMixin.capacity</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_electronicsDisabled">EnergyMixin.electronicsDisabled</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_onPoweredChanged">EnergyMixin.onPoweredChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_Awake">EnergyMixin.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_GetBattery">EnergyMixin.GetBattery()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_SetBattery_AssemblyCSharp_TechType_System_Single_">EnergyMixin.SetBattery(TechType, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_SpawnDefault_System_Single_">EnergyMixin.SpawnDefault(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_HasItem">EnergyMixin.HasItem()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_ModifyCharge_System_Single_">EnergyMixin.ModifyCharge(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_IsDepleted">EnergyMixin.IsDepleted()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_AddEnergy_System_Single_">EnergyMixin.AddEnergy(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_ConsumeEnergy_System_Single_">EnergyMixin.ConsumeEnergy(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_GetEnergyScalar">EnergyMixin.GetEnergyScalar()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_HandHover">EnergyMixin.HandHover()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_InitiateReload">EnergyMixin.InitiateReload()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_Initialize">EnergyMixin.Initialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_RestoreBattery">EnergyMixin.RestoreBattery()</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_SpawnBattery_AssemblyCSharp_TechType_System_Single_">EnergyMixin.SpawnBattery(TechType, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_CompareByCharge_AssemblyCSharp_InventoryItem_AssemblyCSharp_InventoryItem_">EnergyMixin.CompareByCharge(InventoryItem, InventoryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_OnAddItem_AssemblyCSharp_InventoryItem_">EnergyMixin.OnAddItem(InventoryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_OnRemoveItem_AssemblyCSharp_InventoryItem_">EnergyMixin.OnRemoveItem(InventoryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_NotifyPowered_System_Boolean_">EnergyMixin.NotifyPowered(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_NotifyHasBattery_AssemblyCSharp_InventoryItem_">EnergyMixin.NotifyHasBattery(InventoryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_PlayPowerSound_System_Boolean_">EnergyMixin.PlayPowerSound(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_PlayBatterySound_System_Boolean_">EnergyMixin.PlayBatterySound(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_OnCraftEnd_AssemblyCSharp_TechType_">EnergyMixin.OnCraftEnd(TechType)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_Filter_AssemblyCSharp_InventoryItem_">EnergyMixin.Filter(InventoryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_Sort_System_Collections_Generic_List_AssemblyCSharp_InventoryItem__">EnergyMixin.Sort(List&lt;InventoryItem&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_GetText_AssemblyCSharp_InventoryItem_">EnergyMixin.GetText(InventoryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_Select_AssemblyCSharp_InventoryItem_">EnergyMixin.Select(InventoryItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_DisableElectronicsForTime_System_Single_">EnergyMixin.DisableElectronicsForTime(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_OnProtoSerialize_AssemblyCSharp_ProtobufSerializer_">EnergyMixin.OnProtoSerialize(ProtobufSerializer)</a>
+    </div>
+    <div>
+      <a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_OnProtoDeserialize_AssemblyCSharp_ProtobufSerializer_">EnergyMixin.OnProtoDeserialize(ProtobufSerializer)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.html">AssemblyCSharp</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_BatterySource_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ProtoContract]
+public class BatterySource : EnergyMixin, IProtoEventListener, ICraftTarget, IItemSelectorManager, IPowerInterface</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_BatterySource_GetInboundHasSource_" data-uid="AssemblyCSharp.BatterySource.GetInboundHasSource*"></a>
+  <h4 id="AssemblyCSharp_BatterySource_GetInboundHasSource_AssemblyCSharp_IPowerInterface_" data-uid="AssemblyCSharp.BatterySource.GetInboundHasSource(AssemblyCSharp.IPowerInterface)">GetInboundHasSource(IPowerInterface)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetInboundHasSource(IPowerInterface powerInterface)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.IPowerInterface.html">IPowerInterface</a></td>
+        <td><span class="parametername">powerInterface</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_BatterySource_Start_" data-uid="AssemblyCSharp.BatterySource.Start*"></a>
+  <h4 id="AssemblyCSharp_BatterySource_Start" data-uid="AssemblyCSharp.BatterySource.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="AssemblyCSharp.EnergyMixin.html#AssemblyCSharp_EnergyMixin_Start">EnergyMixin.Start()</a></div>
+  
+  
+  <a id="AssemblyCSharp_BatterySource_UpdateConnection_" data-uid="AssemblyCSharp.BatterySource.UpdateConnection*"></a>
+  <h4 id="AssemblyCSharp_BatterySource_UpdateConnection" data-uid="AssemblyCSharp.BatterySource.UpdateConnection">UpdateConnection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateConnection()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_BatterySource_AssemblyCSharp_IPowerInterface_GetMaxPower_" data-uid="AssemblyCSharp.BatterySource.AssemblyCSharp#IPowerInterface#GetMaxPower*"></a>
+  <h4 id="AssemblyCSharp_BatterySource_AssemblyCSharp_IPowerInterface_GetMaxPower" data-uid="AssemblyCSharp.BatterySource.AssemblyCSharp#IPowerInterface#GetMaxPower">IPowerInterface.GetMaxPower()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float IPowerInterface.GetMaxPower()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_BatterySource_AssemblyCSharp_IPowerInterface_GetPower_" data-uid="AssemblyCSharp.BatterySource.AssemblyCSharp#IPowerInterface#GetPower*"></a>
+  <h4 id="AssemblyCSharp_BatterySource_AssemblyCSharp_IPowerInterface_GetPower" data-uid="AssemblyCSharp.BatterySource.AssemblyCSharp#IPowerInterface#GetPower">IPowerInterface.GetPower()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float IPowerInterface.GetPower()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_BatterySource_AssemblyCSharp_IPowerInterface_HasInboundPower_" data-uid="AssemblyCSharp.BatterySource.AssemblyCSharp#IPowerInterface#HasInboundPower*"></a>
+  <h4 id="AssemblyCSharp_BatterySource_AssemblyCSharp_IPowerInterface_HasInboundPower_AssemblyCSharp_IPowerInterface_" data-uid="AssemblyCSharp.BatterySource.AssemblyCSharp#IPowerInterface#HasInboundPower(AssemblyCSharp.IPowerInterface)">IPowerInterface.HasInboundPower(IPowerInterface)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IPowerInterface.HasInboundPower(IPowerInterface powerInterface)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.IPowerInterface.html">IPowerInterface</a></td>
+        <td><span class="parametername">powerInterface</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_BatterySource_AssemblyCSharp_IPowerInterface_ModifyPower_" data-uid="AssemblyCSharp.BatterySource.AssemblyCSharp#IPowerInterface#ModifyPower*"></a>
+  <h4 id="AssemblyCSharp_BatterySource_AssemblyCSharp_IPowerInterface_ModifyPower_System_Single_System_Single__" data-uid="AssemblyCSharp.BatterySource.AssemblyCSharp#IPowerInterface#ModifyPower(System.Single,System.Single@)">IPowerInterface.ModifyPower(Single, out Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IPowerInterface.ModifyPower(float amount, out float modified)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">modified</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IProtoEventListener.html">IProtoEventListener</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.ICraftTarget.html">ICraftTarget</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IItemSelectorManager.html">IItemSelectorManager</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.IPowerInterface.html">IPowerInterface</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AssemblyCSharp.PowerSystem.html#AssemblyCSharp_PowerSystem_ConsumeEnergy_AssemblyCSharp_IPowerInterface_System_Single_System_Single__">PowerSystem.ConsumeEnergy(IPowerInterface, Single, out Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="AssemblyCSharp.PowerSystem.html#AssemblyCSharp_PowerSystem_AddEnergy_AssemblyCSharp_IPowerInterface_System_Single_System_Single__">PowerSystem.AddEnergy(IPowerInterface, Single, out Single)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

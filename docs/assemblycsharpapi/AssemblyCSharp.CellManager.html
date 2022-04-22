@@ -1,0 +1,1800 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CellManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CellManager
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AssemblyCSharp.CellManager">
+  
+  
+  <h1 id="AssemblyCSharp_CellManager" data-uid="AssemblyCSharp.CellManager" class="text-break">Class CellManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CellManager</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="AssemblyCSharp.ClipMapManager.IClipMapEventHandler.html">ClipMapManager.IClipMapEventHandler</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AssemblyCSharp.html">AssemblyCSharp</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="AssemblyCSharp_CellManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CellManager : ClipMapManager.IClipMapEventHandler</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_CellManager__ctor_" data-uid="AssemblyCSharp.CellManager.#ctor*"></a>
+  <h4 id="AssemblyCSharp_CellManager__ctor_AssemblyCSharp_LargeWorldStreamer_AssemblyCSharp_LargeWorldEntitySpawner_" data-uid="AssemblyCSharp.CellManager.#ctor(AssemblyCSharp.LargeWorldStreamer,AssemblyCSharp.LargeWorldEntitySpawner)">CellManager(LargeWorldStreamer, LargeWorldEntitySpawner)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CellManager(LargeWorldStreamer streamer, LargeWorldEntitySpawner spawner)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldStreamer.html">LargeWorldStreamer</a></td>
+        <td><span class="parametername">streamer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldEntitySpawner.html">LargeWorldEntitySpawner</a></td>
+        <td><span class="parametername">spawner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AssemblyCSharp_CellManager_BatchCellsFolder" data-uid="AssemblyCSharp.CellManager.BatchCellsFolder">BatchCellsFolder</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string BatchCellsFolder = &quot;BatchCells&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CellManager_CacheFolder" data-uid="AssemblyCSharp.CellManager.CacheFolder">CacheFolder</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string CacheFolder = &quot;CellsCache&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CellManager_cellManagementQueue" data-uid="AssemblyCSharp.CellManager.cellManagementQueue">cellManagementQueue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly IQueue&lt;EntityCell&gt; cellManagementQueue</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IQueue</span>&lt;<a class="xref" href="AssemblyCSharp.EntityCell.html">EntityCell</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CellManager_GeneratedFolder" data-uid="AssemblyCSharp.CellManager.GeneratedFolder">GeneratedFolder</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string GeneratedFolder = &quot;BatchCells/Generated&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AssemblyCSharp_CellManager_spawner" data-uid="AssemblyCSharp.CellManager.spawner">spawner</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public readonly LargeWorldEntitySpawner spawner</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldEntitySpawner.html">LargeWorldEntitySpawner</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_CellManager_abortRequested_" data-uid="AssemblyCSharp.CellManager.abortRequested*"></a>
+  <h4 id="AssemblyCSharp_CellManager_abortRequested" data-uid="AssemblyCSharp.CellManager.abortRequested">abortRequested</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool abortRequested { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AssemblyCSharp_CellManager_CollectMemoryUsageStats_" data-uid="AssemblyCSharp.CellManager.CollectMemoryUsageStats*"></a>
+  <h4 id="AssemblyCSharp_CellManager_CollectMemoryUsageStats" data-uid="AssemblyCSharp.CellManager.CollectMemoryUsageStats">CollectMemoryUsageStats()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SuppressMessage(&quot;Subnautica.Rules&quot;, &quot;AvoidBoxingRule&quot;)]
+public void CollectMemoryUsageStats()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_CellManager_DecreaseFreezeCount_" data-uid="AssemblyCSharp.CellManager.DecreaseFreezeCount*"></a>
+  <h4 id="AssemblyCSharp_CellManager_DecreaseFreezeCount" data-uid="AssemblyCSharp.CellManager.DecreaseFreezeCount">DecreaseFreezeCount()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DecreaseFreezeCount()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_CellManager_EntStats_" data-uid="AssemblyCSharp.CellManager.EntStats*"></a>
+  <h4 id="AssemblyCSharp_CellManager_EntStats" data-uid="AssemblyCSharp.CellManager.EntStats">EntStats()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EntStats()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_CellManager_EstimateBytes_" data-uid="AssemblyCSharp.CellManager.EstimateBytes*"></a>
+  <h4 id="AssemblyCSharp_CellManager_EstimateBytes" data-uid="AssemblyCSharp.CellManager.EstimateBytes">EstimateBytes()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EstimateBytes()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_GetBatchCellsPath_" data-uid="AssemblyCSharp.CellManager.GetBatchCellsPath*"></a>
+  <h4 id="AssemblyCSharp_CellManager_GetBatchCellsPath_System_String_Int3_" data-uid="AssemblyCSharp.CellManager.GetBatchCellsPath(System.String,Int3)">GetBatchCellsPath(String, Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetBatchCellsPath(string prefix, Int3 index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">prefix</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_GetCacheBatchCellsPath_" data-uid="AssemblyCSharp.CellManager.GetCacheBatchCellsPath*"></a>
+  <h4 id="AssemblyCSharp_CellManager_GetCacheBatchCellsPath_System_String_Int3_" data-uid="AssemblyCSharp.CellManager.GetCacheBatchCellsPath(System.String,Int3)">GetCacheBatchCellsPath(String, Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetCacheBatchCellsPath(string prefix, Int3 index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">prefix</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_GetFreezeCount_" data-uid="AssemblyCSharp.CellManager.GetFreezeCount*"></a>
+  <h4 id="AssemblyCSharp_CellManager_GetFreezeCount" data-uid="AssemblyCSharp.CellManager.GetFreezeCount">GetFreezeCount()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetFreezeCount()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_GetGlobalCell_" data-uid="AssemblyCSharp.CellManager.GetGlobalCell*"></a>
+  <h4 id="AssemblyCSharp_CellManager_GetGlobalCell_UnityEngine_Vector3_System_Int32_" data-uid="AssemblyCSharp.CellManager.GetGlobalCell(UnityEngine.Vector3,System.Int32)">GetGlobalCell(Vector3, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Int3 GetGlobalCell(Vector3 wsPos, int cellLevel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">wsPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">cellLevel</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_GetPrefabForSlot_" data-uid="AssemblyCSharp.CellManager.GetPrefabForSlot*"></a>
+  <h4 id="AssemblyCSharp_CellManager_GetPrefabForSlot_AssemblyCSharp_IEntitySlot_" data-uid="AssemblyCSharp.CellManager.GetPrefabForSlot(AssemblyCSharp.IEntitySlot)">GetPrefabForSlot(IEntitySlot)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EntitySlot.Filler GetPrefabForSlot(IEntitySlot slot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.IEntitySlot.html">IEntitySlot</a></td>
+        <td><span class="parametername">slot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.EntitySlot.Filler.html">EntitySlot.Filler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_GetQueueLength_" data-uid="AssemblyCSharp.CellManager.GetQueueLength*"></a>
+  <h4 id="AssemblyCSharp_CellManager_GetQueueLength" data-uid="AssemblyCSharp.CellManager.GetQueueLength">GetQueueLength()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetQueueLength()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_GetSplitBatchCellsPath_" data-uid="AssemblyCSharp.CellManager.GetSplitBatchCellsPath*"></a>
+  <h4 id="AssemblyCSharp_CellManager_GetSplitBatchCellsPath_System_String_System_String_Int3_System_String_" data-uid="AssemblyCSharp.CellManager.GetSplitBatchCellsPath(System.String,System.String,Int3,System.String)">GetSplitBatchCellsPath(String, String, Int3, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetSplitBatchCellsPath(string prefix, string directory, Int3 index, string suffix)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">prefix</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">directory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">suffix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_HideAllEntityRenderers_" data-uid="AssemblyCSharp.CellManager.HideAllEntityRenderers*"></a>
+  <h4 id="AssemblyCSharp_CellManager_HideAllEntityRenderers" data-uid="AssemblyCSharp.CellManager.HideAllEntityRenderers">HideAllEntityRenderers()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideAllEntityRenderers()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_CellManager_HideEntities_" data-uid="AssemblyCSharp.CellManager.HideEntities*"></a>
+  <h4 id="AssemblyCSharp_CellManager_HideEntities_Int3_Bounds_" data-uid="AssemblyCSharp.CellManager.HideEntities(Int3.Bounds)">HideEntities(Int3.Bounds)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideEntities(Int3.Bounds blockRange)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">blockRange</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_HideEntities_" data-uid="AssemblyCSharp.CellManager.HideEntities*"></a>
+  <h4 id="AssemblyCSharp_CellManager_HideEntities_Int3_Bounds_System_Int32_" data-uid="AssemblyCSharp.CellManager.HideEntities(Int3.Bounds,System.Int32)">HideEntities(Int3.Bounds, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void HideEntities(Int3.Bounds blockRange, int level)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">blockRange</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">level</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_IncreaseFreezeCount_" data-uid="AssemblyCSharp.CellManager.IncreaseFreezeCount*"></a>
+  <h4 id="AssemblyCSharp_CellManager_IncreaseFreezeCount" data-uid="AssemblyCSharp.CellManager.IncreaseFreezeCount">IncreaseFreezeCount()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator IncreaseFreezeCount()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_InitializeBatchCells_" data-uid="AssemblyCSharp.CellManager.InitializeBatchCells*"></a>
+  <h4 id="AssemblyCSharp_CellManager_InitializeBatchCells_Int3_" data-uid="AssemblyCSharp.CellManager.InitializeBatchCells(Int3)">InitializeBatchCells(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BatchCells InitializeBatchCells(Int3 index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.BatchCells.html">BatchCells</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_IsCellManagedEntity_" data-uid="AssemblyCSharp.CellManager.IsCellManagedEntity*"></a>
+  <h4 id="AssemblyCSharp_CellManager_IsCellManagedEntity_UniqueIdentifier_" data-uid="AssemblyCSharp.CellManager.IsCellManagedEntity(UniqueIdentifier)">IsCellManagedEntity(UniqueIdentifier)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCellManagedEntity(UniqueIdentifier ent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniqueIdentifier</span></td>
+        <td><span class="parametername">ent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_IsFrozen_" data-uid="AssemblyCSharp.CellManager.IsFrozen*"></a>
+  <h4 id="AssemblyCSharp_CellManager_IsFrozen" data-uid="AssemblyCSharp.CellManager.IsFrozen">IsFrozen()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFrozen()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_IsIdle_" data-uid="AssemblyCSharp.CellManager.IsIdle*"></a>
+  <h4 id="AssemblyCSharp_CellManager_IsIdle" data-uid="AssemblyCSharp.CellManager.IsIdle">IsIdle()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsIdle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_IsManagedEntity_" data-uid="AssemblyCSharp.CellManager.IsManagedEntity*"></a>
+  <h4 id="AssemblyCSharp_CellManager_IsManagedEntity_UniqueIdentifier_" data-uid="AssemblyCSharp.CellManager.IsManagedEntity(UniqueIdentifier)">IsManagedEntity(UniqueIdentifier)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsManagedEntity(UniqueIdentifier ent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniqueIdentifier</span></td>
+        <td><span class="parametername">ent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_IsProcessing_" data-uid="AssemblyCSharp.CellManager.IsProcessing*"></a>
+  <h4 id="AssemblyCSharp_CellManager_IsProcessing" data-uid="AssemblyCSharp.CellManager.IsProcessing">IsProcessing()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsProcessing()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_IsProcessingBatchCells_" data-uid="AssemblyCSharp.CellManager.IsProcessingBatchCells*"></a>
+  <h4 id="AssemblyCSharp_CellManager_IsProcessingBatchCells_Int3_" data-uid="AssemblyCSharp.CellManager.IsProcessingBatchCells(Int3)">IsProcessingBatchCells(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsProcessingBatchCells(Int3 index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_IsSlotsFile_" data-uid="AssemblyCSharp.CellManager.IsSlotsFile*"></a>
+  <h4 id="AssemblyCSharp_CellManager_IsSlotsFile_System_String_" data-uid="AssemblyCSharp.CellManager.IsSlotsFile(System.String)">IsSlotsFile(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSlotsFile(string fname)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_LoadBatchCellsThreaded_" data-uid="AssemblyCSharp.CellManager.LoadBatchCellsThreaded*"></a>
+  <h4 id="AssemblyCSharp_CellManager_LoadBatchCellsThreaded_AssemblyCSharp_BatchCells_System_Boolean_" data-uid="AssemblyCSharp.CellManager.LoadBatchCellsThreaded(AssemblyCSharp.BatchCells,System.Boolean)">LoadBatchCellsThreaded(BatchCells, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadBatchCellsThreaded(BatchCells cells, bool editMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.BatchCells.html">BatchCells</a></td>
+        <td><span class="parametername">cells</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">editMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_LoadCacheBatchCellsFromStream_" data-uid="AssemblyCSharp.CellManager.LoadCacheBatchCellsFromStream*"></a>
+  <h4 id="AssemblyCSharp_CellManager_LoadCacheBatchCellsFromStream_AssemblyCSharp_BatchCells_System_IO_Stream_" data-uid="AssemblyCSharp.CellManager.LoadCacheBatchCellsFromStream(AssemblyCSharp.BatchCells,System.IO.Stream)">LoadCacheBatchCellsFromStream(BatchCells, Stream)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LoadCacheBatchCellsFromStream(BatchCells cells, Stream stream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.BatchCells.html">BatchCells</a></td>
+        <td><span class="parametername">cells</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="parametername">stream</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_LoadedCells_" data-uid="AssemblyCSharp.CellManager.LoadedCells*"></a>
+  <h4 id="AssemblyCSharp_CellManager_LoadedCells" data-uid="AssemblyCSharp.CellManager.LoadedCells">LoadedCells()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;EntityCell&gt; LoadedCells()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="AssemblyCSharp.EntityCell.html">EntityCell</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_LoadEntitySlots_" data-uid="AssemblyCSharp.CellManager.LoadEntitySlots*"></a>
+  <h4 id="AssemblyCSharp_CellManager_LoadEntitySlots_Int3_" data-uid="AssemblyCSharp.CellManager.LoadEntitySlots(Int3)">LoadEntitySlots(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadEntitySlots(Int3 batchIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">batchIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_LoadSplitBatchCells_" data-uid="AssemblyCSharp.CellManager.LoadSplitBatchCells*"></a>
+  <h4 id="AssemblyCSharp_CellManager_LoadSplitBatchCells_AssemblyCSharp_BatchCells_System_Boolean_" data-uid="AssemblyCSharp.CellManager.LoadSplitBatchCells(AssemblyCSharp.BatchCells,System.Boolean)">LoadSplitBatchCells(BatchCells, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadSplitBatchCells(BatchCells cells, bool slotsOnly = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.BatchCells.html">BatchCells</a></td>
+        <td><span class="parametername">cells</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">slotsOnly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_OnEntityMoved_" data-uid="AssemblyCSharp.CellManager.OnEntityMoved*"></a>
+  <h4 id="AssemblyCSharp_CellManager_OnEntityMoved_UniqueIdentifier_" data-uid="AssemblyCSharp.CellManager.OnEntityMoved(UniqueIdentifier)">OnEntityMoved(UniqueIdentifier)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEntityMoved(UniqueIdentifier ent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UniqueIdentifier</span></td>
+        <td><span class="parametername">ent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_QueueForAwake_" data-uid="AssemblyCSharp.CellManager.QueueForAwake*"></a>
+  <h4 id="AssemblyCSharp_CellManager_QueueForAwake_AssemblyCSharp_EntityCell_" data-uid="AssemblyCSharp.CellManager.QueueForAwake(AssemblyCSharp.EntityCell)">QueueForAwake(EntityCell)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueueForAwake(EntityCell cell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.EntityCell.html">EntityCell</a></td>
+        <td><span class="parametername">cell</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_QueueForSleep_" data-uid="AssemblyCSharp.CellManager.QueueForSleep*"></a>
+  <h4 id="AssemblyCSharp_CellManager_QueueForSleep_AssemblyCSharp_EntityCell_" data-uid="AssemblyCSharp.CellManager.QueueForSleep(AssemblyCSharp.EntityCell)">QueueForSleep(EntityCell)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void QueueForSleep(EntityCell cell)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.EntityCell.html">EntityCell</a></td>
+        <td><span class="parametername">cell</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_RegisterEntity_" data-uid="AssemblyCSharp.CellManager.RegisterEntity*"></a>
+  <h4 id="AssemblyCSharp_CellManager_RegisterEntity_AssemblyCSharp_LargeWorldEntity_" data-uid="AssemblyCSharp.CellManager.RegisterEntity(AssemblyCSharp.LargeWorldEntity)">RegisterEntity(LargeWorldEntity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RegisterEntity(LargeWorldEntity lwe)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldEntity.html">LargeWorldEntity</a></td>
+        <td><span class="parametername">lwe</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_RegisterEntity_" data-uid="AssemblyCSharp.CellManager.RegisterEntity*"></a>
+  <h4 id="AssemblyCSharp_CellManager_RegisterEntity_UnityEngine_GameObject_" data-uid="AssemblyCSharp.CellManager.RegisterEntity(UnityEngine.GameObject)">RegisterEntity(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterEntity(GameObject ent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">ent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_RequestAbort_" data-uid="AssemblyCSharp.CellManager.RequestAbort*"></a>
+  <h4 id="AssemblyCSharp_CellManager_RequestAbort" data-uid="AssemblyCSharp.CellManager.RequestAbort">RequestAbort()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RequestAbort()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_CellManager_ResetEntityDistributions_" data-uid="AssemblyCSharp.CellManager.ResetEntityDistributions*"></a>
+  <h4 id="AssemblyCSharp_CellManager_ResetEntityDistributions" data-uid="AssemblyCSharp.CellManager.ResetEntityDistributions">ResetEntityDistributions()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetEntityDistributions()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_CellManager_SaveAllBatchCells_" data-uid="AssemblyCSharp.CellManager.SaveAllBatchCells*"></a>
+  <h4 id="AssemblyCSharp_CellManager_SaveAllBatchCells" data-uid="AssemblyCSharp.CellManager.SaveAllBatchCells">SaveAllBatchCells()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveAllBatchCells()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_CellManager_SaveBatchCells_" data-uid="AssemblyCSharp.CellManager.SaveBatchCells*"></a>
+  <h4 id="AssemblyCSharp_CellManager_SaveBatchCells_Int3_System_Boolean_System_Boolean_" data-uid="AssemblyCSharp.CellManager.SaveBatchCells(Int3,System.Boolean,System.Boolean)">SaveBatchCells(Int3, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveBatchCells(Int3 index, bool cacheOnly = false, bool skipCleanUp = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">cacheOnly</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">skipCleanUp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_SaveBatchCellsTmpAsync_" data-uid="AssemblyCSharp.CellManager.SaveBatchCellsTmpAsync*"></a>
+  <h4 id="AssemblyCSharp_CellManager_SaveBatchCellsTmpAsync_Int3_" data-uid="AssemblyCSharp.CellManager.SaveBatchCellsTmpAsync(Int3)">SaveBatchCellsTmpAsync(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator SaveBatchCellsTmpAsync(Int3 index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_SaveEntitySlots_" data-uid="AssemblyCSharp.CellManager.SaveEntitySlots*"></a>
+  <h4 id="AssemblyCSharp_CellManager_SaveEntitySlots_Int3_" data-uid="AssemblyCSharp.CellManager.SaveEntitySlots(Int3)">SaveEntitySlots(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveEntitySlots(Int3 batchIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">batchIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_SaveSplitBatchCells_" data-uid="AssemblyCSharp.CellManager.SaveSplitBatchCells*"></a>
+  <h4 id="AssemblyCSharp_CellManager_SaveSplitBatchCells_AssemblyCSharp_BatchCells_System_Boolean_" data-uid="AssemblyCSharp.CellManager.SaveSplitBatchCells(AssemblyCSharp.BatchCells,System.Boolean)">SaveSplitBatchCells(BatchCells, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveSplitBatchCells(BatchCells cells, bool slotsOnly = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.BatchCells.html">BatchCells</a></td>
+        <td><span class="parametername">cells</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">slotsOnly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_ShowAllEntityRenderers_" data-uid="AssemblyCSharp.CellManager.ShowAllEntityRenderers*"></a>
+  <h4 id="AssemblyCSharp_CellManager_ShowAllEntityRenderers" data-uid="AssemblyCSharp.CellManager.ShowAllEntityRenderers">ShowAllEntityRenderers()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowAllEntityRenderers()</code></pre>
+  </div>
+  
+  
+  <a id="AssemblyCSharp_CellManager_ShowEntities_" data-uid="AssemblyCSharp.CellManager.ShowEntities*"></a>
+  <h4 id="AssemblyCSharp_CellManager_ShowEntities_Int3_Bounds_" data-uid="AssemblyCSharp.CellManager.ShowEntities(Int3.Bounds)">ShowEntities(Int3.Bounds)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowEntities(Int3.Bounds blockRange)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">blockRange</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_ShowEntities_" data-uid="AssemblyCSharp.CellManager.ShowEntities*"></a>
+  <h4 id="AssemblyCSharp_CellManager_ShowEntities_Int3_Bounds_System_Int32_" data-uid="AssemblyCSharp.CellManager.ShowEntities(Int3.Bounds,System.Int32)">ShowEntities(Int3.Bounds, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowEntities(Int3.Bounds blockRange, int level)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3.Bounds</span></td>
+        <td><span class="parametername">blockRange</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">level</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_TryLoadCacheBatchCells_" data-uid="AssemblyCSharp.CellManager.TryLoadCacheBatchCells*"></a>
+  <h4 id="AssemblyCSharp_CellManager_TryLoadCacheBatchCells_AssemblyCSharp_BatchCells_" data-uid="AssemblyCSharp.CellManager.TryLoadCacheBatchCells(AssemblyCSharp.BatchCells)">TryLoadCacheBatchCells(BatchCells)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryLoadCacheBatchCells(BatchCells cells)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.BatchCells.html">BatchCells</a></td>
+        <td><span class="parametername">cells</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_UnloadBatchCells_" data-uid="AssemblyCSharp.CellManager.UnloadBatchCells*"></a>
+  <h4 id="AssemblyCSharp_CellManager_UnloadBatchCells_Int3_" data-uid="AssemblyCSharp.CellManager.UnloadBatchCells(Int3)">UnloadBatchCells(Int3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnloadBatchCells(Int3 index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Int3</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_UnregisterCellEntity_" data-uid="AssemblyCSharp.CellManager.UnregisterCellEntity*"></a>
+  <h4 id="AssemblyCSharp_CellManager_UnregisterCellEntity_AssemblyCSharp_LargeWorldEntity_System_Boolean_" data-uid="AssemblyCSharp.CellManager.UnregisterCellEntity(AssemblyCSharp.LargeWorldEntity,System.Boolean)">UnregisterCellEntity(LargeWorldEntity, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterCellEntity(LargeWorldEntity ent, bool checkParent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldEntity.html">LargeWorldEntity</a></td>
+        <td><span class="parametername">ent</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">checkParent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_UnregisterEntity_" data-uid="AssemblyCSharp.CellManager.UnregisterEntity*"></a>
+  <h4 id="AssemblyCSharp_CellManager_UnregisterEntity_AssemblyCSharp_LargeWorldEntity_" data-uid="AssemblyCSharp.CellManager.UnregisterEntity(AssemblyCSharp.LargeWorldEntity)">UnregisterEntity(LargeWorldEntity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterEntity(LargeWorldEntity ent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.LargeWorldEntity.html">LargeWorldEntity</a></td>
+        <td><span class="parametername">ent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_UnregisterEntity_" data-uid="AssemblyCSharp.CellManager.UnregisterEntity*"></a>
+  <h4 id="AssemblyCSharp_CellManager_UnregisterEntity_UnityEngine_GameObject_" data-uid="AssemblyCSharp.CellManager.UnregisterEntity(UnityEngine.GameObject)">UnregisterEntity(GameObject)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterEntity(GameObject go)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">go</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AssemblyCSharp_CellManager_UpdateCellManagement_" data-uid="AssemblyCSharp.CellManager.UpdateCellManagement*"></a>
+  <h4 id="AssemblyCSharp_CellManager_UpdateCellManagement_AssemblyCSharp_ProtobufSerializer_" data-uid="AssemblyCSharp.CellManager.UpdateCellManagement(AssemblyCSharp.ProtobufSerializer)">UpdateCellManagement(ProtobufSerializer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator UpdateCellManagement(ProtobufSerializer serializer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AssemblyCSharp.ProtobufSerializer.html">ProtobufSerializer</a></td>
+        <td><span class="parametername">serializer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="AssemblyCSharp.ClipMapManager.IClipMapEventHandler.html">ClipMapManager.IClipMapEventHandler</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,340 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class IKSolverCCD
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class IKSolverCCD
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="RootMotion.FinalIK.IKSolverCCD">
+  
+  
+  <h1 id="RootMotion_FinalIK_IKSolverCCD" data-uid="RootMotion.FinalIK.IKSolverCCD" class="text-break">Class IKSolverCCD
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="RootMotion.FinalIK.IKSolver.html">IKSolver</a></div>
+    <div class="level2"><a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html">IKSolverHeuristic</a></div>
+    <div class="level3"><span class="xref">IKSolverCCD</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_target">IKSolverHeuristic.target</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_tolerance">IKSolverHeuristic.tolerance</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_maxIterations">IKSolverHeuristic.maxIterations</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_useRotationLimits">IKSolverHeuristic.useRotationLimits</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_XY">IKSolverHeuristic.XY</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_bones">IKSolverHeuristic.bones</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_lastLocalDirection">IKSolverHeuristic.lastLocalDirection</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_chainLength">IKSolverHeuristic.chainLength</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_minBones">IKSolverHeuristic.minBones</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_boneLengthCanBeZero">IKSolverHeuristic.boneLengthCanBeZero</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_allowCommonParent">IKSolverHeuristic.allowCommonParent</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_localDirection">IKSolverHeuristic.localDirection</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_positionOffset">IKSolverHeuristic.positionOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_SetChain_UnityEngine_Transform___UnityEngine_Transform_">IKSolverHeuristic.SetChain(Transform[], Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_AddBone_UnityEngine_Transform_">IKSolverHeuristic.AddBone(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_StoreDefaultLocalState">IKSolverHeuristic.StoreDefaultLocalState()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_FixTransforms">IKSolverHeuristic.FixTransforms()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_IsValid_System_String__">IKSolverHeuristic.IsValid(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_GetPoints">IKSolverHeuristic.GetPoints()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_GetPoint_UnityEngine_Transform_">IKSolverHeuristic.GetPoint(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_InitiateBones">IKSolverHeuristic.InitiateBones()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_GetSingularityOffset">IKSolverHeuristic.GetSingularityOffset()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_IKPosition">IKSolver.IKPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_IKPositionWeight">IKSolver.IKPositionWeight</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_OnPreInitiate">IKSolver.OnPreInitiate</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_OnPostInitiate">IKSolver.OnPostInitiate</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_OnPreUpdate">IKSolver.OnPreUpdate</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_OnPostUpdate">IKSolver.OnPostUpdate</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_firstInitiation">IKSolver.firstInitiation</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_root">IKSolver.root</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_initiated">IKSolver.initiated</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_IsValid">IKSolver.IsValid()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_Initiate_UnityEngine_Transform_">IKSolver.Initiate(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_Update">IKSolver.Update()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_GetIKPosition">IKSolver.GetIKPosition()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_SetIKPosition_UnityEngine_Vector3_">IKSolver.SetIKPosition(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_GetIKPositionWeight">IKSolver.GetIKPositionWeight()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_SetIKPositionWeight_System_Single_">IKSolver.SetIKPositionWeight(Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_GetRoot">IKSolver.GetRoot()</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_LogWarning_System_String_">IKSolver.LogWarning(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_ContainsDuplicateBone_RootMotion_FinalIK_IKSolver_Bone___">IKSolver.ContainsDuplicateBone(IKSolver.Bone[])</a>
+    </div>
+    <div>
+      <a class="xref" href="RootMotion.FinalIK.IKSolver.html#RootMotion_FinalIK_IKSolver_HierarchyIsValid_RootMotion_FinalIK_IKSolver_Bone___">IKSolver.HierarchyIsValid(IKSolver.Bone[])</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="RootMotion.FinalIK.html">RootMotion.FinalIK</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp-firstpass.dll</h6>
+  <h5 id="RootMotion_FinalIK_IKSolverCCD_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class IKSolverCCD : IKSolverHeuristic</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="RootMotion_FinalIK_IKSolverCCD_OnPreIteration" data-uid="RootMotion.FinalIK.IKSolverCCD.OnPreIteration">OnPreIteration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IKSolver.IterationDelegate OnPreIteration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="RootMotion.FinalIK.IKSolver.IterationDelegate.html">IKSolver.IterationDelegate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverCCD_FadeOutBoneWeights_" data-uid="RootMotion.FinalIK.IKSolverCCD.FadeOutBoneWeights*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverCCD_FadeOutBoneWeights" data-uid="RootMotion.FinalIK.IKSolverCCD.FadeOutBoneWeights">FadeOutBoneWeights()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FadeOutBoneWeights()</code></pre>
+  </div>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverCCD_OnInitiate_" data-uid="RootMotion.FinalIK.IKSolverCCD.OnInitiate*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverCCD_OnInitiate" data-uid="RootMotion.FinalIK.IKSolverCCD.OnInitiate">OnInitiate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnInitiate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_OnInitiate">IKSolverHeuristic.OnInitiate()</a></div>
+  
+  
+  <a id="RootMotion_FinalIK_IKSolverCCD_OnUpdate_" data-uid="RootMotion.FinalIK.IKSolverCCD.OnUpdate*"></a>
+  <h4 id="RootMotion_FinalIK_IKSolverCCD_OnUpdate" data-uid="RootMotion.FinalIK.IKSolverCCD.OnUpdate">OnUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="RootMotion.FinalIK.IKSolverHeuristic.html#RootMotion_FinalIK_IKSolverHeuristic_OnUpdate">IKSolverHeuristic.OnUpdate()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
