@@ -1,0 +1,32 @@
+namespace AssemblyCSharp
+{
+    public enum TechCategory
+    {
+        BasicMaterials,
+        AdvancedMaterials,
+        Electronics,
+        Water,
+        CookedFood,
+        CuredFood,
+        Equipment,
+        Tools,
+        Machines,
+        Constructor,
+        Workbench,
+        VehicleUpgrades,
+        MapRoomUpgrades,
+        Cyclops,
+        CyclopsUpgrades,
+        BasePiece,
+        BaseRoom,
+        BaseWall,
+        ExteriorModule,
+        ExteriorLight,
+        ExteriorOther,
+        InteriorPiece,
+        InteriorRoom,
+        InteriorModule,
+        Misc,
+        MiscHullplates
+    }
+}
